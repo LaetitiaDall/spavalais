@@ -1,7 +1,6 @@
 <?php
 
 
-
 function dallinge_blocks_posts_grid_render($attributes, $content)
 {
     $query = new WP_Query(array(
@@ -18,9 +17,10 @@ function dallinge_blocks_posts_grid_render($attributes, $content)
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <?php dallinge_post_thumbnail(); ?>
                     <div class="infos">
-                        <?php the_title('<h3 class="entry-title">', '</h3>'); ?>
+                        <?php dallinge_post_title(); ?>
                         <?php dallinge_post_author_simple(); ?>
                         <?php dallinge_post_date_simple(); ?>
+                        <?php dallinge_edit_link(); ?>
                     </div>
                 </article>
             <?php
@@ -52,10 +52,17 @@ function dallinge_blocks_posts_grid_register()
         filemtime(plugin_dir_path(__FILE__) . 'posts-grid.css')
     );
 
+    wp_register_style(
+        'dallinge-posts-grid-frontend',
+        plugin_dir_url(__FILE__) . 'posts-grid.css',
+        array(),
+        filemtime(plugin_dir_path(__FILE__) . 'posts-grid.css')
+    );
+
     register_block_type('dallinge/posts-grid', array(
         'editor_script' => 'dallinge-posts-grid',
         'editor_style' => 'dallinge-posts-grid',
-        'style' => 'dallinge-posts-grid',
+        'style' => 'dallinge-posts-grid-frontend',
         'render_callback' => 'dallinge_blocks_posts_grid_render',
     ));
 }
