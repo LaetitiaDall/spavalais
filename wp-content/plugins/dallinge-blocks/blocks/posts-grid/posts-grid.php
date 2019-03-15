@@ -16,11 +16,11 @@ function dallinge_blocks_posts_grid_render($attributes, $content)
                 $query->the_post();
                 ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                    <?php spavalais_post_thumbnail(); ?>
+                    <?php dallinge_post_thumbnail(); ?>
                     <div class="infos">
                         <?php the_title('<h3 class="entry-title">', '</h3>'); ?>
-                        <?php spavalais_posted_on(); ?>
-                        <?php spavalais_posted_by(); ?>
+                        <?php dallinge_post_author_simple(); ?>
+                        <?php dallinge_post_date_simple(); ?>
                     </div>
                 </article>
             <?php
@@ -53,12 +53,6 @@ function dallinge_blocks_posts_grid_register()
     );
 
     register_block_type('dallinge/posts-grid', array(
-        'attributes'      => array(
-            'max_posts'      => array(
-                'type' => 'number',
-                'default' => 5
-            ),
-        ),
         'editor_script' => 'dallinge-posts-grid',
         'editor_style' => 'dallinge-posts-grid',
         'style' => 'dallinge-posts-grid',

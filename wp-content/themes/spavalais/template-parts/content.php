@@ -22,14 +22,14 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				spavalais_posted_on();
-				spavalais_posted_by();
+                dallinge_post_date_simple();
+                dallinge_post_author_simple();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php spavalais_post_thumbnail(); ?>
+	<?php dallinge_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -54,6 +54,9 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php spavalais_entry_footer(); ?>
+		<?php
+        dallinge_post_categories();
+        dallinge_post_tags();
+        dallinge_edit_link(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

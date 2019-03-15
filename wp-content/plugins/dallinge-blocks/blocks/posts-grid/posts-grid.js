@@ -19,8 +19,7 @@ registerBlockType('dallinge/posts-grid', {
         // ensure the block attributes matches this plugin's name
         return (
             el(ServerSideRender, {
-                block: "dallinge/posts-grid",
-                attributes: props.attributes
+                block: "dallinge/posts-grid"
             })
         );
     },
