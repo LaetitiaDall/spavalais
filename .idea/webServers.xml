@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e4375d82-926b-47e3-aeae-7f40d9725fd7" name="dev.dallinge.ch" url="http://dev.dallinge.ch/wp/spavalais">
+        <fileTransfer host="dev.dallinge.ch" port="12945" rootFolder="/usr/share/nginx/dallinge.ch/public/dev/wp/spavalais" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="12945" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

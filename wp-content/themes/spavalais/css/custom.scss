@@ -1,0 +1,147 @@
+@import 'variables.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.site-header .inner,
+#red-banner .inner,
+.site-footer .inner,
+.dallinge-slides .message,
+.main-navigation,
+.site-main {
+  position: relative;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+main {
+  display: block;
+}
+
+.main-navigation {
+  margin-left: 0;
+  margin-right: 0;
+  position: fixed;
+  float: none;
+  z-index: 10;
+
+  > div {
+    float: right;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    border-top: 0;
+  }
+
+}
+
+.site-header {
+  position: relative;
+  background-color: $cache-background-color;
+
+  .site-title {
+    display: none;
+  }
+
+  .inner-top {
+    z-index: 10;
+  }
+
+  .inner {
+
+    .custom-logo-link {
+      width: 200px;
+      position: absolute;
+      z-index: 1;
+      bottom: -2.6em;
+      left: 0em;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+      img {
+        width: 200px;
+        height: auto;
+        display: block;
+      }
+    }
+
+    .search-form {
+      position: absolute;
+      bottom: 1em;
+      right: 0em;
+    }
+  }
+
+}
+
+.dallinge-slides {
+  z-index: 0;
+
+  .message {
+    padding-left: $logo-left-spacing;
+    padding-right: $logo-left-spacing;
+    font-size: 1.3em;
+    position: relative;
+    z-index: 10;
+  }
+
+}
+
+#red-banner {
+  background-color: $primary-color;
+  margin: 0px;
+  width: 100%;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  box-shadow: 0px -3px 20px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-bottom: -2em;
+
+  .inner {
+    padding-left: $logo-left-spacing;
+    display: flex;
+    align-items: center;
+
+    .site-description {
+      margin: 0;
+      line-height: 1.6em;
+      font-size: 1.4em;
+      font-weight: 700;
+      flex: 1;
+    }
+
+  }
+}
+
+.widget {
+  opacity: 0;
+}
+
+.site-main {
+  background-color: white;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  padding-bottom: 0.1em;
+  padding-top: 1em;
+
+}
+
+body {
+  background-color: $background-color;
+}
+
+.site-footer {
+  border-top: 1px solid white;
+  background-color: $footer-background-color;
+  color: white;
+  margin-top: -2em;
+  padding-bottom: 1em;
+  padding-top: 3em;
+}

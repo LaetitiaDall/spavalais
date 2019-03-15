@@ -1,0 +1,9 @@
+.wp-block-dallinge-alert {
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #CB6767;
+    border: 1px solid #C22727;
+    padding: 20px;
+    text-align: center;
+}

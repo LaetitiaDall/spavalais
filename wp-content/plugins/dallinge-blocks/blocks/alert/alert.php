@@ -1,0 +1,28 @@
+<?php
+
+function dallinge_blocks_alert_register()
+{
+    wp_enqueue_script(
+        'dallinge-alert',
+        plugin_dir_url(__FILE__) . 'alert.js',
+        array('wp-editor', 'wp-blocks', 'wp-element'),
+        true
+    );
+
+    wp_register_style(
+        'dallinge-alert',
+        plugin_dir_url(__FILE__) . 'alert.css',
+        array('wp-edit-blocks'),
+        filemtime(plugin_dir_path(__FILE__) . 'alert.css')
+    );
+
+    register_block_type('dallinge/alert', array(
+        'editor_script' => 'dallinge-alert',
+        'editor_style' => 'dallinge-alert',
+        'style' => 'dallinge-alert',
+
+    ));
+}
+
+
+add_action('init', 'dallinge_blocks_alert_register');
