@@ -10,7 +10,6 @@ body {
 #red-banner .inner,
 .site-footer .inner,
 .dallinge-slides .message,
-.main-navigation,
 .site-main {
   position: relative;
   max-width: 1280px;
@@ -25,21 +24,43 @@ main {
   display: block;
 }
 
+.site-header .inner-top {
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
 .main-navigation {
-  margin-left: 0;
-  margin-right: 0;
-  position: fixed;
+  position: absolute;
+  width:100%;
+  display: block;
+  margin: 0;
+  padding: 0;
   float: none;
   z-index: 10;
 
-  > div {
+
+  .floating-top-menu{
     float: right;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     border: 1px solid white;
     border-top: 0;
   }
 
+  .floating-top-menu-toggle{
+    border-bottom: 1px solid white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .sub-menu {
+    border: 1px solid white;
+  }
+
+  .floating-top-menu > li:last-of-type:hover .sub-menu {
+    right: -1px !important;
+    left: auto;
+  }
 }
+
 
 .site-header {
   position: relative;

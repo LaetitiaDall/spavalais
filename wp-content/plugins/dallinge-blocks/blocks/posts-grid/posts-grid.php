@@ -3,12 +3,16 @@
 
 function dallinge_blocks_posts_grid_render($attributes, $content)
 {
+
+    $is_odd = !($attributes['maxPosts'] % 2 == 0) && ($attributes['maxColumns'] == 2);
+
     $query = new WP_Query(array(
-        'posts_per_page' => 5,
+        'posts_per_page' => $attributes['maxPosts'],
     ));
+
     ob_start();
     ?>
-    <div class="posts">
+    <div class="wp-block-dallinge-posts-grid columns-<?php echo $attributes['maxColumns']; ?> <?php echo($is_odd ? 'odd' : '') ?>">
         <?php
         if ($query->have_posts()) :
             while ($query->have_posts()) :
@@ -16,11 +20,15 @@ function dallinge_blocks_posts_grid_render($attributes, $content)
                 ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <?php dallinge_post_thumbnail(); ?>
-                    <div class="infos">
-                        <?php dallinge_post_title(); ?>
+                    <div class="meta">
+                        <?php dallinge_post_categories(); ?>
                         <?php dallinge_post_author_simple(); ?>
                         <?php dallinge_post_date_simple(); ?>
+
+                    </div>
+                    <div class="title">
                         <?php dallinge_edit_link(); ?>
+                        <?php dallinge_post_title(); ?>
                     </div>
                 </article>
             <?php
@@ -38,32 +46,50 @@ function dallinge_blocks_posts_grid_render($attributes, $content)
 
 function dallinge_blocks_posts_grid_register()
 {
-    wp_enqueue_script(
+
+
+    wp_register_script(
         'dallinge-posts-grid',
         plugin_dir_url(__FILE__) . 'posts-grid.js',
         array('wp-editor', 'wp-blocks', 'wp-element'),
         true
     );
 
+    dallinge_scss_register_file(
+        plugin_dir_path(__FILE__) . 'posts-grid.scss',
+        'posts-grid-editor');
+
     wp_register_style(
-        'dallinge-posts-grid',
-        plugin_dir_url(__FILE__) . 'posts-grid.css',
-        array('wp-edit-blocks'),
-        filemtime(plugin_dir_path(__FILE__) . 'posts-grid.css')
+        'dallinge-posts-grid-editor',
+        dallinge_scss_build_url('posts-grid-editor'),
+        array('wp-edit-blocks')
     );
+
+    dallinge_scss_register_file(
+        plugin_dir_path(__FILE__) . 'posts-grid.scss',
+        'posts-grid-frontend');
 
     wp_register_style(
         'dallinge-posts-grid-frontend',
-        plugin_dir_url(__FILE__) . 'posts-grid.css',
-        array(),
-        filemtime(plugin_dir_path(__FILE__) . 'posts-grid.css')
+        dallinge_scss_build_url('posts-grid-frontend'),
+        array()
     );
 
     register_block_type('dallinge/posts-grid', array(
         'editor_script' => 'dallinge-posts-grid',
-        'editor_style' => 'dallinge-posts-grid',
+        'editor_style' => 'dallinge-posts-grid-editor',
         'style' => 'dallinge-posts-grid-frontend',
         'render_callback' => 'dallinge_blocks_posts_grid_render',
+        'attributes' => array(
+            'maxPosts' => array(
+                'type' => 'number',
+                'default' => 5,
+            ),
+            'maxColumns' => array(
+                'type' => 'number',
+                'default' => 2,
+            ),
+        ),
     ));
 }
 

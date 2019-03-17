@@ -2,7 +2,7 @@
 
 function dallinge_blocks_alert_register()
 {
-    wp_enqueue_script(
+    wp_register_script(
         'dallinge-alert',
         plugin_dir_url(__FILE__) . 'alert.js',
         array('wp-editor', 'wp-blocks', 'wp-element'),
