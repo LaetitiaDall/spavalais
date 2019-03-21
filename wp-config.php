@@ -77,7 +77,9 @@ $table_prefix = 'wp_spavalais_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
+error_reporting(E_ALL ^ E_NOTICE);
+
 define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy publishing. */
