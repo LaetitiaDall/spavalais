@@ -1,9 +1,13 @@
 @import 'variables.scss';
+*{
+  font-family: 'Ropa Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
+}
 
 body {
-  font-family: 'Roboto', sans-serif;
   width: 100%;
   height: 100%;
+  font-size:1em;
 }
 
 h2 {
@@ -11,7 +15,7 @@ h2 {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Dekko', sans-serif;
+  /*font-family: 'Dekko', sans-serif;*/
   text-transform: uppercase;
   font-weight: normal;
 }
@@ -149,7 +153,6 @@ main {
       margin: 0;
       line-height: 1.6em;
       font-size: 1.4em;
-      font-weight: 700;
       flex: 1;
     }
 

@@ -18,8 +18,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link href="https://fonts.googleapis.com/css?family=Dekko|Economica|Roboto" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Catamaran|Gentium+Book+Basic|Hind|Ropa+Sans|Titillium+Web" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
