@@ -12,11 +12,10 @@ body {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 h1, h2, h3, h4, h5 {
-  /*font-family: 'Dekko', sans-serif;*/
   text-transform: uppercase;
   font-weight: normal;
 }
@@ -35,8 +34,6 @@ h1, h2, h3 {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
 }
 
 main {
@@ -112,7 +109,7 @@ main {
 
     .search-form {
       position: absolute;
-      bottom: 1em;
+      bottom: $spacing * 1px;;
       right: 0em;
     }
   }
@@ -132,18 +129,21 @@ main {
 
 }
 
+.wp-block-dallinge-posts-grid .entry-title{
+  text-transform: unset;
+}
+
 #red-banner {
   background-color: $primary-color;
   margin: 0px;
   width: 100%;
   color: white;
-  padding-top: 1em;
-  padding-bottom: 3em;
+  padding-top: $spacing * 1px;;
+  padding-bottom: $spacing * 1px;;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   box-shadow: 0px -3px 20px 0px rgba(0, 0, 0, 0.2);
   position: relative;
-  margin-bottom: -2em;
 
   .inner {
     padding-left: $logo-left-spacing;
@@ -164,10 +164,10 @@ main {
   opacity: 0;
 }
 
-.site-main {
+/*.site-main {
   background-color: white;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-}
+}*/
 
 
 body {
@@ -178,9 +178,9 @@ body {
   border-top: 1px solid white;
   background-color: $footer-background-color;
   color: white;
-  margin-top: -2em;
-  padding-bottom: 1em;
-  padding-top: 3em;
+  margin-top: $spacing * 1px;
+  padding-bottom: $spacing * 1px;
+  padding-top: $spacing * 1px;
 }
 
 

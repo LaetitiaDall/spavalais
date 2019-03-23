@@ -47,20 +47,7 @@
     <header id="masthead" class="site-header">
         <div class="inner inner-top">
 
-            <nav id="site-navigation" class="main-navigation">
 
-                <button class="floating-top-menu-toggle menu-toggle"
-                        data-menu-id="primary-menu" aria-controls="primary-menu"
-                        aria-expanded="false"><i class="fas fa-bars"></i></button>
-
-                <?php
-                wp_nav_menu(array(
-                    'theme_location' => 'menu-1',
-                    'menu_id' => 'primary-menu',
-                    'menu_class' => 'floating-top-menu'
-                ));
-                ?>
-            </nav><!-- #site-navigation -->
         </div>
         <?php dallinge_slides() ?>
 
