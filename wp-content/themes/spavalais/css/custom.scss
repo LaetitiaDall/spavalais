@@ -1,5 +1,6 @@
 @import 'variables.scss';
-*{
+
+* {
   font-family: 'Ropa Sans', sans-serif;
   font-family: 'Hind', sans-serif;
 }
@@ -7,7 +8,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-size:1em;
+  font-size: 1em;
 }
 
 h2 {
@@ -27,8 +28,8 @@ h1, h2, h3 {
 .site-header .inner,
 #red-banner .inner,
 .site-footer .inner,
-.dallinge-slides .message,
-.site-main{
+.site-content .inner,
+.dallinge-slides .message {
   position: relative;
   max-width: 1280px;
   margin-left: auto;
@@ -168,8 +169,8 @@ main {
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
   padding-bottom: 0.1em;
   padding-top: 1em;
-
 }
+
 
 body {
   background-color: $background-color;
@@ -182,4 +183,18 @@ body {
   margin-top: -2em;
   padding-bottom: 1em;
   padding-top: 3em;
+}
+
+
+.site-content .inner {
+  display: flex;
+
+  #primary {
+    flex: 1;
+  }
+
+  #secondary {
+    flex: 0.5;
+    background-color: red;
+  }
 }
