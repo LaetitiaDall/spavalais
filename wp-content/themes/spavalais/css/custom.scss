@@ -24,6 +24,35 @@ h1, h2, h3 {
   line-height: 1.1em;
 }
 
+.site-header {
+  background-color: white;
+
+  .right {
+    padding-top: 16px;
+    float: right;
+    display: flex;
+    align-items: baseline;
+
+    .search-form {
+      flex: 0;
+      min-width: 300px;
+      display: block;
+      align-self: flex-end;
+
+
+    }
+
+    .facebook-link {
+      flex: 0;
+      min-width: 32px;
+      display: block;
+      align-self: flex-end;
+
+    }
+
+  }
+}
+
 .site-header .inner,
 #red-banner .inner,
 .site-footer .inner,
@@ -41,12 +70,10 @@ main {
 }
 
 .site-header .inner-top {
-  padding-left: 0em;
-  padding-right: 0em;
+  height: 60px;
 }
 
 .main-navigation {
-  position: absolute;
   width: 100%;
   display: block;
   margin: 0;
@@ -57,13 +84,10 @@ main {
 
   .floating-top-menu {
     float: right;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    border: 1px solid white;
     border-top: 0;
   }
 
   .floating-top-menu-toggle {
-    border-bottom: 1px solid white;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   }
 
@@ -80,7 +104,6 @@ main {
 
 .site-header {
   position: relative;
-  background-color: $cache-background-color;
 
   .site-title {
     display: none;
@@ -92,26 +115,32 @@ main {
 
   .inner {
 
+    padding-left: 130px;
+
+    .site-description {
+      position: absolute;
+      bottom: 0;
+      left: 130px;
+      margin: 0px;
+      font-size: 0.8em;
+      opacity: 0.7;
+    }
+
     .custom-logo-link {
-      width: 200px;
       position: absolute;
       z-index: 1;
-      bottom: -2.6em;
+      bottom: -62px;
       left: 0em;
-      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+      //box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 
       img {
-        width: 200px;
+        width: 110px;
         height: auto;
         display: block;
       }
     }
 
-    .search-form {
-      position: absolute;
-      bottom: $spacing * 1px;;
-      right: 0em;
-    }
+
   }
 
 }
@@ -129,7 +158,7 @@ main {
 
 }
 
-.wp-block-dallinge-posts-grid .entry-title{
+.wp-block-dallinge-posts-grid .entry-title {
   text-transform: unset;
 }
 
@@ -138,11 +167,9 @@ main {
   margin: 0px;
   width: 100%;
   color: white;
-  padding-top: $spacing * 1px;;
-  padding-bottom: $spacing * 1px;;
   border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  box-shadow: 0px -3px 20px 0px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px -3px 20px 0px rgba(0, 0, 0, 0.1);
   position: relative;
 
   .inner {
@@ -166,7 +193,7 @@ main {
 
 /*.site-main {
   background-color: white;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 20px rgba(0, 0, f0, 0.1);
 }*/
 
 
@@ -183,6 +210,9 @@ body {
   padding-top: $spacing * 1px;
 }
 
+.dallinge-slides {
+  border-bottom: 1px solid white;
+}
 
 .site-content .inner {
   display: flex;
@@ -195,4 +225,19 @@ body {
     flex: 0.5;
     background-color: red;
   }
+}
+
+.fixed-space {
+  height: 100px;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  background-color: white;
+}
+
+a.wp-block-button__link {
+  border-radius: 4px;
 }
