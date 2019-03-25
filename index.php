@@ -1,7 +1,11 @@
 <?php
-if ($_GET["?context"]){
-    $_GET["context"]=$_GET['?context'];
-    unset($_GET["?context"]);
+
+foreach ($_GET as $name => $value) {
+    if (strpos($name, '?') !== false) {
+        $_GET[str_replace('?', '', $name)] = $_GET[$name];
+        unset($_GET[$name]);
+        break;
+    }
 }
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
