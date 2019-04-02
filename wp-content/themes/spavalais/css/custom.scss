@@ -35,7 +35,7 @@ h1, h2, h3 {
 
     .search-form {
       flex: 0;
-      min-width: 300px;
+      min-width: 350px;
       display: block;
       align-self: flex-end;
 
@@ -149,8 +149,6 @@ main {
   z-index: 0;
 
   .message {
-    padding-left: $logo-left-spacing;
-    padding-right: $logo-left-spacing;
     font-size: 1.3em;
     position: relative;
     z-index: 10;
@@ -228,7 +226,7 @@ body {
   }
 }
 
-.single #primary .entry-title, .page #primary h1.entry-title, h1.page-title  {
+.single #primary .entry-title, .page #primary h1.entry-title, h1.page-title {
 
   padding-top: $spacing * 5 * $spacing-unit;
   height: $single-top-margin;
@@ -276,4 +274,15 @@ a.wp-block-button__link {
       }
     }
   }
+}
+
+
+.copyright {
+  text-align: center;
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+.wp-block-dallinge-posts-grid .author {
+  display: none;
 }
