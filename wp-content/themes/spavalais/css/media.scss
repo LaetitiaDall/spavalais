@@ -1,0 +1,80 @@
+body, html {
+  min-width: 320px;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .site-header .inner,
+  #red-banner .inner,
+  .site-footer .inner,
+  .site-content .inner,
+  .dallinge-slides .message {
+    position: relative;
+    max-width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .transparent-container.has-2-columns .wp-block-button {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .has-2-columns {
+    flex-wrap: wrap;
+  }
+  .has-2-columns .wp-block-column {
+    flex-basis: 100% !important;
+    flex-grow: 1;
+  }
+
+  .transparent-container.has-2-columns .wp-block-button {
+    width: 100%;
+  }
+
+  .wp-block-button__link {
+    display: block;
+    float: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .site-header .inner,
+  #red-banner .inner,
+  .site-footer .inner,
+  .site-content .inner,
+  .dallinge-slides .message {
+    position: relative;
+    max-width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+  }
+
+  .transparent-container.has-2-columns .wp-block-button {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 600px) {
+  .wp-block-column {
+    flex-basis: 48%;
+    flex-grow: 1;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  .wp-block-dallinge-adoptable-animals-urgent .animals .animal .description .adopt-button {
+    min-width: 75%;
+  }
+}
+

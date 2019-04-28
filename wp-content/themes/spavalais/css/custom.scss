@@ -59,7 +59,7 @@ h1, h2, h3 {
 .site-content .inner,
 .dallinge-slides .message {
   position: relative;
-  max-width: 1280px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -85,10 +85,6 @@ main {
   .floating-top-menu {
     float: right;
     border-top: 0;
-  }
-
-  .floating-top-menu-toggle {
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   }
 
   .sub-menu {
@@ -122,8 +118,9 @@ main {
       bottom: 0;
       left: 130px;
       margin: 0px;
-      font-size: 1em;
+      font-size: 0.8em;
       opacity: 0.7;
+      max-width: 40%;
     }
 
     .custom-logo-link {
@@ -279,10 +276,60 @@ a.wp-block-button__link {
 
 .copyright {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.75em;
   opacity: 0.5;
 }
 
 .wp-block-dallinge-posts-grid .author {
   display: none;
+}
+
+.wp-block-button.alignright {
+
+}
+
+.menu-bottom-menu-container:before {
+  content: '';
+  border-top: 1px solid $lower-gray-color;
+  display: block;
+  padding: 20px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.menu-bottom-menu-container ul {
+
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+  li {
+    display: inline-block;
+
+    a {
+      color: $lower-gray-color !important;
+
+      &:after {
+        content: '|';
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+
+  li:last-of-type a:after {
+    display: none;
+  }
+
+}
+
+
+.creator {
+  font-size:0.9em;
+  color:lightblue !important;
+
 }
