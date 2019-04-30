@@ -89,15 +89,26 @@ main {
   padding: 0;
   float: none;
   z-index: 10;
+  position: relative;
+  top: 2px;
 
 
   .floating-top-menu {
     float: right;
     border-top: 0;
+    overflow: hidden;
   }
 
   .sub-menu {
     border: 1px solid white;
+  }
+
+  .floating-top-menu > li:first-of-type {
+    border-radius: 5px 0px 0px 0px;
+  }
+
+  .floating-top-menu > li:last-of-type {
+    border-radius: 0px 5px 0px 0px;
   }
 
   .floating-top-menu > li:last-of-type:hover .sub-menu {
@@ -120,27 +131,27 @@ main {
 
   .inner {
 
+    position: relative;
     padding-left: 130px;
 
     .site-description {
       position: absolute;
-      bottom: 0;
-      left: 130px;
+      bottom: -30px;
+      left: 100px;
       margin: 0px;
-      font-size: 0.8em;
-      opacity: 0.7;
-      max-width: 40%;
+      font-size: 0.75em;
+      opacity: 0.8;
+      max-width: 200px;
     }
 
     .custom-logo-link {
       position: absolute;
       z-index: 1;
-      bottom: -62px;
+      top: 0px;
       left: 0em;
-      //box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 
       img {
-        width: 110px;
+        width: 90px;
         height: auto;
         display: block;
       }
@@ -167,12 +178,14 @@ main {
 }
 
 #red-banner {
-  background-color: $primary-color;
+  background-color: white;
   margin: 0px;
   width: 100%;
   color: white;
   border-top: 1px solid white;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  //border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid $primary-color;
+  padding-top: 10px;
   position: relative;
 
   .inner {
@@ -205,7 +218,6 @@ body {
 }
 
 .site-footer {
-  border-top: 1px solid white;
   background-color: $footer-background-color;
   color: white;
   margin-top: $spacing * 1px;
@@ -213,9 +225,6 @@ body {
   padding-top: $spacing * 1px;
 }
 
-.dallinge-slides {
-  border-bottom: 1px solid white;
-}
 
 .site-content .inner {
   display: flex;
