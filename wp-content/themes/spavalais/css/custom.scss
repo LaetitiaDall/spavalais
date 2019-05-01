@@ -93,14 +93,24 @@ main {
   top: 2px;
 
 
+  .floating-top-menu > li:not(.menu-item-has-children) {
+    border-bottom: 2px solid $primary-color;
+
+    a {
+      padding-bottom: 5.2px;
+    }
+  }
+
   .floating-top-menu {
     float: right;
     border-top: 0;
-    overflow: hidden;
   }
 
   .sub-menu {
-    border: 1px solid white;
+    border-top: 0;
+    border-radius: 0px 0px 5px 5px;
+    overflow: hidden;
+
   }
 
   .floating-top-menu > li:first-of-type {
@@ -261,6 +271,7 @@ body {
   z-index: 10000;
   width: 100%;
   background-color: white;
+  box-shadow: 0px -2px 20px 0px rgba(0, 0, 0, 0.15)
 }
 
 a.wp-block-button__link {
@@ -351,6 +362,7 @@ a.wp-block-button__link {
 
 
 .page header > h1.entry-title {
+  display: inline-block;
   position: relative;
   margin-bottom: 30px !important;
 
@@ -358,11 +370,19 @@ a.wp-block-button__link {
   &:after {
     content: '';
     position: absolute;
-    width: 150px;
     background-color: $primary-color;
-    height: 4px;
-    bottom: 0px;
+    height: 3px;
+    bottom: 5px;
     left: 0px;
+    right: 0px;
     display: block;
+  }
+}
+
+.wp-block-dallinge-section {
+  border-bottom: 3px solid $primary-color;
+
+  &:last-of-type {
+    border-bottom: 0;
   }
 }
