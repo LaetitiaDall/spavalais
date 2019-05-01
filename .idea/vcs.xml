@@ -6,11 +6,9 @@
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/dallinge-animate" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wp-content/plugins/dallinge-fixes" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/dallinge-scss" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/dallinge-slides" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wp-content/plugins/dallinge-wp-improvements" vcs="Git" />
   </component>
 </project>

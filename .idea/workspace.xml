@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9481b61-6531-4d46-9cc3-2b3da2558a6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/posts-grid/posts-grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/posts-grid/posts-grid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/posts-grid/posts-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/posts-grid/posts-grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/dallinge-blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/dallinge-blocks.php" afterDir="false" />
@@ -12,9 +11,6 @@
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/libs/require.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -266,6 +262,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -336,7 +333,7 @@
       <workItem from="1556543625553" duration="414000" />
       <workItem from="1556620967173" duration="4843000" />
       <workItem from="1556690132633" duration="6177000" />
-      <workItem from="1556742814019" duration="2407000" />
+      <workItem from="1556742814019" duration="2581000" />
     </task>
     <task id="LOCAL-00001" summary="name fixes">
       <created>1552387189493</created>
@@ -419,7 +416,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266381000" />
+    <option name="totallyTimeSpent" value="266555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,9 +429,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24253732" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24253732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -446,10 +442,10 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.48987207" visible="true" weight="0.032502707" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.48933902" visible="true" weight="0.1744312" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.31960997" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5101279" side_tool="true" weight="0.032502707" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.510661" side_tool="true" visible="true" weight="0.1744312" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -461,6 +457,10 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/wp-content/plugins/dallinge-fixes" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/dallinge-wp-improvements" />
+    </ignored-roots>
     <MESSAGE value="name fixes" />
     <MESSAGE value="cache" />
     <MESSAGE value="menu + console message on scss built" />
@@ -480,7 +480,8 @@
     <MESSAGE value="finalisations" />
     <MESSAGE value="header ok" />
     <MESSAGE value="content added" />
-    <option name="LAST_COMMIT_MESSAGE" value="content added" />
+    <MESSAGE value="mobile view" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
