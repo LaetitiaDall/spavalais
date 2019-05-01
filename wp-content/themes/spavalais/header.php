@@ -49,50 +49,47 @@
 
         <div class="fixed">
             <div class="inner inner-top">
-                <?php the_custom_logo(); ?>
+                <div class="left">
+                    <?php the_custom_logo(); ?>
 
-                <?php
-                $spavalais_description = get_bloginfo('description', 'display');
-                if ($spavalais_description || is_customize_preview()) :
-                    ?>
-                    <p class="site-description"><?php echo $spavalais_description; /* WPCS: xss ok. */ ?></p>
-                <?php endif; ?>
+                    <?php
+                    $spavalais_description = get_bloginfo('description', 'display');
+                    if ($spavalais_description || is_customize_preview()) :
+                        ?>
+                        <p class="site-description"><?php echo $spavalais_description; /* WPCS: xss ok. */ ?></p>
+                    <?php endif; ?>
 
-                <?php if (is_front_page() && is_home()) : ?>
-                    <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
-                                              rel="home"><?php bloginfo('name'); ?></a></h1>
-                <?php else : ?>
-                    <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
-                                             rel="home"><?php bloginfo('name'); ?></a></p>
-                <?php endif; ?>
-
+                    <?php if (is_front_page() && is_home()) : ?>
+                        <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
+                                                  rel="home"><?php bloginfo('name'); ?></a></h1>
+                    <?php else : ?>
+                        <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
+                                                 rel="home"><?php bloginfo('name'); ?></a></p>
+                    <?php endif; ?>
+                </div>
                 <div class="right">
                     <?php get_search_form(true) ?>
                     <?php dallinge_facebook_icon('https://www.facebook.com/refugedelespoir'); ?>
                 </div>
+
+                <nav id="site-navigation" class="main-navigation">
+
+                    <button class="floating-top-menu-toggle menu-toggle"
+                            data-menu-id="primary-menu" aria-controls="primary-menu"
+                            aria-expanded="false"><i class="fas fa-bars"></i></button>
+
+                    <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'menu-1',
+                        'menu_id' => 'primary-menu',
+                        'menu_class' => 'floating-top-menu'
+                    ));
+                    ?>
+                </nav><!-- #site-navigation -->
+
             </div>
 
-            <div id="red-banner">
-                <div class="inner">
 
-
-                    <nav id="site-navigation" class="main-navigation">
-
-                        <button class="floating-top-menu-toggle menu-toggle"
-                                data-menu-id="primary-menu" aria-controls="primary-menu"
-                                aria-expanded="false"><i class="fas fa-bars"></i></button>
-
-                        <?php
-                        wp_nav_menu(array(
-                            'theme_location' => 'menu-1',
-                            'menu_id' => 'primary-menu',
-                            'menu_class' => 'floating-top-menu'
-                        ));
-                        ?>
-                    </nav><!-- #site-navigation -->
-
-                </div>
-            </div>
         </div>
         <div class="fixed-space"></div>
         <?php if (is_front_page()) dallinge_slides() ?>

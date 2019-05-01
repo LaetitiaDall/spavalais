@@ -23,6 +23,17 @@ body, html {
   }
 }
 
+@media screen and (max-width: 1023px) and (min-width: 901px) {
+  .main-navigation li {
+    a {
+      font-size: 0.85em;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+
+}
+
 @media screen and (max-width: 800px) {
 
   .has-2-columns {
@@ -57,6 +68,11 @@ body, html {
     width: 96%;
   }
 
+  .site-header .fixed {
+    position: absolute;
+  }
+
+
   .transparent-container.has-2-columns .wp-block-button {
     width: 100%;
   }
@@ -71,10 +87,39 @@ body, html {
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
   .wp-block-dallinge-adoptable-animals-urgent .animals .animal .description .adopt-button {
     min-width: 75%;
+  }
+
+
+  .site-header .inner .right {
+    padding-top: 6px;
+
+    .search-field {
+      max-width: 150px;
+      height: 28px;
+      font-size: 0.8em;
+    }
+
+    .facebook-link {
+      min-width: 28px;
+    }
+  }
+
+  .site-header .inner .left {
+    .custom-logo-link {
+      bottom: 0px;
+
+    }
+
+    .site-description {
+      left: 90px;
+      max-width: 145px;
+      font-size: 0.60em;
+      bottom: 7px;
+    }
   }
 }
 
