@@ -32,7 +32,8 @@
 function dallinge_compatibility_check_browser() {
     var classes = "";
 
-    require(['bowser'], function (bowser) {
+    var bowser = window.bowser;
+
         if (
             ((bowser.name === 'Firefox') && (bowser.version < 4))
             ||
@@ -62,6 +63,36 @@ function dallinge_compatibility_check_browser() {
         }
 
         if (
+            ((bowser.name === 'Firefox') && (bowser.version < 6))
+            ||
+            ((bowser.name === 'Chrome') && (bowser.version < 5))
+            ||
+            ((bowser.name === 'Internet Explorer'))
+            ||
+            ((bowser.name === 'Safari') && (bowser.version < 5))
+            ||
+            ((bowser.name === 'Opera') && (bowser.version < 15)
+            )
+        ) {
+            classes += 'no-animation-support ';
+        }
+
+        if (
+            ((bowser.name === 'Firefox') && (bowser.version < 35))
+            ||
+            ((bowser.name === 'Chrome') && (bowser.version < 18))
+            ||
+            ((bowser.name === 'Internet Explorer') && (bowser.version >= 9))
+            ||
+            ((bowser.name === 'Safari') && (bowser.version < 6))
+            ||
+            ((bowser.name === 'Opera') && (bowser.version < 15)
+            )
+        ) {
+            classes += 'no-filter-support ';
+        }
+
+        if (
             ((bowser.name === 'Internet Explorer' && (bowser.version < 8)))
         ) {
             classes += 'no-unicode-content-support ';
@@ -85,5 +116,5 @@ function dallinge_compatibility_check_browser() {
             });
         })(jQuery);
 
-    });
+
 }

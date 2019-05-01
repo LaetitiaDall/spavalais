@@ -12,9 +12,15 @@ Version: 1.0.0
 Author URI: http://dev.dallinge.ch/
 */
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
+
+
 
 require_once('blocks/posts-grid/posts-grid.php');
 require_once('blocks/alert/alert.php');
+require_once('blocks/section/section.php');
 
 
 

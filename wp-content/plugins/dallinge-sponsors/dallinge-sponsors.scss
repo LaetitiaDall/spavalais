@@ -1,6 +1,14 @@
 @import 'dallinge-sponsors-variables';
 
 .dallinge-sponsors {
+  margin-left: -0.5em;
+
+  .sponsor {
+    margin: 0.5em;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+  }
 
 }
 

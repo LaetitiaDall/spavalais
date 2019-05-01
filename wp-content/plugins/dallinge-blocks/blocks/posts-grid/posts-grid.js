@@ -6,7 +6,7 @@ var el = wp.element.createElement,
 
 registerBlockType('dallinge/posts-grid', {
     title: 'Latest Post Grid',
-    icon: 'dashicons-grid-view\n',
+    icon: 'grid-view',
     category: 'dallinge-blocks',
 
     attributes: {
