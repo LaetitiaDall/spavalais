@@ -313,7 +313,7 @@ a.wp-block-button__link {
   opacity: 0.5;
 }
 
-.wp-block-dallinge-posts-grid .author {
+.author {
   display: none;
 }
 
@@ -418,6 +418,7 @@ a.wp-block-button__link {
   .wp-block-column:first-child > * {
     padding-left: ($spacing * 2) * 1px;
   }
+
   .wp-block-column:last-child > * {
     padding-right: ($spacing * 2) * 1px;
   }
@@ -426,4 +427,33 @@ a.wp-block-button__link {
 
 .wp-block-table {
 
+}
+
+
+.single .type-post {
+
+
+  .posted-on .icon{
+    padding-right:10px;
+  }
+  .entry-title {
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+    height:auto !important;
+  }
+
+  .post-thumbnail {
+    padding-top: 30px;
+
+    img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      box-shadow: inset 10px 10px #ECE6DA;
+      border-radius: 8px;
+    }
+
+
+  }
 }

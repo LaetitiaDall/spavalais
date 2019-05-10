@@ -10,6 +10,9 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+    <?php dallinge_post_thumbnail(); ?>
+
     <header class="entry-header">
         <?php
         dallinge_post_title();
@@ -25,7 +28,6 @@
         <?php endif; ?>
     </header><!-- .entry-header -->
 
-    <?php dallinge_post_thumbnail(); ?>
 
     <div class="entry-content">
         <?php
