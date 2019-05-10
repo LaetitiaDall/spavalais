@@ -51,6 +51,7 @@ h1, h2, h3 {
     float: right;
     display: flex;
     align-items: baseline;
+    justify-content: flex-end;
 
     .search-form {
       flex: 0;
@@ -268,7 +269,6 @@ body {
 
   #secondary {
     margin-top: $single-top-margin;
-    background-color: white;
     flex: 0.7;
   }
 }
@@ -278,10 +278,6 @@ body {
   height: $single-top-margin;
   margin-bottom: 0;
   margin-top: 0;
-}
-
-.single #primary {
-  padding-right: $spacing * 1px;
 }
 
 
@@ -400,4 +396,34 @@ a.wp-block-button__link {
 
 .search-submit i {
   color: grey;
+}
+
+.floating-top-menu-toggle {
+  position: relative;
+  padding-bottom: 0.4em;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.home {
+  .wp-block-column {
+    background-color: white;
+
+  }
+
+  .wp-block-column > * {
+    padding-right: ($spacing * 2) * 1px;
+    padding-left: ($spacing * 2) * 1px;
+  }
+
+  .wp-block-column:first-child > * {
+    padding-left: ($spacing * 2) * 1px;
+  }
+  .wp-block-column:last-child > * {
+    padding-right: ($spacing * 2) * 1px;
+  }
+
+}
+
+.wp-block-table {
+
 }
