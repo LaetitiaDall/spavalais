@@ -172,10 +172,10 @@ main {
       position: absolute;
       left: 100px;
       margin: 0px;
-      bottom: 16px;
-      font-size: 0.7em;
+      bottom: 0.6em;
+      font-size: 0.9em;
       opacity: 0.8;
-      max-width: 200px;
+      max-width: 260px;
     }
 
     .custom-logo-link {
@@ -259,25 +259,34 @@ body {
   padding-top: $spacing * 1px;
 }
 
+.home #breadcrumbs {
+  display: none;
+}
 
 .site-content .inner {
-  display: flex;
-
-  #primary {
-    flex: 1;
-  }
 
   #secondary {
     margin-top: $single-top-margin;
-    flex: 0.7;
   }
 }
 
-.single #primary .entry-title, .page #primary h1.entry-title, h1.page-title {
-  padding-top: $spacing * 5 * $spacing-unit;
+#breadcrumbs {
+  padding-top: 16px;
+  font-size: 0.9em;
+  position: relative;
+
+
+}
+
+.single #primary .entry-title {
+  padding-top: $spacing * 4 * $spacing-unit;
   height: $single-top-margin;
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.page #primary h1.entry-title {
+  display: none !important;
 }
 
 
@@ -387,7 +396,7 @@ a.wp-block-button__link {
 }
 
 .wp-block-dallinge-section {
-  border-bottom: 3px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
 
   &:last-of-type {
     border-bottom: 0;
@@ -432,14 +441,10 @@ a.wp-block-button__link {
 
 .single .type-post {
 
-
-  .posted-on .icon{
-    padding-right:10px;
-  }
   .entry-title {
     padding-top: 20px !important;
     padding-bottom: 10px !important;
-    height:auto !important;
+    height: auto !important;
   }
 
   .post-thumbnail {
@@ -453,7 +458,51 @@ a.wp-block-button__link {
       box-shadow: inset 10px 10px #ECE6DA;
       border-radius: 8px;
     }
-
-
   }
+}
+
+.single .posted-on, .search .posted-on, .category .posted-on, .blog .posted-on {
+  margin-right: 10px;
+
+  .icon {
+    padding-right: 10px;
+  }
+}
+
+
+.search-article-content {
+  display: flex;
+
+  margin-top: 15px;
+
+  .post-thumbnail {
+    flex: 0;
+    min-width: 150px;
+    padding-right: 20px;
+  }
+
+  .entry-summary {
+  }
+}
+
+.page .search-article-content {
+  margin-top: 0 !important;
+
+  p {
+    margin-top: 0;
+  }
+}
+
+hr {
+  background-color: transparent;
+  border-top: 2px solid $primary-color;
+  border-radius: 1px;
+}
+
+.anchor {
+  position: absolute;
+  top: -120px;
+}
+.wp-block-dallinge-section{
+  position:relative;
 }

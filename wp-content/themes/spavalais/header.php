@@ -96,5 +96,13 @@
 
     </header><!-- #masthead -->
 
+
     <div id="content" class="site-content">
         <div class="inner">
+            <?php
+            if ( function_exists('yoast_breadcrumb') ) {
+                yoast_breadcrumb('
+        <div id="breadcrumbs">','</div>
+        ');
+            }
+            ?>

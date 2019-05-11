@@ -23,6 +23,8 @@
                 <?php
                 dallinge_post_date_simple();
                 dallinge_post_author_simple();
+                dallinge_post_categories();
+                dallinge_post_tags();
                 ?>
             </div><!-- .entry-meta -->
         <?php endif; ?>
@@ -53,8 +55,7 @@
 
     <footer class="entry-footer">
         <?php
-        dallinge_post_categories();
-        dallinge_post_tags();
+
         dallinge_edit_link(); ?>
     </footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

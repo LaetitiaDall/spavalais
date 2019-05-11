@@ -15,6 +15,19 @@ body, html {
     margin-right: 3%;
     width: 94%;
   }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+
+  .site-header .inner .site-description {
+    bottom: 1em;
+    font-size: 0.7em;
+    max-width: 200px;
+
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -32,6 +45,18 @@ body, html {
     }
   }
 
+}
+
+@media screen and (max-width: 900px) {
+
+  .site-header .inner .left {
+    .site-description {
+      left: 100px;
+      max-width: 270px;
+      font-size: 0.9em;
+      bottom: 0.7em;
+    }
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -52,6 +77,20 @@ body, html {
     display: block;
     float: none;
   }
+
+
+  .transparent-container {
+
+    .wp-block-column:first-child > * {
+      padding-left: $spacing / 2 * 1px;
+    }
+
+    .wp-block-column:last-child > * {
+      padding-right: $spacing / 2 * 1px;
+    }
+
+  }
+
 
 }
 
@@ -81,6 +120,7 @@ body, html {
   .transparent-container.has-2-columns .wp-block-button {
     width: 100%;
   }
+
 
 }
 
@@ -123,9 +163,9 @@ body, html {
 
     .site-description {
       left: 100px;
-      max-width: 145px;
+      max-width: 140px;
       font-size: 0.60em;
-      //bottom: 7px;
+      bottom: 1.5em;
     }
   }
 }
