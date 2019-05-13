@@ -3,30 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="d9481b61-6531-4d46-9cc3-2b3da2558a6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/posts-grid/posts-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/posts-grid/posts-grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/inc/template_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/inc/template_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/other.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/other.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/flex-compatibility.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/flex-compatibility.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/media-compatibility.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/media-compatibility.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/posts-grid-editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/posts-grid-editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/posts-grid-frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/posts-grid-frontend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/css/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/css/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content-search.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content-search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/footer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,39 +44,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content-search.php">
+        <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" selection-start-line="11" selection-end-line="42" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/archive.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="424">
+              <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="463" column="67" selection-start-line="463" selection-start-column="67" selection-end-line="463" selection-end-column="67" />
+            <state relative-caret-position="220">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -100,9 +74,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>desci</find>
-      <find>facebook</find>
-      <find>.right</find>
       <find>custom-l</find>
       <find>toggle</find>
       <find>#seconda</find>
@@ -130,6 +101,9 @@
       <find>section</find>
       <find>infos</find>
       <find>features</find>
+      <find>top-anim</find>
+      <find>filter-speci</find>
+      <find>filter-form</find>
     </findStrings>
     <replaceStrings>
       <replace>dallinge_slides</replace>
@@ -163,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-grid/adoptable-animals-grid.scss" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.scss" />
@@ -175,25 +148,19 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/section/section.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/dallinge-blocks.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/section/section-editor.css" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/buttons/buttons-variables.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-animate/dallinge-animate.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-animate/dallinge-animate.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-animate/dallinge-animate.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/spavalais/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/style.css" />
         <option value="$PROJECT_DIR$/wp-includes/general-template.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus-variables.scss" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/buttons/buttons.scss" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/section/section.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/posts-grid/posts-grid.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/single-animal.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/section/section.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/shortcodes/adoptable-animals-search-shortcode.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/widgets/adoptable-animals-widget.php" />
@@ -202,18 +169,25 @@
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/single.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-breadcrumbs.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/spavalais/css/variables.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/inc/template_functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content-search.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/js/custom.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/other.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/spavalais/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.scss" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/spavalais/css/variables.scss" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php" />
       </list>
     </option>
   </component>
@@ -251,27 +225,20 @@
               <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
               <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="carbon-fields-plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
               <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="spavalais" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="spavalais" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +331,8 @@
       <workItem from="1557480877125" duration="3284000" />
       <workItem from="1557496638153" duration="3932000" />
       <workItem from="1557500607820" duration="24000" />
-      <workItem from="1557569878876" duration="6391000" />
+      <workItem from="1557569878876" duration="11310000" />
+      <workItem from="1557584914234" duration="2967000" />
     </task>
     <task id="LOCAL-00001" summary="name fixes">
       <created>1552387189493</created>
@@ -457,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557497565809</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="finalisation">
+      <created>1557577198875</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557577198875</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289487000" />
+    <option name="totallyTimeSpent" value="297373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +451,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -488,10 +463,10 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.3217768" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.48667377" weight="0.032502707" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.48614073" visible="true" weight="0.032502707" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.31960997" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5042644" side_tool="true" visible="true" weight="0.10292524" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5138593" side_tool="true" visible="true" weight="0.032502707" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -529,7 +504,8 @@
     <MESSAGE value="mobile view" />
     <MESSAGE value="last is posts" />
     <MESSAGE value="posts look" />
-    <option name="LAST_COMMIT_MESSAGE" value="posts look" />
+    <MESSAGE value="finalisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -551,17 +527,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
-          <line>335</line>
+          <line>336</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
-          <line>133</line>
+          <line>134</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
-          <line>416</line>
+          <line>417</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -571,39 +547,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
-          <line>463</line>
+          <line>464</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
-          <line>622</line>
+          <line>633</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
+          <line>406</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="12" column="19" selection-start-line="12" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -651,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="121" selection-start-line="25" selection-start-column="121" selection-end-line="25" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-animate/dallinge-animate.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -695,13 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -803,38 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="63" column="53" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="63" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="104" column="28" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/css/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
@@ -859,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content-search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" selection-start-line="11" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -873,10 +788,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="183" lean-forward="true" selection-start-line="25" selection-start-column="183" selection-end-line="25" selection-end-column="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" selection-start-line="11" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="25" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10186">
+          <caret line="463" column="67" selection-start-line="463" selection-start-column="67" selection-end-line="463" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4070">
+          <caret line="185" column="32" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/css/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="516" column="25" lean-forward="true" selection-start-line="516" selection-start-column="25" selection-end-line="516" selection-end-column="25" />
+        <state relative-caret-position="496">
+          <caret line="583" selection-start-line="583" selection-end-line="583" />
           <folding>
             <element signature="n#dallinge_adoptable_animals_custom_template#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_create_post_type#0;n#!!top" />
@@ -886,7 +871,6 @@
             <element signature="n#dallinge_adoptable_animals_load_my_scripts#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_the_age#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_get_age#0;n#!!top" />
-            <element signature="n#dallinge_adoptable_animals_the_sos_cause#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_the_sex#0;n#!!top" />
             <element signature="n#dallinge_adoptable_get_animals_get_sex#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_get_name#0;n#!!top" />
@@ -897,9 +881,7 @@
             <element signature="n#dallinge_adoptable_animals_get_coats_definitions#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_get_coat#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_species_icon#0;n#!!top" />
-            <element signature="n#dallinge_adoptable_animals_specifics_table#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_title#0;n#!!top" />
-            <element signature="n#dallinge_adoptable_animals_sos_icon#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_page_options#0;n#!!top" />
             <element signature="n#dallinge_adoptable_animals_render_animals#0;n#!!top" />
           </folding>
@@ -908,36 +890,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="622">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/other.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="105" column="34" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+        <state relative-caret-position="801">
+          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="106" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/archive.php">
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-end-line="35" />
+        <state relative-caret-position="424">
+          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/index.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/carbon-fields-plugin/carbon-fields-plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="463" column="67" selection-start-line="463" selection-start-column="67" selection-end-line="463" selection-end-column="67" />
+        <state relative-caret-position="220">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>

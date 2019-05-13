@@ -19,8 +19,8 @@ define( 'Carbon_Fields_Plugin\RELATIVE_PLUGIN_FILE', basename( dirname( \Carbon_
 
 add_action( 'after_setup_theme', 'carbon_fields_boot_plugin' );
 function carbon_fields_boot_plugin() {
-	if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
-		require( __DIR__ . '/vendor/autoload.php' );
+	if ( file_exists( __DIR__ . '/../../../vendor/autoload.php' ) ) {
+		require( __DIR__ . '/../../../vendor/autoload.php' );
 	}
 	\Carbon_Fields\Carbon_Fields::boot();
 

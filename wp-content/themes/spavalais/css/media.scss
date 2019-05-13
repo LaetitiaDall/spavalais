@@ -67,11 +67,27 @@ body, html {
   .has-2-columns .wp-block-column {
     flex-basis: 100% !important;
     flex-grow: 1;
+
+    & > * {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
   }
 
-  .transparent-container.has-2-columns .wp-block-button {
-    width: 100%;
+  .home .wp-block-columns:not(.transparent-container):not(.features) .wp-block-column{
+    & > * {
+      padding-right: $spacing * 1 * 1px !important;
+      padding-left: $spacing * 1 * 1px !important;
+    }
+
+    .wp-block-image {
+      display: block;
+      margin: 0;
+      padding-left:0px !important;
+      padding-right: 0px !important;
+    }
   }
+
 
   .wp-block-button__link {
     display: block;
