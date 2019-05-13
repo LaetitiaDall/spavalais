@@ -13,6 +13,9 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+
+    <?php dallinge_compatibility_outdated_browser_check() ?>
+
     <?php wp_head(); ?>
 
     <meta charset="<?php bloginfo('charset'); ?>">

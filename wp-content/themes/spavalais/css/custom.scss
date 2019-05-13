@@ -237,9 +237,18 @@ main {
   }
 }
 
-.widget {
+
+/*.widget {
   opacity: 0;
 }
+
+
+.no-animation-support {
+  .widget {
+    opacity: 1;
+  }
+}
+*/
 
 /*.site-main {
   background-color: white;
@@ -503,6 +512,24 @@ hr {
   position: absolute;
   top: -120px;
 }
-.wp-block-dallinge-section{
-  position:relative;
+
+.wp-block-dallinge-section {
+  position: relative;
+}
+
+.no-flex-support{
+
+  header .inner .right{
+    width: 300px;
+  }
+  .search-form{
+    float:left;
+    width:250px;
+
+  }
+
+  .facebook-link{
+    float:left;
+  }
+
 }
