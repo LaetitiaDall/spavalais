@@ -517,19 +517,27 @@ hr {
   position: relative;
 }
 
-.no-flex-support{
+.no-flex-support {
 
-  header .inner .right{
+  header .inner .right {
     width: 300px;
   }
-  .search-form{
-    float:left;
-    width:250px;
+
+  .search-form {
+    float: left;
+    width: 250px;
 
   }
 
-  .facebook-link{
-    float:left;
+  .facebook-link {
+    float: left;
   }
 
+}
+
+input[type='checkbox'] {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top:6px;
 }
