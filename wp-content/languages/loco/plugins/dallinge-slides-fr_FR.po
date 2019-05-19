@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dallinge Slides\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-19 20:55+0000\n"
+"PO-Revision-Date: 2019-05-19 20:58+0000\n"
+"Last-Translator: admin <laetitia.dallinge@gmail.com>\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#: dallinge-slides.php:26
+msgid "Slides"
+msgstr "Bandeaux"
+
+#: dallinge-slides.php:27
+msgid "Slide"
+msgstr "Bandeau"
+
+#: dallinge-slides.php:28
+msgid "Slide image"
+msgstr "Image du bandeau"
+
+#: dallinge-slides.php:29 dallinge-slides.php:30
+msgid "Add New Slide"
+msgstr "Ajouter un nouveau bandeau"
+
+#: dallinge-slides.php:31
+msgid "Edit Slide"
+msgstr "Modifier le bandeau"
+
+#: dallinge-slides.php:32
+msgid "New Slide"
+msgstr "Nouveau bandeau"
+
+#: dallinge-slides.php:33
+msgid "View Slide"
+msgstr "Voir le bandeau"
+
+#: dallinge-slides.php:34
+msgid "View Slides"
+msgstr "Voir les bandeaux"
+
+#: dallinge-slides.php:35
+msgid "Search Slides"
+msgstr "Rechercher les bandeaux"
+
+#: dallinge-slides.php:36
+msgid "Slide not found"
+msgstr "Bandeau non trouvé"
+
+#: dallinge-slides.php:37
+msgid "No Slide found in trash"
+msgstr "Pas de bandeaux dans la corbeille"
+
+#: dallinge-slides.php:53
+msgid "Slide Image"
+msgstr "Image du bandeau"
+
+#: dallinge-slides.php:74
+msgid "Options"
+msgstr ""
+
+#: dallinge-slides.php:80
+msgid "Slide Position"
+msgstr "Position du bandeau"
+
+#: dallinge-slides.php:81
+msgid "Enter a number"
+msgstr "Entrez un nombre"
+
+#: dallinge-slides.php:86
+msgid "Position"
+msgstr ""
+
+#: dallinge-slides.php:92
+msgid "Slide Background Color"
+msgstr "Couleur de fond du bandeau"
+
+#: dallinge-slides.php:93
+msgid "Enter a color"
+msgstr "Entrez une couleur"
+
+#: dallinge-slides.php:98
+msgid "Background Color"
+msgstr "Couleur du fond"
+
+#. Name of the plugin
+msgid "Dallinge Slides"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Allows you to create customised slides with text message on your home page."
+msgstr "Permet de créer un bandeau rotatif au sommet du site"
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/dslides/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Laetitia Dallinge"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://dev.dallinge.ch/"
+msgstr ""
