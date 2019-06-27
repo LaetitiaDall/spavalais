@@ -61,10 +61,10 @@ if (!function_exists('spavalais_setup')) :
         ));
 
         // Set up the WordPress core custom background feature.
-        add_theme_support('custom-background', apply_filters('spavalais_custom_background_args', array(
+        /*add_theme_support('custom-background', apply_filters('spavalais_custom_background_args', array(
             'default-color' => 'ffffff',
             'default-image' => '',
-        )));
+        )));*/
 
         // Add theme support for selective refresh for widgets.
         add_theme_support('customize-selective-refresh-widgets');
@@ -80,6 +80,12 @@ if (!function_exists('spavalais_setup')) :
             'flex-width' => true,
             'flex-height' => true,
         ));
+
+
+        if ( function_exists( 'add_image_size' ) ) {
+            add_image_size( 'animal-image', 1200, 9999 ); //300 pixels wide (and unlimited height)
+            add_image_size( 'animal-thumb', 220, 180, true ); //(cropped)
+        }
     }
 endif;
 add_action('after_setup_theme', 'spavalais_setup');
@@ -147,21 +153,42 @@ function spavalais_scripts()
 
 add_action('wp_enqueue_scripts', 'spavalais_scripts');
 
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
-
 
 /**
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
 
-/**
- * Load Jetpack compatibility file.
- */
-if (defined('JETPACK__VERSION')) {
-    require get_template_directory() . '/inc/jetpack.php';
+
+function hide_menu() {
+
+    if (current_user_can('editor')) {
+
+        remove_submenu_page( 'themes.php', 'themes.php' ); // hide the theme selection submenu
+        remove_submenu_page( 'themes.php', 'widgets.php' ); // hide the widgets submenu
+        remove_submenu_page( 'themes.php', 'customize.php?return=%2Fwp-admin%2Ftools.php' ); // hide the customizer submenu
+        remove_submenu_page( 'themes.php', 'customize.php?return=%2Fwp-admin%2Ftools.php&#038;autofocus%5Bcontrol%5D=background_image' ); // hide the background submenu
+
+        // these are theme-specific. Can have other names or simply not exist in your current theme.
+        remove_submenu_page( 'themes.php', 'spavalais' );
+        remove_submenu_page( 'themes.php', 'custom-header' );
+        remove_submenu_page( 'themes.php', 'custom-background' );
+
+    }
 }
+
+add_action('admin_head', 'hide_menu');
+
+add_action( 'admin_bar_menu', 'remove_some_nodes_from_admin_top_bar_menu', 999 );
+function remove_some_nodes_from_admin_top_bar_menu( $wp_admin_bar ) {
+    $wp_admin_bar->remove_menu( 'customize' );
+}
+// Remove WP admin dashboard widgets
+function isa_disable_dashboard_widgets() {
+    //dremove_meta_box('dashboard_right_now', 'dashboard', 'normal');// Remove "At a Glance"
+    //remove_meta_box('dashboard_activity', 'dashboard', 'normal');// Remove "Activity" which includes "Recent Comments"
+   // remove_meta_box('dashboard_quick_press', 'dashboard', 'side');// Remove Quick Draft
+    remove_meta_box('dashboard_primary', 'dashboard', 'core');// Remove WordPress Events and News
+}
+add_action('admin_menu', 'isa_disable_dashboard_widgets');
 

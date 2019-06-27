@@ -1,8 +1,7 @@
 <?php
 
 foreach ($_GET as $name => $value) {
-    if (strpos($name, '?') !== false) {
-        $_GET[str_replace('?', '', $name)] = $_GET[$name];
+    if (strpos($name, '?') === 0) {
         unset($_GET[$name]);
         break;
     }

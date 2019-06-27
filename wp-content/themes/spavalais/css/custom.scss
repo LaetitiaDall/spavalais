@@ -24,6 +24,11 @@ h1, h2, h3 {
   line-height: 1.1em;
 }
 
+.custom-logo-link img{
+
+  -ms-interpolation-mode: bicubic;
+}
+
 .site-header {
   background-color: white;
 
@@ -533,11 +538,30 @@ hr {
     float: left;
   }
 
+
+  .sub-menu {
+    background-color: #F3EEE9;
+  }
+
+
+  .features .wp-block-image {
+    height: 110px;
+    overflow: hidden;
+
+    img {
+      position: relative;
+      height: auto;
+      top: -25%;
+    }
+  }
+
+
+
 }
 
 input[type='checkbox'] {
   width: 24px;
   height: 24px;
   position: relative;
-  top:6px;
+  top: 6px;
 }
