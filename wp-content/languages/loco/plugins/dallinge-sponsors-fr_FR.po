@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dallinge Sponsors\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-19 21:18+0000\n"
+"PO-Revision-Date: 2019-05-19 21:29+0000\n"
+"Last-Translator: admin <laetitia.dallinge@gmail.com>\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#: dallinge-sponsors.php:27
+msgid "Sponsors"
+msgstr "Partenaires"
+
+#: dallinge-sponsors.php:28
+msgid "Sponsor"
+msgstr "Partenaire"
+
+#: dallinge-sponsors.php:29
+msgid "Sponsor image"
+msgstr "Image du partenaire"
+
+#: dallinge-sponsors.php:30 dallinge-sponsors.php:31
+msgid "Add New Sponsor"
+msgstr "Ajouter un nouveau partenaire"
+
+#: dallinge-sponsors.php:32
+msgid "Edit Sponsor"
+msgstr "Modifier le partenaire"
+
+#: dallinge-sponsors.php:33
+msgid "New Sponsor"
+msgstr "Nouveau partenaire"
+
+#: dallinge-sponsors.php:34
+msgid "View Sponsor"
+msgstr "Voir le partenaire"
+
+#: dallinge-sponsors.php:35
+msgid "View Sponsors"
+msgstr "Voir les partenaires"
+
+#: dallinge-sponsors.php:36
+msgid "Search Sponsors"
+msgstr "Rechercher un partenaire"
+
+#: dallinge-sponsors.php:37
+msgid "Sponsor not found"
+msgstr "Partenaire non trouvé"
+
+#: dallinge-sponsors.php:38
+msgid "No Sponsor found in trash"
+msgstr "Pas de partenaire trouvé dans la corbeille"
+
+#: dallinge-sponsors.php:50 dallinge-sponsors.php:64
+msgid "Sponsors Tags"
+msgstr "Tag des partenaires"
+
+#: dallinge-sponsors.php:51
+msgid "Sponsors Tag"
+msgstr "Tag du partenaire"
+
+#: dallinge-sponsors.php:52
+msgid "Search Sponsors Tags"
+msgstr "Rechercher un tag de partenaire"
+
+#: dallinge-sponsors.php:53
+msgid "Popular Sponsors Tags"
+msgstr "Tags de partenaires populaires"
+
+#: dallinge-sponsors.php:54
+msgid "All Sponsors Tags"
+msgstr "Tous les tags des partenaires"
+
+#: dallinge-sponsors.php:57
+msgid "Edit Sponsors Tag"
+msgstr "Modifier le tag du partenaire"
+
+#: dallinge-sponsors.php:58
+msgid "Update Sponsors Tag"
+msgstr "Mettre à jour les tags des partenaires"
+
+#: dallinge-sponsors.php:59
+msgid "Add New Sponsors Tag"
+msgstr "Ajouter un tag de partenaire"
+
+#: dallinge-sponsors.php:60
+msgid "New Sponsors Tag Name"
+msgstr "Nouveau tag de partenaire"
+
+#: dallinge-sponsors.php:61
+msgid "Separate sponsors tags with commas"
+msgstr "Séparez les tags de partenaire avec une virgule"
+
+#: dallinge-sponsors.php:62
+msgid "Add or remove sponsors tags"
+msgstr "Ajouter ou supprimer un tag de partenaire"
+
+#: dallinge-sponsors.php:63
+msgid "Choose from the most used sponsors tags"
+msgstr "Choisissez depuis les tags de partenaire les plus utilisés"
+
+#: dallinge-sponsors.php:103
+msgid "Options"
+msgstr ""
+
+#: dallinge-sponsors.php:109
+msgid "Sponsor Position"
+msgstr "Ordre du partenaire"
+
+#: dallinge-sponsors.php:110
+msgid "Enter a number"
+msgstr "Entrez un nombre"
+
+#: dallinge-sponsors.php:115
+msgid "Position"
+msgstr ""
+
+#: dallinge-sponsors.php:121
+msgid "Sponsor URL"
+msgstr "Lien chez le site du partenaire"
+
+#: dallinge-sponsors.php:122
+msgid "Enter a url (http://example.com)"
+msgstr "Entrez un lien (http://exemple.com)"
+
+#: dallinge-sponsors.php:126
+msgid "Url"
+msgstr "Lien"
+
+#. Name of the plugin
+#: dallinge-sponsors.php:210
+msgid "Dallinge Sponsors"
+msgstr ""
+
+#: dallinge-sponsors.php:211
+msgid "Display a list of sponsors"
+msgstr "Affichez une liste de partenaires"
+
+#: dallinge-sponsors.php:238
+msgid "Our sponsors"
+msgstr "Nos partenaires"
+
+#. Description of the plugin
+msgid ""
+"Allows you to add sponsors to your website and display them in a widget."
+msgstr "Permet d'afficher une liste de partenaires dans un widget"
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/dsponsors/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Laetitia Dallinge"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://dev.dallinge.ch/"
+msgstr ""

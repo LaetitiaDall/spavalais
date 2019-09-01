@@ -24,7 +24,7 @@ h1, h2, h3 {
   line-height: 1.1em;
 }
 
-.custom-logo-link img{
+.custom-logo-link img {
 
   -ms-interpolation-mode: bicubic;
 }
@@ -65,9 +65,13 @@ h1, h2, h3 {
       position: relative;
       margin-right: 10px;
 
+      .search-field {
+        border-radius: 0px !important;
+      }
+
       .search-submit {
         position: absolute;
-        color: grey;
+        color: grey !important;
         top: 2px;
         right: 0px;
         background-color: transparent !important;
@@ -466,7 +470,7 @@ a.wp-block-button__link {
 
     img {
       width: 100%;
-      height: 400px;
+      max-height: 500px;
       object-fit: cover;
       object-position: 50% 50%;
       box-shadow: inset 10px 10px #ECE6DA;
@@ -556,7 +560,6 @@ hr {
   }
 
 
-
 }
 
 input[type='checkbox'] {
@@ -564,4 +567,17 @@ input[type='checkbox'] {
   height: 24px;
   position: relative;
   top: 6px;
+}
+
+
+.creator {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+
+.wpcf7-form-control {
+  max-width: 100%;
+  width: 100%;
 }

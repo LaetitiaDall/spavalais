@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dallinge Adoptable Animals\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-19 20:47+0000\n"
-"PO-Revision-Date: 2019-05-19 20:48+0000\n"
+"POT-Creation-Date: 2019-06-28 10:23+0000\n"
+"PO-Revision-Date: 2019-06-28 10:23+0000\n"
 "Last-Translator: admin <laetitia.dallinge@gmail.com>\n"
 "Language-Team: Français\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.2.2; wp-5.1.1"
+"X-Loco-Version: 2.2.2; wp-5.2.2"
 
 #: dallinge-adoptable-animals.php:59
 msgid "Animal View Sidebar"
@@ -22,204 +22,125 @@ msgstr "Sidebar à coté de la vue d'un Animal "
 msgid "Display on the right of the animal view."
 msgstr "S'affiche à la droite de la vue d'un animal"
 
-#: dallinge-adoptable-animals.php:77 dallinge-adoptable-animals.php:677
-msgid "Animals"
-msgstr "Animaux"
-
-#: dallinge-adoptable-animals.php:78
-msgid "Animal"
-msgstr "Animal"
-
-#: dallinge-adoptable-animals.php:79
-msgid "Animal image"
-msgstr "Image de l'animal"
-
-#: dallinge-adoptable-animals.php:80 dallinge-adoptable-animals.php:81
-msgid "Add New Animal"
-msgstr "Ajouter un nouvel animal"
-
-#: dallinge-adoptable-animals.php:82
-msgid "Edit Animal"
-msgstr "Modifier l'animal"
-
-#: dallinge-adoptable-animals.php:83
-msgid "New Animal"
-msgstr "Nouvel animal"
-
-#: dallinge-adoptable-animals.php:84 dallinge-adoptable-animals.php:85
-msgid "View Animal"
-msgstr "Voir l'animal"
-
-#: dallinge-adoptable-animals.php:86
-msgid "Search Animal"
-msgstr "Chercher un animal"
-
-#: dallinge-adoptable-animals.php:87
-msgid "Animal not found"
-msgstr "Animal non trouvé"
-
-#: dallinge-adoptable-animals.php:88
-msgid "No Animal found in trash"
-msgstr "Pas d'animaux trouvés dans la corbeille"
-
-#: dallinge-adoptable-animals.php:143
-msgid "Species Properties"
-msgstr "Propriétés de l'espèce"
-
-#: dallinge-adoptable-animals.php:152
-msgid "Breeds"
-msgstr "Races"
-
-#: dallinge-adoptable-animals.php:164 dallinge-adoptable-animals.php:167
-msgid "Coat Colors"
-msgstr "Couleurs du pelage"
-
-#: dallinge-adoptable-animals.php:175
-msgid "Species Specifics"
-msgstr "Propres à l'espèce"
-
-#: dallinge-adoptable-animals.php:178 dallinge-adoptable-animals.php:255
-msgid "Specifics"
-msgstr "Spécificités"
-
-#: dallinge-adoptable-animals.php:181
-msgid "Option Title Positive"
-msgstr "Titre positif de l'option"
-
-#: dallinge-adoptable-animals.php:182
-msgid "Option Title Négative"
-msgstr "Titre négatif de l'option"
-
-#: dallinge-adoptable-animals.php:183
-msgid "Option Slug (lowercase, no spaces)"
-msgstr "Simplifié de l'option (minuscule et sans espace)"
-
-#: dallinge-adoptable-animals.php:200 dallinge-adoptable-animals.php:522
-msgid "Name"
-msgstr "Nom"
-
-#: dallinge-adoptable-animals.php:201 dallinge-adoptable-animals.php:526
-#: shortcodes/adoptable-animals-search-shortcode.php:49
-msgid "Sex"
-msgstr "Sexe"
-
-#: dallinge-adoptable-animals.php:204 dallinge-adoptable-animals.php:424
-#: shortcodes/adoptable-animals-search-shortcode.php:50
-msgid "Female"
-msgstr "Femelle"
-
-#: dallinge-adoptable-animals.php:204 dallinge-adoptable-animals.php:422
-#: shortcodes/adoptable-animals-search-shortcode.php:51
-msgid "Male"
-msgstr "Mâle"
-
-#: dallinge-adoptable-animals.php:205
-msgid "Birthdate"
-msgstr "Date de naissance"
-
-#: dallinge-adoptable-animals.php:206
-msgid "Arrival in shelter"
-msgstr "Arrivée au refuge"
-
-#: dallinge-adoptable-animals.php:207
-msgid "Appareance"
-msgstr "Apparence"
-
-#: dallinge-adoptable-animals.php:208
-msgid "Species of the Animal"
-msgstr "Espèce de l'animal"
-
-#: dallinge-adoptable-animals.php:224
-msgid "Breed of the Animal"
-msgstr "Race de l'animal"
-
-#: dallinge-adoptable-animals.php:244
-msgid "Coat of the Animal"
-msgstr "Pelage de l'animal"
-
-#: dallinge-adoptable-animals.php:286
-msgid "SOS"
-msgstr ""
-
-#: dallinge-adoptable-animals.php:291
-msgid "SOS Cause"
-msgstr "Raison pour le marquage SOS"
-
-#: dallinge-adoptable-animals.php:293
-msgid "Is depressed in a shelter, no more room for him, too sick, etc."
-msgstr "Est déprimé au refuge, plus de place, trop malade, etc."
-
-#: dallinge-adoptable-animals.php:303
-msgid "Adoption Status"
-msgstr "Statut d'adoption"
-
-#: dallinge-adoptable-animals.php:306
-msgid "Available for adoption"
-msgstr "Disponible pour l'adoption"
-
-#: dallinge-adoptable-animals.php:310
-msgid "Left Shelter on"
-msgstr "A quitté le refue le"
-
-#: dallinge-adoptable-animals.php:320
-msgid "Informations"
-msgstr "Informations"
-
-#: dallinge-adoptable-animals.php:370 dallinge-adoptable-animals.php:393
+#: dallinge-adoptable-animals.php:94 dallinge-adoptable-animals.php:133
 msgid "years"
 msgstr "ans"
 
-#: dallinge-adoptable-animals.php:372 dallinge-adoptable-animals.php:395
+#: dallinge-adoptable-animals.php:96 dallinge-adoptable-animals.php:135
 msgid "year"
 msgstr "an"
 
-#: dallinge-adoptable-animals.php:374 dallinge-adoptable-animals.php:397
+#: dallinge-adoptable-animals.php:98 dallinge-adoptable-animals.php:137
 msgid "months"
 msgstr "mois"
 
-#: dallinge-adoptable-animals.php:376 dallinge-adoptable-animals.php:399
+#: dallinge-adoptable-animals.php:100 dallinge-adoptable-animals.php:139
 msgid "month"
 msgstr "mois"
 
-#: dallinge-adoptable-animals.php:378 dallinge-adoptable-animals.php:401
+#: dallinge-adoptable-animals.php:102 dallinge-adoptable-animals.php:141
 msgid "days"
 msgstr "jours"
 
-#: dallinge-adoptable-animals.php:380 dallinge-adoptable-animals.php:403
+#: dallinge-adoptable-animals.php:104 dallinge-adoptable-animals.php:143
 msgid "day"
 msgstr "jour"
 
-#: dallinge-adoptable-animals.php:393 dallinge-adoptable-animals.php:395
-#: dallinge-adoptable-animals.php:397 dallinge-adoptable-animals.php:399
-#: dallinge-adoptable-animals.php:401 dallinge-adoptable-animals.php:403
-msgid "In shelter since "
+#: dallinge-adoptable-animals.php:110
+msgid "In shelter since"
 msgstr "Au refuge depuis"
 
-#: dallinge-adoptable-animals.php:530
+#: dallinge-adoptable-animals.php:121
+msgid "N/A"
+msgstr ""
+
+#: dallinge-adoptable-animals.php:129
+msgid "[Date error]"
+msgstr "[Erreur sur la date]"
+
+#: dallinge-adoptable-animals.php:168
+#: shortcodes/adoptable-animals-search-shortcode.php:51
+#: post_types/dallinge-adoptable-animals-post-types.php:219
+msgid "Male"
+msgstr "Mâle"
+
+#: dallinge-adoptable-animals.php:170
+#: shortcodes/adoptable-animals-search-shortcode.php:50
+#: post_types/dallinge-adoptable-animals-post-types.php:219
+msgid "Female"
+msgstr "Femelle"
+
+#: dallinge-adoptable-animals.php:178 dallinge-adoptable-animals.php:205
+msgid "Yes"
+msgstr "Oui"
+
+#: dallinge-adoptable-animals.php:180 dallinge-adoptable-animals.php:207
+msgid "No"
+msgstr "Non"
+
+#: dallinge-adoptable-animals.php:193
+#, php-format
+msgid ""
+"%s animal is currently in a try period at someone. The try period may lead "
+"to an adoption or not. Please show your interrest in case it does not lead "
+"to an adoption."
+msgstr ""
+"%s est actuellement en période d'essai chez quelqu'un. Vous pouvez toutefois "
+"nous faire part de votre intérêt au cas où la période d'essai de donnerait "
+"pas lieu à une adoption."
+
+#: dallinge-adoptable-animals.php:331
+#: post_types/dallinge-adoptable-animals-post-types.php:215
+msgid "Name"
+msgstr "Nom"
+
+#: dallinge-adoptable-animals.php:335
+#: shortcodes/adoptable-animals-search-shortcode.php:49
+#: post_types/dallinge-adoptable-animals-post-types.php:216
+msgid "Sex"
+msgstr "Sexe"
+
+#: dallinge-adoptable-animals.php:339
 msgid "Age"
 msgstr "Âge"
 
-#: dallinge-adoptable-animals.php:534
+#: dallinge-adoptable-animals.php:343
 #: shortcodes/adoptable-animals-search-shortcode.php:46
+#: post_types/dallinge-adoptable-animals-post-types.php:72
 msgid "Species"
 msgstr "Espèce"
 
-#: dallinge-adoptable-animals.php:538
+#: dallinge-adoptable-animals.php:347
 #: shortcodes/adoptable-animals-search-shortcode.php:58
 msgid "Breed"
 msgstr "Race"
 
-#: dallinge-adoptable-animals.php:542
+#: dallinge-adoptable-animals.php:351
 msgid "Coat"
 msgstr "Pelage"
 
-#: dallinge-adoptable-animals.php:660
+#: dallinge-adoptable-animals.php:355
+#: post_types/dallinge-adoptable-animals-post-types.php:220
+msgid "Spayed"
+msgstr "Castré/Stérilisé"
+
+#: dallinge-adoptable-animals.php:359
+#: post_types/dallinge-adoptable-animals-post-types.php:224
+msgid "Vaccinated"
+msgstr "Vacciné"
+
+#: dallinge-adoptable-animals.php:493
 msgid "No animal found."
 msgstr "Pas d'animaux trouvés."
 
-#: dallinge-adoptable-animals.php:677
+#: dallinge-adoptable-animals.php:509
 msgid "animals"
 msgstr "animaux"
+
+#: dallinge-adoptable-animals.php:509
+#: post_types/dallinge-adoptable-animals-post-types.php:39
+msgid "Animals"
+msgstr "Animaux"
 
 #: templates/content-dadoptableanimals.php:42
 #, php-format
@@ -254,6 +175,222 @@ msgstr "Plus d'options..."
 #: shortcodes/adoptable-animals-search-shortcode.php:90
 msgid "Search"
 msgstr "Rechercher"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:40
+msgid "Animal"
+msgstr "Animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:41
+msgid "Animal image"
+msgstr "Image de l'animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:42
+#: post_types/dallinge-adoptable-animals-post-types.php:43
+msgid "Add New Animal"
+msgstr "Ajouter un nouvel animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:44
+msgid "Edit Animal"
+msgstr "Modifier l'animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:45
+msgid "New Animal"
+msgstr "Nouvel animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:46
+#: post_types/dallinge-adoptable-animals-post-types.php:47
+msgid "View Animal"
+msgstr "Voir l'animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:48
+msgid "Search Animal"
+msgstr "Chercher un animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:49
+msgid "Animal not found"
+msgstr "Animal non trouvé"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:50
+msgid "No Animal found in trash"
+msgstr "Pas d'animaux trouvés dans la corbeille"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:66
+msgid "Search Species"
+msgstr "Rechercher une espèce"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:67
+msgid "All Species"
+msgstr "Toutes les espèces"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:68
+msgid "Edit Species"
+msgstr "Modifier l'espèce"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:69
+msgid "Update Species"
+msgstr "Mettre à jour l'espèce"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:70
+msgid "Add New Species"
+msgstr "Ajouter une nouvelle espèce"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:71
+msgid "New Species Name"
+msgstr "Nom de la nouvelle espèce"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:99
+msgid "Photo"
+msgstr "Photo"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:100
+msgid "Adoption"
+msgstr "Adoption"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:101
+msgid "Try Period"
+msgstr "Période d'essai"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:102
+msgid "In Shelter Since"
+msgstr "Au refuge depuis"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:124
+#: post_types/dallinge-adoptable-animals-post-types.php:344
+msgid "Available for adoption"
+msgstr "Dispo à l'adoption"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:128
+msgid "Not available for adoption"
+msgstr "Pas dispo à l'adoption"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:134
+#: post_types/dallinge-adoptable-animals-post-types.php:358
+msgid "In try period"
+msgstr "En période d'essai "
+
+#: post_types/dallinge-adoptable-animals-post-types.php:228
+msgid "Birthdate"
+msgstr "Date de naissance"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:229
+msgid "Arrival in shelter"
+msgstr "Arrivée au refuge"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:230
+msgid "Appareance"
+msgstr "Apparence"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:231
+msgid "Species of the Animal"
+msgstr "Espèce de l'animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:249
+msgid "Breed of the Animal"
+msgstr "Race de l'animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:269
+msgid "Coat of the Animal"
+msgstr "Pelage de l'animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:280
+#: post_types/dallinge-adoptable-animals-post-types.php:408
+msgid "Specifics"
+msgstr "Spécificités"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:312
+msgid "SOS"
+msgstr ""
+
+#: post_types/dallinge-adoptable-animals-post-types.php:317
+msgid "SOS Cause"
+msgstr "Raison pour le marquage SOS"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:319
+msgid "Is depressed in a shelter, no more room for him, too sick, etc."
+msgstr "Est déprimé au refuge, plus de place, trop malade, etc."
+
+#: post_types/dallinge-adoptable-animals-post-types.php:331
+msgid "Informations"
+msgstr "Informations"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:336
+msgid "Adoption Status"
+msgstr "Statut d'adoption"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:340
+msgid "Must be adopted with"
+msgstr "Doit être adopté avec"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:348
+msgid "Left Shelter on"
+msgstr "A quitté le refuge le"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:373
+msgid "Species Properties"
+msgstr "Propriétés de l'espèce"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:376
+msgid "Icon"
+msgstr "Icone"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:377
+msgid "Baby animal max age (in months)"
+msgstr "Age en mois maximum pour un bébé"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:378
+msgid "Young animal max age (in months)"
+msgstr "Age en mois maximum pour un jeune animal"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:379
+msgid "Old animal starting age (in months)"
+msgstr ""
+"Age en mois maximum pour un adulte (avant d'être considéré comme vieux)"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:382
+#: post_types/dallinge-adoptable-animals-post-types.php:385
+msgid "Breeds"
+msgstr "Races"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:388
+msgid "Breed Title"
+msgstr "Titre de l'espèce"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:389
+msgid "Breed Slug"
+msgstr "Simplifié du nom de l'espèce (minuscules)"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:390
+msgid "Breed Image"
+msgstr "Image de l'espèce (optionel)"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:394
+#: post_types/dallinge-adoptable-animals-post-types.php:397
+msgid "Coat Colors"
+msgstr "Couleurs du pelage"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:400
+msgid "Coat Title"
+msgstr "Titre du pelage"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:401
+msgid "Coat Slug"
+msgstr "simplifié du nom de pelage (minuscules sans espaces)"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:405
+msgid "Species Specifics"
+msgstr "Propres à l'espèce"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:411
+msgid "Option Title Positive"
+msgstr "Titre positif de l'option"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:412
+msgid "Option Title Négative"
+msgstr "Titre négatif de l'option"
+
+#: post_types/dallinge-adoptable-animals-post-types.php:413
+msgid "Option Slug (lowercase, no spaces)"
+msgstr "Simplifié de l'option (minuscule et sans espace)"
 
 #. Description of the plugin
 msgid "Allows you to create animals with options for adoption"

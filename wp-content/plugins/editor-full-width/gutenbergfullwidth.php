@@ -5,7 +5,7 @@
  * Description: Fix the Gutenberg editor width to full size
  * Author: Anibal Ardid
  * Author URI: https://ardid.com.ar
- * Version: 1.0.1
+ * Version: 1.0.2
  * Text Domain: editorfullwidthgutenberg
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt

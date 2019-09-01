@@ -165,7 +165,7 @@ function wpcf7cf_sanitize_options($options) {
 	    foreach ($option_entry['and_rules'] as $and_rule) {
 		    $sanitized_option['and_rules'][] = [
 		            'if_field' => sanitize_text_field($and_rule['if_field']),
-		            'operator' => sanitize_text_field($and_rule['operator']),
+		            'operator' => $and_rule['operator'],
 		            'if_value' => sanitize_text_field($and_rule['if_value']),
             ];
         }

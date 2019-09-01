@@ -24,7 +24,10 @@ $wpcf7cf_default_options = apply_filters('wpcf7cf_default_options', $wpcf7cf_def
 
 $wpcf7cf_options = get_option(WPCF7CF_OPTIONS);
 
-if (!is_array($wpcf7cf_options)) $wpcf7cf_options = array();
+if (!is_array($wpcf7cf_options)) {
+	$wpcf7cf_options = $wpcf7cf_default_options;
+	update_option(WPCF7CF_OPTIONS, $wpcf7cf_options);
+}
 
 if(isset($_POST['reset'])) {
     update_option(WPCF7CF_OPTIONS, $wpcf7cf_default_options);
@@ -71,9 +74,9 @@ function wpcf7cf_options_page() {
 
     <div class="wrap wpcf7cf-admin-wrap">
         <?php screen_icon(); ?>
-        <h2>Conditional Fields for Contact Form 7 Settings</h2>
+        <h2>Contact Form 7 - Conditional Fields Settings</h2>
         <?php if (!$wpcf7cf_options['notice_dismissed']) { ?>
-        <div class="wpcf7cf-options-notice notice notice-warning is-dismissible"><div style="padding: 10px 0;"><strong>Notice</strong>: These are global settings for Conditional Fields for Contact Form 7. <br><br><strong>How to create/edit conditional fields?</strong>
+        <div class="wpcf7cf-options-notice notice notice-warning is-dismissible"><div style="padding: 10px 0;"><strong>Notice</strong>: These are global settings for Contact Form 7 - Conditional Fields. <br><br><strong>How to create/edit conditional fields?</strong>
             <ol>
                 <li>Create a new Contact Form or edit an existing one</li>
                 <li>Create at least one [group] inside the form</li>
@@ -112,6 +115,20 @@ function wpcf7cf_options_page() {
 
             submit_button();
 
+            if (!WPCF7CF_IS_PRO) {
+            ?>
+            <h3>Conditional Fields PRO</h3>
+            Get conditional Fields PRO to unlock the full potential of CF7
+            <ul class="wpcf7cf-list">
+                <li>Repeaters</li>
+                <li>Regular expressions</li>
+                <li>Togglebuttons</li>
+                <li>Additional operators <code>&lt;</code> <code>&gt;</code> <code>&le;</code> <code>&ge;</code> <code>is empty</code></li>
+                <li>More comming soon (Multistep, Calculated Fields, ...)</li>
+            </ul>
+            <p><a target="_blank" class="button button-primary" href="https://conditional-fields-cf7.bdwm.be/contact-form-7-conditional-fields-pro/">Get PRO</a></p>
+            <?php
+            }
             do_action('wpcf7cf_after_animation_settings');
 
             ?>

@@ -111,6 +111,11 @@ body, html {
 }
 
 @media screen and (max-width: 768px) {
+
+  ul, ol {
+    margin: 0 0 1em 0em;
+  }
+
   .site-header .inner,
   #red-banner .inner,
   .site-footer .inner,

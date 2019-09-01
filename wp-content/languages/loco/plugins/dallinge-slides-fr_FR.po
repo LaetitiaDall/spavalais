@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dallinge Slides\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-19 20:55+0000\n"
-"PO-Revision-Date: 2019-05-19 20:58+0000\n"
+"POT-Creation-Date: 2019-05-19 21:09+0000\n"
+"PO-Revision-Date: 2019-05-19 21:10+0000\n"
 "Last-Translator: admin <laetitia.dallinge@gmail.com>\n"
 "Language-Team: Français\n"
 "Language: fr_FR\n"
@@ -14,81 +14,85 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.2.2; wp-5.1.1"
 
-#: dallinge-slides.php:26
+#: dallinge-slides.php:28
 msgid "Slides"
 msgstr "Bandeaux"
 
-#: dallinge-slides.php:27
+#: dallinge-slides.php:29
 msgid "Slide"
 msgstr "Bandeau"
 
-#: dallinge-slides.php:28
+#: dallinge-slides.php:30
 msgid "Slide image"
 msgstr "Image du bandeau"
 
-#: dallinge-slides.php:29 dallinge-slides.php:30
+#: dallinge-slides.php:31 dallinge-slides.php:32
 msgid "Add New Slide"
 msgstr "Ajouter un nouveau bandeau"
 
-#: dallinge-slides.php:31
+#: dallinge-slides.php:33
 msgid "Edit Slide"
 msgstr "Modifier le bandeau"
 
-#: dallinge-slides.php:32
+#: dallinge-slides.php:34
 msgid "New Slide"
 msgstr "Nouveau bandeau"
 
-#: dallinge-slides.php:33
+#: dallinge-slides.php:35
 msgid "View Slide"
 msgstr "Voir le bandeau"
 
-#: dallinge-slides.php:34
+#: dallinge-slides.php:36
 msgid "View Slides"
 msgstr "Voir les bandeaux"
 
-#: dallinge-slides.php:35
+#: dallinge-slides.php:37
 msgid "Search Slides"
 msgstr "Rechercher les bandeaux"
 
-#: dallinge-slides.php:36
+#: dallinge-slides.php:38
 msgid "Slide not found"
 msgstr "Bandeau non trouvé"
 
-#: dallinge-slides.php:37
+#: dallinge-slides.php:39
 msgid "No Slide found in trash"
 msgstr "Pas de bandeaux dans la corbeille"
 
-#: dallinge-slides.php:53
+#: dallinge-slides.php:55
 msgid "Slide Image"
 msgstr "Image du bandeau"
 
-#: dallinge-slides.php:74
+#: dallinge-slides.php:76
 msgid "Options"
 msgstr ""
 
-#: dallinge-slides.php:80
+#: dallinge-slides.php:82
 msgid "Slide Position"
 msgstr "Position du bandeau"
 
-#: dallinge-slides.php:81
+#: dallinge-slides.php:83
 msgid "Enter a number"
 msgstr "Entrez un nombre"
 
-#: dallinge-slides.php:86
+#: dallinge-slides.php:88
 msgid "Position"
 msgstr ""
 
-#: dallinge-slides.php:92
+#: dallinge-slides.php:94
 msgid "Slide Background Color"
 msgstr "Couleur de fond du bandeau"
 
-#: dallinge-slides.php:93
+#: dallinge-slides.php:95
 msgid "Enter a color"
 msgstr "Entrez une couleur"
 
-#: dallinge-slides.php:98
+#: dallinge-slides.php:100
 msgid "Background Color"
 msgstr "Couleur du fond"
+
+#: dallinge-slides.php:106
+msgid "Small screen image"
+msgstr "Image pour les petits écrans"
 
 #. Name of the plugin
 msgid "Dallinge Slides"

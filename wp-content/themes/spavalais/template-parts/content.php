@@ -46,6 +46,17 @@
             get_the_title()
         ));
 
+        ?>
+
+        <h3 style="padding-top:30px; margin-bottom:0px; padding-bottom:0px;">Partager</h3>
+
+        <!-- Your share button code -->
+        <div class="fb-share-button"
+             data-href="<?php echo get_permalink() ?>"
+             data-layout="button_count">
+        </div>
+
+        <?php
         wp_link_pages(array(
             'before' => '<div class="page-links">' . esc_html__('Pages:', 'spavalais'),
             'after' => '</div>',

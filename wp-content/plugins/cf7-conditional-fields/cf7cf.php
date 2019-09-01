@@ -10,15 +10,17 @@ class ContactForm7ConditionalFields {
 	    // can't use wpcf7_enqueue_scripts hook, because it's possible that people
 	    // want to disable the CF7 scripts. but in this case Conditional fields should still work.
         // add_action('wpcf7_enqueue_scripts', array(__CLASS__, 'enqueue_js')); // <-- don't use this
-	    add_action('wp_enqueue_scripts', array(__CLASS__, 'enqueue_js'), 20);
-	    add_action('wpcf7_enqueue_styles', array(__CLASS__, 'enqueue_css'));
+
+	    // Enqueue_scripts moved to function outside class.
+
+//	    add_action('wp_enqueue_scripts', array(__CLASS__, 'enqueue_js'), 20);
+//	    add_action('wpcf7_enqueue_styles', array(__CLASS__, 'enqueue_css'));
 
         // Register shortcodes
         add_action('wpcf7_init', array(__CLASS__, 'add_shortcodes'));
 
         // Tag generator
-        add_action('load-contact_page_wpcf7-new', array(__CLASS__, 'tag_generator'));
-        add_action('load-toplevel_page_wpcf7', array(__CLASS__, 'tag_generator'));
+        add_action('admin_init', array(__CLASS__, 'tag_generator'), 590);
 
         // compatibility with CF7 multi-step forms by Webhead LLC.
         add_filter( 'wpcf7_posted_data', array($this,'cf7msm_merge_post_with_cookie'), 8, 1 );
@@ -32,7 +34,7 @@ class ContactForm7ConditionalFields {
 
         add_filter( 'wpcf7_validate', array($this, 'skip_validation_for_hidden_fields'), 2, 2 );
 
-        // validation messages
+	    // validation messages
 	    add_action('wpcf7_config_validator_validate', array($this,'wpcf7cf_config_validator_validate'));
 
 
@@ -44,6 +46,8 @@ class ContactForm7ConditionalFields {
             require_once dirname(__FILE__) . '/admin.php';
         }
     }
+
+
 
 	/**
 	 * Suppress invalid mailbox syntax errors on fields that contain existing conditional
@@ -89,17 +93,6 @@ class ContactForm7ConditionalFields {
         //add options with add_option and stuff
     }
 
-    public static function enqueue_js() {
-	    if (is_admin()) return;
-	    if (WPCF7CF_LOAD_JS) {
-	        wp_enqueue_script('wpcf7cf-scripts', plugins_url('js/scripts.js', __FILE__), array('jquery'), WPCF7CF_VERSION, true);
-	    }
-    }
-
-    public static function enqueue_css() {
-        wp_enqueue_style('cf7cf-style', plugins_url('style.css', __FILE__), array(), WPCF7CF_VERSION);
-    }
-
     public static function add_shortcodes() {
         if (function_exists('wpcf7_add_form_tag'))
             wpcf7_add_form_tag('group', array(__CLASS__, 'shortcode_handler'), true);
@@ -129,7 +122,7 @@ class ContactForm7ConditionalFields {
             return;
 
         wpcf7_add_tag_generator('group',
-            __('Conditional fields Group', 'wpcf7cf'),
+            __('Conditional Fields Group', 'wpcf7cf'),
             'wpcf7-tg-pane-group',
             array(__CLASS__, 'tg_pane')
         );
@@ -319,7 +312,7 @@ function wpcf7cf_properties($properties, $wpcf7form) {
 
 			    array_push($stack,$tag_html_type);
 
-			    echo '<'.$tag_html_type.' data-id="'.$tag_id.'" '.implode(' ',$tag_html_data).' data-class="wpcf7cf_group">';
+			    echo '<'.$tag_html_type.' data-id="'.$tag_id.'" data-orig_id="'.$tag_id.'" '.implode(' ',$tag_html_data).' data-class="wpcf7cf_group">';
 		    } else if ($form_part == '[/group]') {
 	    		echo '</'.array_pop($stack).'>';
 		    } else {
@@ -367,4 +360,42 @@ add_filter( 'wpcf7_form_tag_data_option', 'wpcf7cf_form_tag_data_option', 10, 3 
 function wpcf7cf_form_tag_data_option($output, $args, $nog) {
 	$data = array();
 	return $data;
+}
+
+/* Scripts & Styles */
+
+function wpcf7cf_load_js() {
+	return apply_filters( 'wpcf7cf_load_js', WPCF7CF_LOAD_JS );
+}
+
+function wpcf7cf_load_css() {
+	return apply_filters( 'wpcf7cf_load_css', WPCF7CF_LOAD_CSS );
+}
+
+add_action( 'wp_enqueue_scripts', 'wpcf7cf_do_enqueue_scripts', 20, 0 );
+
+function wpcf7cf_do_enqueue_scripts() {
+	if ( wpcf7cf_load_js() ) {
+		wpcf7cf_enqueue_scripts();
+	}
+
+	if ( wpcf7cf_load_css() ) {
+		wpcf7cf_enqueue_styles();
+	}
+}
+
+function wpcf7cf_enqueue_scripts() {
+	if (is_admin()) return;
+	wp_enqueue_script('wpcf7cf-scripts', plugins_url('js/scripts.js', __FILE__), array('jquery'), WPCF7CF_VERSION, true);
+	wp_localize_script('wpcf7cf-scripts', 'wpcf7cf_global_settings',
+		array(
+			'ajaxurl' => admin_url('admin-ajax.php'),
+		)
+	);
+
+}
+
+function wpcf7cf_enqueue_styles() {
+	if (is_admin()) return;
+	wp_enqueue_style('cf7cf-style', plugins_url('style.css', __FILE__), array(), WPCF7CF_VERSION);
 }

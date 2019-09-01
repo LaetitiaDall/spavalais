@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-05-08 15:22:33+0000\n"
+"PO-Revision-Date: 2019-06-21 14:16:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,17 +11,106 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
 
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the SEO score.
+#: admin/formatter/class-metabox-formatter.php:115
+#: admin/formatter/class-metabox-formatter.php:122
+#: admin/formatter/class-metabox-formatter.php:129
+#: admin/formatter/class-metabox-formatter.php:136
+msgid "%1$sSEO%2$s: %3$s"
+msgstr "%1$sSEO%2$s : %3$s"
+
+#: languages/yoast-seo-js.php:470
+msgid "Has feedback"
+msgstr "Dispose d’un retour"
+
+#: languages/yoast-seo-js.php:464
+msgid "Content optimization:"
+msgstr "Optimisation du contenu :"
+
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the readability score.
+#: admin/formatter/class-metabox-formatter.php:85
+#: admin/formatter/class-metabox-formatter.php:92
+#: admin/formatter/class-metabox-formatter.php:99
+#: admin/formatter/class-metabox-formatter.php:106
+msgid "%1$sReadability%2$s: %3$s"
+msgstr "%1$sLisibilité%2$s : %3$s"
+
+#. translators: %s expands to the score
+#: admin/statistics/class-statistics-service.php:210
+#: admin/statistics/class-statistics-service.php:215
+#: admin/statistics/class-statistics-service.php:220
+msgid "Posts with the SEO score: %s"
+msgstr "Publications avec le score SEO : %s"
+
+#. translators: %s expands to Yoast SEO
+#: admin/class-help-center.php:124
+msgid "Enroll in the %s for WordPress training"
+msgstr "Suivez la formation pour WordPress de %s"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/sidebar.php:88
+msgid "Extend %s"
+msgstr "Étendre %s"
+
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:58
+msgid "Person logo / avatar"
+msgstr "Avatar/logo de personne"
+
+#. translators: %s: expends to Yoast SEO
+#: admin/class-admin.php:308
+msgid "%s video tutorial"
+msgstr "Tutoriel vidéo de %s"
+
+#: inc/class-wpseo-rank.php:164
+msgid "Post Noindexed"
+msgstr "Publication désindexée"
+
+#: inc/class-wpseo-rank.php:144
+msgid "No Focus Keyphrase"
+msgstr "Pas de requête cible"
+
+#. translators: %s expands to the SEO score
+#: inc/class-wpseo-rank.php:143 inc/class-wpseo-rank.php:148
+#: inc/class-wpseo-rank.php:153 inc/class-wpseo-rank.php:158
+#: inc/class-wpseo-rank.php:163
+msgid "SEO: %s"
+msgstr "SEO : %s"
+
+#. translators: %1$s expands to an opening anchor tag, %2$s expands to a
+#. closing anchor tag
+#: admin/class-admin-init.php:476
+msgid "Read %1$sthis post for more information about why we’re not supporting older versions.%2$s"
+msgstr "Lisez %1$scet article pour comprendre les raisons qui nous poussent à ne plus être compatible avec les anciennes versions.%2$s"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to 5.0
+#: admin/class-admin-init.php:465
+msgid "If you’ve held off on updating to %2$s and higher because of the new Gutenberg editor, please install the Classic editor plugin. It will give you the same editing experience you have now, but also the security of newer versions of WordPress and %1$s."
+msgstr "Si vous avez repoussé la mise à jour vers la version %2$s (ou supérieur) à cause du nouvel éditeur Gutenberg, préférez l’installation de l’extension Classic Editor. Elle vous permettra d’avoir la même expérience d’édition mais avec la sécurité et les mises à jour de WordPress et %1$s."
+
+#. translators: %1$s expands to an opening strong tag, %2$s expands to a
+#. closing strong tag, %3$s expands to a html break, %4$s expands to Yoast,
+#. %5$s expands to Yoast SEO, %6$s expands to 5.2, %7$s expands to 5.3
+#: admin/class-admin-init.php:450
+msgid "%1$sUpgrade WordPress to the most recent version%2$s%3$sWe’ve noticed that you’re not on the latest WordPress version, which might cause an issue soon. %4$s (for reasons of security and stability) only supports the current and previous version of WordPress. When the next version of WordPress comes out, that means that we will support WordPress %6$s and %7$s. This means you will not get any updates to %5$s until you update your WordPress, so please make sure to upgrade to the latest WordPress version soon!%3$s%3$s"
+msgstr "%1$sMettez à jour WordPress dans sa dernière version%2$s%3$sNous avons remarqué que vous n’utilisez pas la dernière version de WordPress, ce qui peut poser problème prochainement. Pour des raisons de sécurité et de stabilité, %4$s n’est compatible qu’avec la version actuelle et la précédente de WordPress. Lorsque la prochaine version sortira, nous serons alors compatible avec les versions %6$s et %7$s. Cela signifie que vous ne recevrez plus de mises à jour de %5$s tant que vous ne mettrez pas à jour WordPress alors assurez-vous de le faire rapidement !%3$s%3$s"
+
+#: admin/notifiers/class-post-type-archive-notification-handler.php:76
+msgid "Remove this message"
+msgstr "Supprimer ce message"
+
 #. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
 #. anchor tag.
 #: admin/google_search_console/views/gsc-display.php:43
 msgid "To view your current crawl errors, %1$splease visit Google Search Console%2$s."
-msgstr "Pour voir vos erreurs d’exploration actuelles, %1$sveuillez visiter Google Search Console%2$s."
+msgstr "Pour voir vos erreurs d’exploration actuelles, %1$sveuillez vous rendre sur Google Search Console%2$s."
 
 #. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
 #. anchor tag.
 #: admin/google_search_console/views/gsc-display.php:36
 msgid "Google has discontinued its Crawl Errors API. Therefore, any possible crawl errors you might have cannot be displayed here anymore. %1$sRead our statement on this for further information%2$s."
-msgstr "Google a mis fin à son API d’erreurs d’exploration. Par conséquent, les éventuelles erreurs d’exploration que vous pourriez avoir ne peuvent plus être affichées ici. 1$sLisez notre déclaration à ce sujet pour plus d’information%2$s."
+msgstr "Google a mis fin à son API d’erreurs d’exploration. Par conséquent, les éventuelles erreurs que vous pourriez avoir ne peuvent plus être affichées ici. %1$sLisez notre déclaration à ce sujet pour plus d’informations%2$s."
 
 #: languages/wordpress-seojs.php:29
 msgid "Get the %s plugin now"
@@ -55,15 +144,18 @@ msgstr "Choisissez si votre site représente une organisation ou une personne."
 msgid "Knowledge Graph & Schema.org"
 msgstr "Knowledge Graph & Schema.org"
 
-#: admin/views/tabs/social/accounts.php:84
+#: admin/views/tabs/social/accounts.php:93
 msgid "Organization social profiles"
 msgstr "Profils sociaux de l’organisation"
 
-#: admin/views/tabs/social/accounts.php:74
+#. translators: 1: link tag to the relevant WPSEO admin page; 2: link close
+#. tag.
+#: admin/views/tabs/social/accounts.php:80
 msgid "To make your site represent a Company or Organization go to %1$sSearch Appearance%2$s and set Organization or Person to \"Organization\"."
 msgstr "Pour faire en sorte que votre vite représente une société ou une organisation, allez dans les %1$sréglages SEO%2$s et procédez à ce réglage."
 
-#: admin/views/tabs/social/accounts.php:72
+#. translators: 1: link to edit user page.
+#: admin/views/tabs/social/accounts.php:74
 msgid "To change the social accounts used for your site, update the details for %1$s."
 msgstr "Pour changer les comptes sociaux utilisés pour votre site, mettez à jour les détails de %1$s."
 
@@ -132,7 +224,7 @@ msgstr "URL de profil Soundcloud"
 msgid "MySpace profile URL"
 msgstr "URL de profil Myspace"
 
-#: frontend/schema/class-schema-article.php:157
+#: frontend/schema/class-schema-article.php:180
 msgid "Uncategorized"
 msgstr "Non classé"
 
@@ -199,7 +291,7 @@ msgstr "Formation « WordPress %s »"
 msgid "No JSON object was returned."
 msgstr "Aucun objet JSON n’a été renvoyé."
 
-#: languages/yoast-components.php:95
+#: languages/yoast-components.php:93
 msgid "The image you selected is too small for Facebook"
 msgstr "L’image sélectionnée est trop petite pour Facebook"
 
@@ -208,13 +300,9 @@ msgstr "L’image sélectionnée est trop petite pour Facebook"
 msgid "Keyword research is essential in any SEO strategy. You decide the search terms you want to be found for, and figure out what words your audience uses to find you. Great keyword research tells you what content you need to start ranking for the terms you want to rank for. Make sure your efforts go into the keywords you actually have a chance at ranking for! The %1$s walks you through this process, step by step."
 msgstr "La recherche de mots-clés est essentielle pour une stratégie de référencement. Vous décidez des termes de recherche grâce auxquels vous souhaitez être visible et déterminez ceux que votre audience utilise pour vous chercher. Une bonne étude lexicale vous indique les contenus que vous devrez produire pour être visible sur les requêtes souhaitées. Assurez-vous que vous ciblez des mots-clés crédibles ! La %1$s vous apprend à le faire, pas à pas."
 
-#: languages/yoast-components.php:92
+#: languages/yoast-components.php:90
 msgid "The given image url cannot be loaded"
 msgstr "L’URL de l’image ne peut pas être chargée"
-
-#: languages/yoast-seo-js.php:474
-msgid "Content optimization: Needs improvement"
-msgstr "Optimisation du contenu : a besoin d’améliorations"
 
 #: admin/config-ui/components/class-component-suggestions.php:54
 msgid "Find out what words your audience uses to find you"
@@ -228,11 +316,11 @@ msgstr "Liens internes reçus"
 msgid "Outgoing internal links"
 msgstr "Liens internes émis"
 
-#: languages/wordpress-seojs.php:212
+#: languages/wordpress-seojs.php:215
 msgid "New step added"
 msgstr "Nouvelle étape ajoutée"
 
-#: languages/wordpress-seojs.php:175
+#: languages/wordpress-seojs.php:178
 msgid "New question added"
 msgstr "Nouvelle question ajoutée"
 
@@ -243,11 +331,11 @@ msgstr "Nouvelle question ajoutée"
 msgid "%1$sFlesch Reading Ease%2$s: The copy scores %3$s in the test, which is considered %4$s to read. %5$s"
 msgstr "%1$sTest de lisibilité Flesch%2$s : Votre contenu obtient %3$s au test, ce qui est considéré comme %4$s à lire. %5$s"
 
-#: languages/wordpress-seojs.php:151
+#: languages/wordpress-seojs.php:154
 msgid "To be able to create a redirect and fix this issue, you need %1$s. "
 msgstr "Pour créer une redirection et corriger ce problème, il vous faut %1$s."
 
-#: languages/wordpress-seojs.php:154
+#: languages/wordpress-seojs.php:157
 msgid "You can buy the plugin, including one year of support and updates, on %1$s."
 msgstr "Vous pouvez acheter l’extension, avec un an de support et de mises à jour, sur %1$s."
 
@@ -255,7 +343,7 @@ msgstr "Vous pouvez acheter l’extension, avec un an de support et de mises à 
 msgid "Keyphrase"
 msgstr "Requête"
 
-#: languages/wordpress-seojs.php:163
+#: languages/wordpress-seojs.php:166
 msgid "Free"
 msgstr "Gratuit"
 
@@ -441,27 +529,27 @@ msgid "Indexable meta created for indexable id %1$s with meta key %2$s"
 msgstr "Métadonnée indexable créée pour l’ID indexable %1$s avec clé méta %2$s"
 
 #. translators: 1: expands to the indexable id. 2: expand to the meta key
-#: src/exceptions/no-indexable-found.php:100
+#: src/exceptions/no-indexable-found.php:101
 msgid "There is no meta found for indexable id %1$s and meta key %2$s."
 msgstr "Aucune métadonnée n’a été trouvée pour l’ID indexable %1$s et clé méta %2$s."
 
 #. translators: 1: expands to the author id
-#: src/exceptions/no-indexable-found.php:82
+#: src/exceptions/no-indexable-found.php:83
 msgid "There is no indexable found for author id %1$s."
 msgstr "Aucun élément indexable n’a été trouvé pour l’ID auteur %1$s."
 
 #. translators: 1: expands to the term id. 2: expand to the taxonomy
-#: src/exceptions/no-indexable-found.php:64
+#: src/exceptions/no-indexable-found.php:65
 msgid "There is no primary term found for post id %1$s and taxonomy %2$s."
 msgstr "Aucun terme primaire n’a été trouvé pour l’ID de publication %1$s et taxonomie %2$s."
 
 #. translators: 1: expands to the term id. 2: expand to the taxonomy
-#: src/exceptions/no-indexable-found.php:45
+#: src/exceptions/no-indexable-found.php:46
 msgid "There is no indexable found for term id %1$s and taxonomy %2$s."
 msgstr "Aucun élément indexable n’a été trouvé pour l’ID de terme %1$s et taxonomie %2$s."
 
 #. translators: %1$s expands to the post id
-#: src/exceptions/no-indexable-found.php:27
+#: src/exceptions/no-indexable-found.php:28
 msgid "There is no indexable found for post id %1$s."
 msgstr "Aucun élément indexable n’a été trouvé pour l’ID de publication %1$s."
 
@@ -509,9 +597,10 @@ msgstr "%1$sDensité de requête%2$s : La requête cible a été trouvée 0 foi
 msgid "With %s, you can easily create such redirects."
 msgstr "Avec %s, vous pouvez facilement créer de telles redirections."
 
-#: admin/views/tabs/tool/wpseo-import.php:34
-msgid "Paste your settings from another Yoast SEO installation."
-msgstr "Collez vos réglages depuis une autre installation de Yoast SEO."
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-import.php:38
+msgid "Paste your settings from another %s installation."
+msgstr "Collez vos réglages depuis une autre installation de %s."
 
 #. translators: 1: Import settings button string from below.
 #: admin/views/tabs/tool/wpseo-import.php:23
@@ -560,7 +649,8 @@ msgid "Not showing the date archives in the search results technically means tho
 msgstr "Ne pas afficher la date des archives dans les résultats de recherche correspond techniquement à une métadonnée %1$s pour les robots. %2$sPlus d’informations sur les réglages des résultats de recherche%3$s."
 
 #. translators: %s expands to Yoast SEO Premium
-#: admin/class-premium-upsell-admin-block.php:95
+#: admin/class-premium-upsell-admin-block.php:95 admin/views/sidebar.php:24
+#: admin/views/sidebar.php:138
 msgid "Upgrade to %s"
 msgstr "Passez à %s"
 
@@ -569,17 +659,17 @@ msgstr "Passez à %s"
 msgid "Dismiss %s upgrade notice"
 msgstr "Ignorer la notification pour passer à %s"
 
-#: admin/class-admin-init.php:669
+#: admin/class-admin-init.php:734
 msgid "Learn about why permalinks are important for SEO."
 msgstr "Découvrez en quoi les permaliens sont importants pour votre référencement."
 
 #. translators: %1$s and %2$s expand to <i> items to emphasize the word in the
 #. middle.
-#: admin/class-admin-init.php:668
+#: admin/class-admin-init.php:733
 msgid "Changing your permalinks settings can seriously impact your search engine visibility. It should almost %1$s never %2$s be done on a live website."
 msgstr "Changer les réglages de permaliens peut sérieusement impacter votre visibilité sur les moteurs de recherche. On ne devrait %1$s jamais %2$s les changer sur un site en production."
 
-#: admin/class-admin-init.php:666
+#: admin/class-admin-init.php:731
 msgid "WARNING:"
 msgstr "AVERTISSEMENT :"
 
@@ -1016,15 +1106,15 @@ msgstr "Bon travail !"
 msgid "%1$sFlesch Reading Ease%2$s: The copy scores %3$s in the test, which is considered %4$s to read. %5$s%6$s%7$s"
 msgstr "%1$sTest de lisibilité Flesch%2$s : Votre contenu obtient %3$s au test, ce qui est considéré comme %4$s à lire. %5$s%6$s%7$s"
 
-#: languages/wordpress-seojs.php:101
+#: languages/wordpress-seojs.php:76
 msgid "Focus keyphrase"
 msgstr "Requête cible"
 
-#: languages/wordpress-seojs.php:94
+#: languages/wordpress-seojs.php:72
 msgid "Help on choosing the perfect focus keyphrase"
 msgstr "Aide pour obtenir la requête cible parfaite"
 
-#: languages/wordpress-seojs.php:88
+#: languages/wordpress-seojs.php:95
 msgid "Would you like to add a related keyphrase?"
 msgstr "Souhaiteriez-vous ajouter une variante de requête ?"
 
@@ -1079,10 +1169,6 @@ msgstr "Le type non valide `%1$s` pour le paramètre a été accepté. `%2$s` é
 msgid "The parameter `%1$s` cannot be empty."
 msgstr "Le paramètre `%1$s` ne peut pas être vide."
 
-#: inc/class-wpseo-rank.php:141
-msgid "SEO: No Focus Keyphrase"
-msgstr "SEO : Aucune requête cible"
-
 #: inc/class-wpseo-admin-bar-menu.php:312
 msgid "Check Keyphrase Density"
 msgstr "Vérifier la densité de requête"
@@ -1100,7 +1186,7 @@ msgstr "Autoriser le contrôle"
 msgid "This tab allows you to selectively disable %s features for all sites in the network. By default all features are enabled, which allows site admins to choose for themselves if they want to toggle a feature on or off for their site. When you disable a feature here, site admins will not be able to use that feature at all."
 msgstr "Cet onglet vous permet de désactiver certaines fonctionnalités de %s pour tous les sites du réseau. Par défaut, toutes les fonctionnalités sont activées, ce qui permet aux administrateurs de choisir lesquelles ils veulent activer/désactiver pour leur site. Lorsque vous désactivez une fonctionnalité ici, les administrateurs des sites ne pourront plus l’utiliser du tout."
 
-#: languages/wordpress-seojs.php:113 admin/views/sidebar.php:28
+#: languages/wordpress-seojs.php:116 admin/views/sidebar.php:28
 msgid "Rank better with synonyms & related keyphrases"
 msgstr "Soyez plus visible avec des synonymes et des variantes de votre requête"
 
@@ -1117,7 +1203,7 @@ msgstr "%s est un argument d’activation de fonctionnalité obligatoire."
 msgid "Synonyms & related keyphrases"
 msgstr "Synonymes et variantes de requête"
 
-#: languages/wordpress-seojs.php:91
+#: languages/wordpress-seojs.php:98
 msgid "Add related keyphrase"
 msgstr "Ajouter une variante"
 
@@ -1152,7 +1238,7 @@ msgstr "Requête cible non définie."
 msgid "Multiple keyphrases"
 msgstr "Plusieurs requêtes cibles"
 
-#: admin/metabox/class-metabox.php:571
+#: admin/metabox/class-metabox.php:543
 #: admin/taxonomy/class-taxonomy-fields-presenter.php:125
 #: admin/class-yoast-form.php:564
 msgid "Clear Image"
@@ -1160,25 +1246,25 @@ msgstr "Effacer l’image"
 
 #. translators: %s expands to 'Yoast SEO Premium'.
 #. translators: %s expands to Yoast SEO Premium
-#. translators: %s is replaced by the plugin name
-#: languages/wordpress-seojs.php:85 admin/class-multiple-keywords-modal.php:36
-#: admin/formatter/class-metabox-formatter.php:203
+#: languages/wordpress-seojs.php:92 admin/class-multiple-keywords-modal.php:36
+#: admin/formatter/class-metabox-formatter.php:212
 #: admin/class-keyword-synonyms-modal.php:36
 #: admin/class-premium-upsell-admin-block.php:72
-#: admin/class-premium-popup.php:81 admin/class-add-keyword-modal.php:36
+#: admin/class-premium-popup.php:81 admin/class-help-center.php:114
+#: admin/class-add-keyword-modal.php:36
 #: admin/watchers/class-slug-change-watcher.php:223 admin/views/sidebar.php:39
 msgid "Get %s"
 msgstr "%s"
 
-#: languages/wordpress-seojs.php:251
+#: languages/wordpress-seojs.php:254
 msgid "Optional. Customize how you want to describe the duration of the instruction"
 msgstr "Optionnel. Personnalisez comment vous voulez décrire cette durée."
 
-#: languages/wordpress-seojs.php:248
+#: languages/wordpress-seojs.php:251
 msgid "Describe the duration of the instruction:"
 msgstr "Saisissez la durée de cette instruction :"
 
-#: languages/wordpress-seojs.php:79
+#: languages/wordpress-seojs.php:86
 msgid "Learn more about the readability analysis"
 msgstr "Apprenez-en plus sur l’analyse de lisibilité"
 
@@ -1188,7 +1274,7 @@ msgid_plural "There are new notifications."
 msgstr[0] "Il y a une nouvelle notification."
 msgstr[1] "Il y a des nouvelles notifications."
 
-#: inc/options/class-wpseo-option-titles.php:833
+#: inc/options/class-wpseo-option-titles.php:844
 msgid "Colon"
 msgstr "Deux-points"
 
@@ -1198,65 +1284,65 @@ msgstr "Deux-points"
 msgid "Both %1$s and %2$s manage the SEO of your site. Running two SEO plugins at the same time is detrimental."
 msgstr "%1$s et %2$s gèrent tous les deux le référencement de votre site. En ayant deux solutions concurrentes, vous pourriez créer des conflits au détriment de votre visibilité."
 
-#: languages/yoast-components.php:62
+#: languages/yoast-components.php:60
 msgid "This is a list of related content to which you could link in your post. {{a}}Read our article about site structure{{/a}} to learn more about how internal linking can help improve your SEO."
 msgstr "Ceci est une liste de contenu liés vers lesquels vous pourriez faire des liens dans cette publication. {{a}}Lisez notre article sur la structure des sites{{/a}} pour en apprendre plus sur l’intérêt du maillage interne pour votre référencement."
 
-#: languages/wordpress-seojs.php:299
+#: languages/wordpress-seojs.php:302
 msgid "%s, %s and %s"
 msgstr "%s, %s et %s"
 
-#: languages/wordpress-seojs.php:295
+#: languages/wordpress-seojs.php:298
 msgid "%s and %s"
 msgstr "%s et %s"
 
-#: languages/wordpress-seojs.php:291
+#: languages/wordpress-seojs.php:294
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minute"
 msgstr[1] "%d minutes"
 
-#: languages/wordpress-seojs.php:287
+#: languages/wordpress-seojs.php:290
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d heure"
 msgstr[1] "%d heures"
 
-#: languages/wordpress-seojs.php:283
+#: languages/wordpress-seojs.php:286
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d jour"
 msgstr[1] "%d jours"
 
-#: languages/wordpress-seojs.php:276
+#: languages/wordpress-seojs.php:279
 msgid "Enter a step title"
 msgstr "Donnez un titre à cette étape"
 
-#: languages/wordpress-seojs.php:245
+#: languages/wordpress-seojs.php:248
 msgid "Optional. This can give you better control over the styling of the steps."
 msgstr "Facultatif. Cela vous donne plus de contrôle sur le style des étapes."
 
-#: languages/wordpress-seojs.php:242
+#: languages/wordpress-seojs.php:245
 msgid "CSS class(es) to apply to the steps"
 msgstr "Classe(s) CSS à appliquer aux étapes"
 
-#: languages/wordpress-seojs.php:233
+#: languages/wordpress-seojs.php:236
 msgid "minutes"
 msgstr "minutes"
 
-#: languages/wordpress-seojs.php:230
+#: languages/wordpress-seojs.php:233
 msgid "hours"
 msgstr "heures"
 
-#: languages/wordpress-seojs.php:227
+#: languages/wordpress-seojs.php:230
 msgid "days"
 msgstr "jours"
 
-#: languages/wordpress-seojs.php:203
+#: languages/wordpress-seojs.php:206
 msgid "Create a How-to guide in an SEO-friendly way. You can only use one How-to block per post."
 msgstr "Créez un tutoriel optimisé pour le référencement. Vous ne pouvez utiliser qu’un seul bloc Tutoriel par publication."
 
-#: languages/wordpress-seojs.php:166
+#: languages/wordpress-seojs.php:169
 msgid "List your Frequently Asked Questions in an SEO-friendly way. You can only use one FAQ block per post."
 msgstr "Créez une FAQ optimisée pour le référencement. Vous ne pouvez utiliser qu’un seul bloc FAQ par publication."
 
@@ -1269,47 +1355,52 @@ msgid "An error occurred loading the %s primary taxonomy picker."
 msgstr "Une erreur est survenue pendant le chargement du sélecteur de taxonomie principale de %s."
 
 #. translators: %1$s expands to Yoast.
-#: inc/class-structured-data-blocks.php:62
+#: inc/class-structured-data-blocks.php:61
 msgid "%1$s Structured Data Blocks"
 msgstr "Blocs de données structurées de %1$s "
 
-#: languages/wordpress-seojs.php:261
+#: languages/wordpress-seojs.php:264
 msgid "Time needed:"
 msgstr "Temps nécessaire :"
 
-#: languages/wordpress-seojs.php:190
+#: languages/wordpress-seojs.php:193
 msgid "Move question down"
 msgstr "Descendre la question"
 
-#: languages/wordpress-seojs.php:187
+#: languages/wordpress-seojs.php:190
 msgid "Move question up"
 msgstr "Monter la question"
 
-#: languages/wordpress-seojs.php:184
+#: languages/wordpress-seojs.php:187
 msgid "Insert question"
 msgstr "Insérer une question"
 
-#: languages/wordpress-seojs.php:181
+#: languages/wordpress-seojs.php:184
 msgid "Delete question"
 msgstr "Effacer la question"
 
-#: languages/wordpress-seojs.php:196
+#: languages/wordpress-seojs.php:199
 msgid "Enter the answer to the question"
 msgstr "Saisissez la réponse à la question"
 
-#: languages/wordpress-seojs.php:193
+#: languages/wordpress-seojs.php:196
 msgid "Enter a question"
 msgstr "Saisissez une question"
 
-#: languages/wordpress-seojs.php:178
+#: languages/wordpress-seojs.php:181
 msgid "Add question"
 msgstr "Ajouter une question"
 
-#: languages/wordpress-seojs.php:172
+#: languages/wordpress-seojs.php:175
 msgid "Frequently Asked Questions"
 msgstr "Foire aux questions"
 
-#: languages/wordpress-seojs.php:110
+#. translators: %s expands to a 'Yoast SEO Premium' text linked to the
+#. yoast.com website.
+#: languages/wordpress-seojs.php:151 admin/class-multiple-keywords-modal.php:24
+#: admin/formatter/class-metabox-formatter.php:200
+#: admin/class-keyword-synonyms-modal.php:24
+#: admin/class-add-keyword-modal.php:24
 msgid "Great news: you can, with %s!"
 msgstr "Bonne nouvelle : vous le pouvez avec %s !"
 
@@ -1333,71 +1424,71 @@ msgid_plural "Please check the %1$sarchive templates%2$s for the following conte
 msgstr[0] "Veuillez vérifier le %1$smodèle d’archive%2$s pour le type de publication suivant : %3$s."
 msgstr[1] "Veuillez vérifier les %1$smodèles d’archive%2$s pour les types de publication suivants : %3$s."
 
-#: languages/yoast-components.php:89
+#: languages/yoast-components.php:87
 msgid "Are you trying to use multiple keyphrases? You should add them separately below."
 msgstr "Essayez-vous d’utiliser plusieurs requêtes ? Vous devriez les ajouter ci-dessous séparément."
 
-#: languages/wordpress-seojs.php:20 languages/yoast-components.php:83
+#: languages/wordpress-seojs.php:20 languages/yoast-components.php:81
 msgid "Mark as cornerstone content"
 msgstr "Marquer comme contenu Cornerstone"
 
-#: languages/wordpress-seojs.php:273
+#: languages/wordpress-seojs.php:276
 msgid "Move step down"
 msgstr "Faire descendre l’étape"
 
-#: languages/wordpress-seojs.php:270
+#: languages/wordpress-seojs.php:273
 msgid "Move step up"
 msgstr "Faire monter l’étape"
 
-#: languages/wordpress-seojs.php:267
+#: languages/wordpress-seojs.php:270
 msgid "Insert step"
 msgstr "Insérer une étape"
 
-#: languages/wordpress-seojs.php:264
+#: languages/wordpress-seojs.php:267
 msgid "Delete step"
 msgstr "Effacer l’étape"
 
-#: languages/wordpress-seojs.php:200
+#: languages/wordpress-seojs.php:203
 msgid "Add image"
 msgstr "Ajouter une image"
 
-#: languages/wordpress-seojs.php:279
+#: languages/wordpress-seojs.php:282
 msgid "Enter a step description"
 msgstr "Saisissez une description d’étape"
 
-#: languages/wordpress-seojs.php:257
+#: languages/wordpress-seojs.php:260
 msgid "Enter a description"
 msgstr "Saisissez une description"
 
-#: languages/wordpress-seojs.php:254
+#: languages/wordpress-seojs.php:257
 msgid "Unordered list"
 msgstr "Liste non-ordonnée"
 
-#: languages/wordpress-seojs.php:221
+#: languages/wordpress-seojs.php:224
 msgid "Showing step items as an ordered list."
 msgstr "Affichage des étapes comme une liste ordonnée."
 
-#: languages/wordpress-seojs.php:218
+#: languages/wordpress-seojs.php:221
 msgid "Showing step items as an unordered list"
 msgstr "Affichage des étapes comme une liste non-ordonnée."
 
-#: languages/wordpress-seojs.php:215
+#: languages/wordpress-seojs.php:218
 msgid "Add step"
 msgstr "Ajouter une étape"
 
-#: languages/wordpress-seojs.php:236
+#: languages/wordpress-seojs.php:239
 msgid "Delete total time"
 msgstr "Effacer le temps total"
 
-#: languages/wordpress-seojs.php:224
+#: languages/wordpress-seojs.php:227
 msgid "Add total time"
 msgstr "Ajouter le temps total"
 
-#: languages/wordpress-seojs.php:209
+#: languages/wordpress-seojs.php:212
 msgid "How to"
 msgstr "Tutoriel"
 
-#: languages/wordpress-seojs.php:206
+#: languages/wordpress-seojs.php:209
 msgid "How-to"
 msgstr "Tutoriel"
 
@@ -1405,11 +1496,11 @@ msgstr "Tutoriel"
 msgid "Snippet Preview"
 msgstr "Édition des métadonnées"
 
-#: languages/wordpress-seojs.php:76
+#: languages/wordpress-seojs.php:83
 msgid "Analysis results"
 msgstr "Résultats de l’analyse"
 
-#: languages/wordpress-seojs.php:97
+#: languages/wordpress-seojs.php:101
 msgid "Enter a focus keyphrase to calculate the SEO score"
 msgstr "Saisissez une requête cible pour calculer votre score SEO"
 
@@ -1464,51 +1555,45 @@ msgstr "supprimé"
 msgid "Would you like to add another keyphrase?"
 msgstr "Souhaitez-vous ajouter une autre requête ?"
 
-#: languages/yoast-components.php:47
+#: languages/yoast-components.php:48
 msgid "image preview"
 msgstr "prévisualisation de l’image"
 
-#: languages/yoast-components.php:71
+#: languages/yoast-components.php:69
 msgid "Copied!"
 msgstr "Copié !"
 
-#: languages/yoast-components.php:74
+#: languages/yoast-components.php:72
 msgid "Not supported!"
 msgstr "Non compatible !"
 
-#: languages/yoast-components.php:77
+#: languages/yoast-components.php:75
 msgid "Read {{a}}our article about site structure{{/a}} to learn more about how internal linking can help improve your SEO."
 msgstr "Lisez {{a}}notre article sur la structure de site{{/a}} pour en savoir plus sur l’impact du maillage interne sur votre référencement naturel."
 
-#: languages/yoast-components.php:80
+#: languages/yoast-components.php:78
 msgid "Once you add a bit more copy, we'll give you a list of related content here to which you could link in your post."
 msgstr "Une fois que vous aurez ajouté plus de texte, nous vous donnerons une liste de contenus liés que vous pourriez mentionner dans votre publication."
 
-#: languages/yoast-components.php:65
+#: languages/yoast-components.php:63
 msgid "Consider linking to these {{a}}cornerstone articles:{{/a}}"
 msgstr "Envisagez de faire des liens vers ces {{a}}articles Cornerstone :{{/a}}"
 
-#: languages/yoast-components.php:68
+#: languages/yoast-components.php:66
 msgid "Consider linking to these articles:"
 msgstr "Envisagez de faire des liens vers ces articles :"
 
-#: languages/yoast-components.php:56
+#: languages/yoast-components.php:54
 msgid "Copy link"
 msgstr "Copier le lien"
 
-#: languages/yoast-components.php:59
+#: languages/yoast-components.php:57
 msgid "Copy link to suggested article: %s"
 msgstr "Copier le lien de l’article suggéré : %s"
 
 #: inc/class-wpseo-replace-vars.php:1335
 msgid "The site's tagline"
 msgstr "Le slogan du site"
-
-#. translators: %1$s is the notification dismissal link start tag, %2$s is the
-#. link closing tag.
-#: admin/notifiers/class-post-type-archive-notification-handler.php:78
-msgid "%1$sRemove this message%2$s"
-msgstr "%1$sRetirer ce message%2$s"
 
 #: admin/notifiers/class-post-type-archive-notification-handler.php:58
 msgid "We've recently improved the functionality of the Search Appearance settings. Unfortunately, we've discovered that for some edge-cases, saving the settings for specific post type archives might have gone wrong."
@@ -1519,30 +1604,21 @@ msgstr "Nous avons récemment amélioré les réglages SEO. Malheureusement, nou
 msgid "Not all required fields are given. Missing field %1$s"
 msgstr "Tous les champs nécessaires ne sont pas renseignés. Champ manquant %1$s"
 
-#. translators: %s expands to Yoast SEO Premium.
-#: admin/views/sidebar.php:133
-msgid "Upgrade to %s »"
-msgstr "Passez à %s »"
-
-#: admin/views/sidebar.php:123
+#: admin/views/sidebar.php:128
 msgid "Optimize your site for Google News."
 msgstr "Optimisez votre pour Google News."
 
-#: admin/views/sidebar.php:113
+#: admin/views/sidebar.php:118
 msgid "Optimize your shop's SEO and sell more products!"
 msgstr "Optimisez le référencement de votre e-boutique et vendez plus de produits !"
 
-#: admin/views/sidebar.php:103
+#: admin/views/sidebar.php:108
 msgid "Be found in Google Video search and enhance your video sharing on social media."
 msgstr "Soyez visible dans la recherche vidéo de Google et boostez vos partages sociaux."
 
-#: admin/views/sidebar.php:93
+#: admin/views/sidebar.php:98
 msgid "Be found in Google Maps and local results."
 msgstr "Soyez visible dans Google Maps et les résultats locaux."
-
-#: admin/views/sidebar.php:85
-msgid "Extend Yoast SEO"
-msgstr "Allez plus loin avec Yoast SEO"
 
 #: admin/views/sidebar.php:80
 msgid "Learn practical SEO skills to rank higher in Google."
@@ -1556,15 +1632,15 @@ msgstr "Ne perdez pas de temps à deviner les meilleurs réglages par vous-même
 msgid "Get quick wins to make your site rank higher in search engines."
 msgstr "Devenez plus visible dans les résultats de recherche en quelques actions."
 
-#: languages/wordpress-seojs.php:104
+#: languages/wordpress-seojs.php:107
 msgid "Add synonyms"
 msgstr "Ajouter des synonymes"
 
-#: languages/wordpress-seojs.php:107 admin/class-keyword-synonyms-modal.php:21
+#: languages/wordpress-seojs.php:110 admin/class-keyword-synonyms-modal.php:21
 msgid "Would you like to add keyphrase synonyms?"
 msgstr "Souhaitez-vous ajouter des requêtes synonymes ?"
 
-#: admin/formatter/class-metabox-formatter.php:188
+#: admin/formatter/class-metabox-formatter.php:197
 #: admin/class-add-keyword-modal.php:21
 msgid "Would you like to add more than one keyphrase?"
 msgstr "Souhaitez-vous ajouter plus d’une requête ?"
@@ -1579,15 +1655,15 @@ msgstr "Vous pouvez éditer les métadonnées SEO de cette page dans les réglag
 msgid "You haven't set a Shop page in your WooCommerce settings. Please do this first."
 msgstr "Vous n’avez pas défini de page « Boutique » dans vos réglages WooCommerce. Veuillez le faire dans un premier temps."
 
-#: languages/wordpress-seojs.php:302
+#: languages/wordpress-seojs.php:305
 msgid "Current year"
 msgstr "Année en cours"
 
-#: languages/wordpress-seojs.php:317 inc/class-wpseo-replace-vars.php:1335
+#: languages/wordpress-seojs.php:320 inc/class-wpseo-replace-vars.php:1335
 msgid "Tagline"
 msgstr "Slogan"
 
-#: languages/wordpress-seojs.php:311
+#: languages/wordpress-seojs.php:314
 msgid "Page"
 msgstr "Page"
 
@@ -1631,7 +1707,7 @@ msgstr "Numéro de page"
 msgid "User description"
 msgstr "Description de l’utilisateur"
 
-#: languages/wordpress-seojs.php:308 inc/class-wpseo-replace-vars.php:1362
+#: languages/wordpress-seojs.php:311 inc/class-wpseo-replace-vars.php:1362
 msgid "ID"
 msgstr "ID"
 
@@ -1647,11 +1723,11 @@ msgstr "Types de publication (au pluriel)"
 msgid "Post type (singular)"
 msgstr "Type de publication (au singulier)"
 
-#: languages/wordpress-seojs.php:338 inc/class-wpseo-replace-vars.php:1346
+#: languages/wordpress-seojs.php:341 inc/class-wpseo-replace-vars.php:1346
 msgid "Separator"
 msgstr "Séparateur"
 
-#: languages/wordpress-seojs.php:314 inc/class-wpseo-replace-vars.php:1345
+#: languages/wordpress-seojs.php:317 inc/class-wpseo-replace-vars.php:1345
 msgid "Search phrase"
 msgstr "Phrase de recherche"
 
@@ -1659,23 +1735,23 @@ msgstr "Phrase de recherche"
 msgid "Term title"
 msgstr "Titre du terme"
 
-#: languages/wordpress-seojs.php:350 inc/class-wpseo-replace-vars.php:1343
+#: languages/wordpress-seojs.php:353 inc/class-wpseo-replace-vars.php:1343
 msgid "Term description"
 msgstr "Description de l’élément"
 
-#: languages/wordpress-seojs.php:347 inc/class-wpseo-replace-vars.php:1342
+#: languages/wordpress-seojs.php:350 inc/class-wpseo-replace-vars.php:1342
 msgid "Tag description"
 msgstr "Étiquette du contenu"
 
-#: languages/wordpress-seojs.php:344 inc/class-wpseo-replace-vars.php:1341
+#: languages/wordpress-seojs.php:347 inc/class-wpseo-replace-vars.php:1341
 msgid "Category description"
 msgstr "Description de la catégorie"
 
-#: languages/wordpress-seojs.php:335 inc/class-wpseo-replace-vars.php:1340
+#: languages/wordpress-seojs.php:338 inc/class-wpseo-replace-vars.php:1340
 msgid "Primary category"
 msgstr "Catégorie principale"
 
-#: languages/wordpress-seojs.php:323 inc/class-wpseo-replace-vars.php:1339
+#: languages/wordpress-seojs.php:326 inc/class-wpseo-replace-vars.php:1339
 msgid "Category"
 msgstr "Catégorie"
 
@@ -1683,15 +1759,15 @@ msgstr "Catégorie"
 msgid "Tag"
 msgstr "Étiquette"
 
-#: languages/wordpress-seojs.php:341 inc/class-wpseo-replace-vars.php:1337
+#: languages/wordpress-seojs.php:344 inc/class-wpseo-replace-vars.php:1337
 msgid "Excerpt only"
 msgstr "Extrait seulement"
 
-#: languages/wordpress-seojs.php:332 inc/class-wpseo-replace-vars.php:1336
+#: languages/wordpress-seojs.php:335 inc/class-wpseo-replace-vars.php:1336
 msgid "Excerpt"
 msgstr "Extrait"
 
-#: languages/wordpress-seojs.php:320 inc/class-wpseo-replace-vars.php:1334
+#: languages/wordpress-seojs.php:323 inc/class-wpseo-replace-vars.php:1334
 msgid "Site title"
 msgstr "Titre du site"
 
@@ -1699,11 +1775,11 @@ msgstr "Titre du site"
 msgid "Archive title"
 msgstr "Titre de l’archive"
 
-#: languages/wordpress-seojs.php:329 inc/class-wpseo-replace-vars.php:1332
+#: languages/wordpress-seojs.php:332 inc/class-wpseo-replace-vars.php:1332
 msgid "Parent title"
 msgstr "Titre parent"
 
-#: languages/wordpress-seojs.php:305 inc/class-wpseo-replace-vars.php:1330
+#: languages/wordpress-seojs.php:308 inc/class-wpseo-replace-vars.php:1330
 msgid "Date"
 msgstr "Date"
 
@@ -1830,7 +1906,7 @@ msgstr "Afficher tous les types de publication"
 
 #. translators: %1$s resolves to the opening tag of the link to the comment
 #. setting page, %2$s resolves to the closing tag of the link
-#: admin/class-admin-init.php:164
+#: admin/class-admin-init.php:165
 msgid "To fix this uncheck the box in front of the \"Break comments into pages...\" on the %1$sComment settings page%2$s."
 msgstr "Pour régler ce problème, décochez la case de « Diviser les commentaires en pages… » dans %1$sles réglages de Discussion%2$s."
 
@@ -1838,83 +1914,67 @@ msgstr "Pour régler ce problème, décochez la case de « Diviser les commenta
 msgid "Replaced with the normal title for an archive generated by WordPress"
 msgstr "Remplacé avec un titre d’archive normal généré par WordPress"
 
-#: admin/views/tabs/tool/import-seo.php:108
+#: admin/views/tabs/tool/import-seo.php:118
 msgid "Clean"
 msgstr "Propre"
 
-#: admin/views/tabs/tool/import-seo.php:99
+#: admin/views/tabs/tool/import-seo.php:109
 msgid "Once you're certain your site is OK, you can clean up. This will remove all the original data."
 msgstr "Une fois que vous avez la certitude que votre site est OK, vous pouvez le nettoyer. Cela retirera toutes les données antérieures."
 
-#: admin/views/tabs/tool/import-seo.php:97
+#: admin/views/tabs/tool/import-seo.php:107
 msgid "Step 5: Clean up"
 msgstr "Étape 5 : Nettoyez"
 
-#: admin/views/tabs/tool/import-seo.php:88
+#: admin/views/tabs/tool/import-seo.php:98
 msgid "You should run the configuration wizard, from the SEO &rarr; General &rarr; Dashboard page, to make sure all the settings for your site are correct."
 msgstr "Vous devriez lancer l’assistant de configuration depuis SEO &rarr; Réglages généraux &rarr; Tableau de bord, pour vous assurer que tous les réglages sont corrects."
 
-#: admin/views/tabs/tool/import-seo.php:84
+#: admin/views/tabs/tool/import-seo.php:94
 msgid "Step 4: Run the configuration wizard"
 msgstr "Étape 4 : Lancez l’assistant de configuration"
 
-#: admin/views/tabs/tool/import-seo.php:79
+#: admin/views/tabs/tool/import-seo.php:89
 msgid "Please check your posts and pages and see if the metadata was successfully imported."
 msgstr "Veuillez vérifier que les métadonnées de vos articles et pages soient bien importés."
 
-#: admin/views/tabs/tool/import-seo.php:77
+#: admin/views/tabs/tool/import-seo.php:87
 msgid "Step 3: Check your data"
 msgstr "Étape 3 : Vérifiez vos données"
 
-#: admin/views/tabs/tool/import-seo.php:60
-msgid "This will import the post metadata like SEO titles and descriptions into your Yoast SEO metadata. It will only do this when there is no existing Yoast SEO metadata yet. The original data will remain in place."
-msgstr "Cela importera les métadonnées de vos publications telles que les titres et descriptions SEO. Cela ne fonctionnera que s’il n’existe pas encore de métadonnées appartenant à Yoast SEO. Les données antérieures ne seront pas effacées."
+#. translators: 1: expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:67
+msgid "This will import the post metadata like SEO titles and descriptions into your %1$s metadata. It will only do this when there is no existing %1$s metadata yet. The original data will remain in place."
+msgstr "Cela importera les métadonnées de vos publications telles que les titres et descriptions SEO dans %1$s. Cela ne fonctionnera que s’il n’existe pas encore de métadonnées appartenant à %1$s. Les données antérieures ne seront pas effacées."
 
-#: admin/views/tabs/tool/import-seo.php:58
+#: admin/views/tabs/tool/import-seo.php:62
 msgid "Step 2: Import"
 msgstr "Étape 2 : Importez"
 
-#: admin/views/tabs/tool/import-seo.php:53
+#: admin/views/tabs/tool/import-seo.php:57
 msgid "Please make a backup of your database before starting this process."
 msgstr "Veuillez faire une sauvegarde de votre base de données avant de lancer ce processus."
 
-#: admin/views/tabs/tool/import-seo.php:51
+#: admin/views/tabs/tool/import-seo.php:55
 msgid "Step 1: Create a backup"
 msgstr "Étape 1 : Sauvegardez"
 
-#: admin/views/tabs/tool/import-seo.php:47
+#: admin/views/tabs/tool/import-seo.php:51
 msgid "We've detected data from one or more SEO plugins on your site. Please follow the following steps to import that data:"
 msgstr "Nous avons détecté que vous utilisez une ou plusieurs extensions SEO sur votre site. Veuillez suivre les étapes suivantes pour en importer les données :"
 
-#: admin/views/tabs/tool/import-seo.php:35
+#: admin/views/tabs/tool/import-seo.php:39
 msgid "Plugin: "
 msgstr "Extension : "
 
-#: admin/views/tabs/tool/import-seo.php:20
-msgid "Yoast SEO did not detect any plugin data from plugins it can import from."
-msgstr "Yoast SEO n’a pas détecté d’extension dont il peut importer les données."
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:22
+msgid "%s did not detect any plugin data from plugins it can import from."
+msgstr "%s n’a pas détecté d’extension dont il peut importer les données."
 
-#: admin/statistics/class-statistics-service.php:210
+#: admin/statistics/class-statistics-service.php:223
 msgid "Posts that should not show up in search results"
 msgstr "Articles qui ne devraient pas apparaître dans les résultats de recherche"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag
-#: admin/statistics/class-statistics-service.php:209
-msgid "Posts with the SEO score: %1$sgood%2$s"
-msgstr "Articles avec le score SEO : %1$sBien%2$s"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag
-#: admin/statistics/class-statistics-service.php:207
-msgid "Posts with the SEO score: %1$sOK%2$s"
-msgstr "Articles avec le score SEO : %1$sOK%2$s"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag
-#: admin/statistics/class-statistics-service.php:205
-msgid "Posts with the SEO score: %1$sneeds improvement%2$s"
-msgstr "Articles avec le score SEO : %1$sÀ améliorer%2$s"
 
 #. translators: %s is replaced with the name of the plugin we've found data
 #. from.
@@ -1944,11 +2004,9 @@ msgstr "%s données introuvables."
 msgid "Improve your SEO skills"
 msgstr "Améliorez vos compétences en référencement"
 
-#: admin/views/sidebar.php:33
-msgid "No ads"
-msgstr "Pas de pub"
-
-#: admin/views/sidebar.php:32
+#: languages/wordpress-seojs.php:132
+#: admin/class-premium-upsell-admin-block.php:60
+#: admin/class-help-center.php:223 admin/views/sidebar.php:32
 msgid "24/7 email support"
 msgstr "Support par e-mail 24/7"
 
@@ -1963,11 +2021,6 @@ msgstr "Recevez des suggestions en temps réel sur votre maillage interne"
 #: admin/views/sidebar.php:29
 msgid "Preview your page in Facebook and Twitter"
 msgstr "Prévisualisez votre page dans Facebook et Twitter"
-
-#. translators: %1$s expands to the plugin name
-#: admin/views/sidebar.php:24
-msgid "Upgrade to %1$s"
-msgstr "Passez à %1$s"
 
 #: admin/views/user-profile.php:15
 msgid "this author's archives"
@@ -2160,16 +2213,16 @@ msgstr "%1$s propose de nombreuses fonctionnalités. Vous pouvez en activer/dés
 
 #: deprecated/class-recalibration-beta.php:62
 #: admin/views/tabs/dashboard/features.php:53
-#: admin/views/class-yoast-feature-toggles.php:138
+#: admin/views/class-yoast-feature-toggles.php:142
 msgid "Off"
 msgstr "Désactivé"
 
 #. translators: 1: Yoast SEO, 2: translated version of "Off"
-#: admin/views/class-yoast-feature-toggles.php:136
+#: admin/views/class-yoast-feature-toggles.php:140
 msgid "The advanced section of the %1$s meta box allows a user to remove posts from the search results or change the canonical. These are things you might not want any author to do. That's why, by default, only editors and administrators can do this. Setting to \"%2$s\" allows all users to change these settings."
 msgstr "La section avancée du gestionnaire de métadonnées de %1$s permet aux utilisateurs de désindexer une publication ou d’en changer le lien canonique. Ce sont des manipulations qu’il ne vaut mieux pas laisser à la portée de tous les auteurs. C‘est pourquoi, par défaut, seuls les éditeurs et les administrateurs peuvent le faire. Sélectionner « %2$s » permet à tous les utilisateurs de modifier ces réglages."
 
-#: admin/views/class-yoast-feature-toggles.php:132
+#: admin/views/class-yoast-feature-toggles.php:136
 msgid "Security: no advanced settings for authors"
 msgstr "Sécurité : pas de réglages avancés pour les auteurs"
 
@@ -2283,10 +2336,7 @@ msgstr "Activer le plan de site XML de %1$s"
 msgid "Enable this feature if you want Twitter to display a preview with images and a text excerpt when a link to your site is shared."
 msgstr "Activez cette fonctionnalité si vous voulez que Twitter affiche un extrait avec images lorsque votre site est partagé."
 
-#: admin/class-help-center.php:260
-msgid "Search result"
-msgstr "Résultats de recherche"
-
+#: languages/wordpress-seojs.php:104
 #: admin/views/class-yoast-feature-toggles.php:72
 msgid "SEO analysis"
 msgstr "Analyse SEO"
@@ -2295,67 +2345,15 @@ msgstr "Analyse SEO"
 msgid "The text link counter helps you improve your site structure."
 msgstr "Le compteur de liens vous aide à améliorer la structure de votre site."
 
-#: admin/class-help-center.php:138
+#: admin/class-help-center.php:140
 msgid "If you have a problem that you can't solve with our video tutorials or knowledge base, you can send a message to our support team. They can be reached 24/7."
 msgstr "Si vous avez un problème qui n’est pas résolu grâce à nos tutoriels vidéo ou notre base de connaissances, vous pouvez envoyer un message à notre support. Ils peuvent être contactés 24h/24h 7j/7."
 
-#: admin/class-help-center.php:142
+#: admin/class-help-center.php:144
 msgid "Support requests you create here are sent directly into our support system, which is secured with 256 bit SSL, so communication is 100% secure."
 msgstr "Les demandes de supports crées ici sont directement envoyés à notre outil de support qui est sécurisé avec un certificat SSL 256 bit afin que nos communications soient sécurisées."
 
-#: admin/class-help-center.php:269
-msgid "New support request"
-msgstr "Nouvelle demande de support"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag.
-#: admin/formatter/class-metabox-formatter.php:84
-msgid "Readability: %1$sNot available%2$s"
-msgstr "Lisibilité : %1$sNon disponible%2$s"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag.
-#: admin/formatter/class-metabox-formatter.php:90
-msgid "Readability: %1$sNeeds improvement%2$s"
-msgstr "Lisibilité : %1$sÀ améliorer%2$s"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag.
-#: admin/formatter/class-metabox-formatter.php:96
-msgid "Readability: %1$sOK%2$s"
-msgstr "Lisibilité : %1$sOk%2$s"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag.
-#: admin/formatter/class-metabox-formatter.php:102
-msgid "Readability: %1$sGood%2$s"
-msgstr "Lisibilité : %1$sBien%2$s"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag.
-#: admin/formatter/class-metabox-formatter.php:110
-msgid "SEO: %1$sNot available%2$s"
-msgstr "SEO : %1$sNon disponible%2$s"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag.
-#: admin/formatter/class-metabox-formatter.php:116
-msgid "SEO: %1$sNeeds improvement%2$s"
-msgstr "SEO : %1$sÀ améliorer%2$s"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag.
-#: admin/formatter/class-metabox-formatter.php:122
-msgid "SEO: %1$sOK%2$s"
-msgstr "SEO : %1$sOK%2$s"
-
-#. translators: %1$s expands to an opening strong tag, %2$s expands to a
-#. closing strong tag.
-#: admin/formatter/class-metabox-formatter.php:128
-msgid "SEO: %1$sGood%2$s"
-msgstr "SEO : %1$sBien%2$s"
-
-#: admin/formatter/class-metabox-formatter.php:168
+#: admin/formatter/class-metabox-formatter.php:177
 msgid "Good results"
 msgstr "Déjà optimisé"
 
@@ -2402,7 +2400,7 @@ msgid "%s integration"
 msgstr "Intégration de %s"
 
 #. translators: %s: Ryte
-#: admin/views/class-yoast-feature-toggles.php:120
+#: admin/views/class-yoast-feature-toggles.php:124
 msgid "Read more about how %s works."
 msgstr "Découvrez comment %s fonctionne."
 
@@ -2423,33 +2421,20 @@ msgstr "https://yoa.st/1uk"
 msgid "https://yoa.st/1uj"
 msgstr "https://yoa.st/1uj"
 
-#: admin/metabox/class-metabox.php:275
-#: admin/taxonomy/class-taxonomy-metabox.php:71
-msgid "Meta box"
-msgstr "Gestionnaire de métadonnées"
-
 #. translators: %1$s resolves to Yoast.com
 #: admin/class-yoast-dashboard-widget.php:117
 msgid "Latest blog posts on %1$s"
 msgstr "Derniers articles sur %1$s"
 
-#: languages/yoast-components.php:86 admin/class-help-center.php:270
+#: languages/yoast-components.php:84 admin/class-help-center.php:110
 msgid "Need help?"
 msgstr "Besoin d’aide ?"
 
-#: admin/class-help-center.php:253
-msgid "Type here to search..."
-msgstr "Écrivez ici pour rechercher…"
-
-#: admin/class-help-center.php:252
-msgid "Search the Yoast Knowledge Base for answers to your questions:"
-msgstr "Cherchez dans la base de connaissances de Yoast pour trouver les réponses à vos questions :"
-
-#: admin/formatter/class-metabox-formatter.php:172
+#: admin/formatter/class-metabox-formatter.php:181
 msgid "Remove highlight from the text"
 msgstr "Retirer le surlignement du texte"
 
-#: admin/formatter/class-metabox-formatter.php:169
+#: admin/formatter/class-metabox-formatter.php:178
 msgid "Your site language is set to {language}."
 msgstr "Votre site est réglé en {language}."
 
@@ -2463,30 +2448,25 @@ msgstr "Optimisez rapidement votre référencement avec %2$sl’assistant de con
 msgid "First-time SEO configuration"
 msgstr "Première configuration SEO"
 
-#: admin/formatter/class-metabox-formatter.php:170
+#: admin/formatter/class-metabox-formatter.php:179
 msgid "Your site language is set to {language}. If this is not correct, contact your site administrator."
 msgstr "La langue de votre site est réglée à {language}. Si ce n’est pas approprié, contactez l’administrateur de votre site."
 
-#: admin/formatter/class-metabox-formatter.php:171
+#: admin/formatter/class-metabox-formatter.php:180
 msgid "Highlight this result in the text"
 msgstr "Surligner ce résultat dans le texte"
 
-#: admin/formatter/class-metabox-formatter.php:167
+#: admin/formatter/class-metabox-formatter.php:176
 msgid "Considerations"
 msgstr "Considérations"
 
-#: admin/formatter/class-metabox-formatter.php:164
+#: admin/formatter/class-metabox-formatter.php:173
 msgid "Errors"
 msgstr "Erreurs"
 
-#: admin/formatter/class-metabox-formatter.php:163
+#: admin/formatter/class-metabox-formatter.php:172
 msgid "Change language"
 msgstr "Changer de langue"
-
-#. translators: %s expands to the number of results found .
-#: admin/class-help-center.php:264
-msgid "Number of results found: %s"
-msgstr "Nombre de résultats : %s"
 
 #. translators: %s expands to robots.txt.
 #: admin/views/tool-file-editor.php:22
@@ -2568,7 +2548,7 @@ msgstr "Intègre facilement %1$s à %2$s pour l’analyse de contenu !"
 
 #. translators: %1$s expands to Yoast SEO, %2$s expands to the plugin version,
 #. %3$s expands to the plugin name
-#: admin/class-admin-init.php:321
+#: admin/class-admin-init.php:322
 msgid "%1$s and %2$s can work together a lot better by adding a helper plugin. Please install %3$s to make your life better."
 msgstr "%1$s et %2$s peuvent encore mieux fonctionner ensemble en ajoutant une extension complémentaire. Veuillez installer %3$s pour vous faciliter la vie."
 
@@ -2583,53 +2563,28 @@ msgstr "Les réglages SEO de %1$s sont composés de variables qui sont remplacé
 msgid "Mark the most important %1$s as 'cornerstone content' to improve your site structure. %2$sLearn more about cornerstone content%3$s."
 msgstr "Marquez les contenus les plus importants des %1$s comme « contenus Cornerstone » pour améliorer la structure de votre site. %2$sEn savoir plus sur les contenus Cornerstone (en anglais)%3$s."
 
-#: admin/class-help-center.php:122
-msgid "Enroll in the Yoast SEO for WordPress training »"
-msgstr "Inscrivez-vous à la formation « Yoast SEO for WordPress »"
-
-#: admin/class-help-center.php:193
+#: admin/class-help-center.php:195
 msgid "Loading help center."
 msgstr "Chargement du centre d’aide."
 
-#: admin/class-help-center.php:228 admin/class-help-center.php:249
+#: languages/wordpress-seojs.php:362 admin/class-help-center.php:230
 msgid "Get support"
 msgstr "Obtenez de l’assistance"
 
-#: admin/class-help-center.php:255
-msgid "View in KB"
-msgstr "Voir dans la doc"
-
-#: admin/class-help-center.php:257
-msgid "Go back"
-msgstr "Retour"
-
-#: admin/class-help-center.php:258
-msgid "Go back to the search results"
-msgstr "Retour aux résultats de recherche"
-
 #: admin/class-multiple-keywords-modal.php:40
-#: admin/formatter/class-metabox-formatter.php:174
-#: admin/formatter/class-metabox-formatter.php:207
+#: admin/formatter/class-metabox-formatter.php:183
+#: admin/formatter/class-metabox-formatter.php:216
 #: admin/class-admin-utils.php:78 admin/class-keyword-synonyms-modal.php:40
 #: admin/class-premium-upsell-admin-block.php:73
-#: admin/class-premium-popup.php:82 admin/class-help-center.php:268
-#: admin/class-add-keyword-modal.php:40
+#: admin/class-premium-popup.php:82 admin/class-add-keyword-modal.php:40
 #: admin/watchers/class-slug-change-watcher.php:224
 #: admin/views/licenses.php:110
 msgid "(Opens in a new browser tab)"
 msgstr "(S’ouvre dans un nouvel onglet)"
 
-#: admin/class-help-center.php:120
-msgid "Follow our Yoast SEO for WordPress training and become a certified Yoast SEO Expert!"
-msgstr "Suivez notre formation « Yoast SEO for WordPress » et devenez un expert Yoast SEO certifié !"
-
-#: admin/class-help-center.php:119
-msgid "Want to be a Yoast SEO Expert?"
-msgstr "Vous souhaitez devenir un expert Yoast SEO ?"
-
 #. translators: %1$s expands to an opening strong tag, %2$s expands to a
 #. closing strong tag
-#: admin/statistics/class-statistics-service.php:203
+#: admin/statistics/class-statistics-service.php:204
 msgid "Posts %1$swithout%2$s a focus keyphrase"
 msgstr "Articles %1$ssans%2$s requête cible"
 
@@ -2712,35 +2667,21 @@ msgstr "Veuillez préciser si votre site est en construction ou déjà en ligne.
 msgid "This information will be used in Google's Knowledge Graph Card, the big block of information you see on the right side of the search results."
 msgstr "Cette information sera utilisée dans les cartes du Knowledge Graph de Google, le grand bloc d’informations que vous voyez à droite des résultats de recherche."
 
-#: admin/config-ui/class-configuration-page.php:141
-msgid "Close wizard"
-msgstr "Fermer l’assistant"
-
 #: admin/class-yoast-dashboard-widget.php:120
 msgid "Read more like this on our SEO blog"
 msgstr "Lisez plus d’informations comme celle-ci sur notre blog SEO"
 
-#: inc/class-wpseo-rank.php:160
-msgid "Readability: Good"
-msgstr "Lisibilité : Bonne"
+#. translators: %s expands to the readability score
+#: inc/class-wpseo-rank.php:180 inc/class-wpseo-rank.php:185
+#: inc/class-wpseo-rank.php:190
+msgid "Readability: %s"
+msgstr "Lisibilité : %s"
 
-#: inc/class-wpseo-rank.php:159
-msgid "Readability: OK"
-msgstr "Lisibilité : OK"
-
-#: inc/class-wpseo-rank.php:158
-msgid "Readability: Needs improvement"
-msgstr "Lisibilité : Peut être améliorée"
-
-#: inc/class-wpseo-rank.php:142
-msgid "SEO: Needs improvement"
-msgstr "SEO : Peut être amélioré"
-
-#: admin/views/licenses.php:165 admin/views/licenses.php:247
+#: admin/views/licenses.php:166 admin/views/licenses.php:250
 msgid "Not activated"
 msgstr "Non activé"
 
-#: admin/views/licenses.php:156 admin/views/licenses.php:237
+#: admin/views/licenses.php:156 admin/views/licenses.php:240
 msgid "Activated"
 msgstr "Activé"
 
@@ -2853,20 +2794,15 @@ msgid "Readability score"
 msgstr "Score de lisibilité"
 
 #. translators: %s expands to 'Yoast SEO Premium'.
-#: languages/wordpress-seojs.php:137 admin/class-multiple-keywords-modal.php:30
-#: admin/formatter/class-metabox-formatter.php:197
-#: admin/class-keyword-synonyms-modal.php:30
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: languages/wordpress-seojs.php:140 admin/class-multiple-keywords-modal.php:30
+#: admin/formatter/class-metabox-formatter.php:206
+#: admin/class-keyword-synonyms-modal.php:30 admin/class-help-center.php:206
 #: admin/class-add-keyword-modal.php:30
 msgid "Other benefits of %s for you:"
 msgstr "Les autres atouts de %s :"
 
-#. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
-#. tag.
-#: admin/class-help-center.php:217
-msgid "%1$sSocial media preview%2$s: Facebook &amp; Twitter"
-msgstr "%1$sPrévisualisation des réseaux sociaux%2$s: Facebook &amp; Twitter"
-
-#: languages/yoast-seo-js.php:540
+#: languages/yoast-seo-js.php:537
 msgid "Scroll to see the preview content."
 msgstr "Faites défiler pour voir la prévisualisation du contenu."
 
@@ -2933,26 +2869,17 @@ msgstr "Nous avons détecté que vous n’avez pas suivi jusqu’au bout l’ass
 msgid "The configuration wizard helps you to easily configure your site to have the optimal SEO settings."
 msgstr "L’assistant de configuration vous aide à configurer facilement votre site pour avoir des réglages SEO optimaux."
 
-#: admin/class-help-center.php:113 admin/class-help-center.php:202
+#: admin/class-help-center.php:111 admin/class-help-center.php:204
 msgid "Go Premium and our experts will be there for you to answer any questions you might have about the setup and use of the plugin."
 msgstr "Passez à la version Premium et nos experts seront là pour répondre à toutes les questions que vous pourriez avoir concernant la configuration et l’utilisation de l’extension."
 
-#: languages/wordpress-seojs.php:129
-#: admin/class-premium-upsell-admin-block.php:60
-#: admin/class-help-center.php:221
-msgid "24/7 support"
-msgstr "Support 24/7"
-
+#: languages/wordpress-seojs.php:124
 #: admin/class-premium-upsell-admin-block.php:58
+#: admin/class-help-center.php:215
 msgid "Superfast internal linking suggestions"
 msgstr "Suggestions de liens internes super-rapides"
 
-#. translators: %1$s expands to a 'Yoast SEO Premium' text linked to the
-#. yoast.com website.
-#: languages/wordpress-seojs.php:148 admin/class-multiple-keywords-modal.php:24
-#: admin/formatter/class-metabox-formatter.php:191
-#: admin/class-keyword-synonyms-modal.php:24
-#: admin/class-add-keyword-modal.php:24
+#: languages/wordpress-seojs.php:113
 msgid "Great news: you can, with %1$s!"
 msgstr "Bonne nouvelle : vous pouvez ajouter des variantes de requête, avec %1$s !"
 
@@ -2960,8 +2887,8 @@ msgstr "Bonne nouvelle : vous pouvez ajouter des variantes de requête, avec %1
 msgid "Save changes"
 msgstr "Enregistrer les modifications"
 
-#: languages/wordpress-seojs.php:142 admin/class-multiple-keywords-modal.php:39
-#: admin/formatter/class-metabox-formatter.php:206
+#: languages/wordpress-seojs.php:145 admin/class-multiple-keywords-modal.php:39
+#: admin/formatter/class-metabox-formatter.php:215
 #: admin/class-keyword-synonyms-modal.php:39 admin/class-premium-popup.php:88
 #: admin/class-add-keyword-modal.php:39
 msgid "1 year free support and updates included!"
@@ -2974,28 +2901,21 @@ msgstr "1 an de mises à jour et de support offert !"
 msgid "The plugin %2$s changes your site's output and in doing that differentiates between search engines and normal users, a process that's called cloaking. We highly recommend that you disable it."
 msgstr "L’extension %2$s modifie l’apparence de votre site et, ce faisant, elle diffère entre les moteurs de recherche et les utilisateurs normaux, c’est un processus qui se nomme cloaking. Nous vous recommandons vivement de la désactiver."
 
-#: languages/wordpress-seojs.php:125
+#. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
+#. tag.
+#: languages/wordpress-seojs.php:128 admin/class-help-center.php:219
 msgid "%1$sSocial media preview%2$s: Facebook & Twitter"
 msgstr "%1$sPrévisualisation des médias sociaux%2$s : Facebook & Twitter"
 
-#: languages/wordpress-seojs.php:121 admin/class-help-center.php:213
-msgid "Superfast internal links suggestions"
-msgstr "Suggestions de liens internes super-rapides"
-
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
-#: languages/wordpress-seojs.php:117 admin/class-help-center.php:209
+#: languages/wordpress-seojs.php:120 admin/class-help-center.php:211
 msgid "%1$sNo more dead links%2$s: easy redirect manager"
 msgstr "%1$sPlus jamais de liens morts%2$s : gestionnaire de redirection facile"
 
-#. translators: %1$s: expands to 'Yoast SEO Premium'.
-#: admin/class-help-center.php:204
-msgid "Other benefits of %1$s for you:"
-msgstr "Autres avantages de %1$s pour vous :"
-
-#: languages/wordpress-seojs.php:133
+#: languages/wordpress-seojs.php:136
 #: admin/class-premium-upsell-admin-block.php:61
-#: admin/class-help-center.php:222
+#: admin/class-help-center.php:224 admin/views/sidebar.php:33
 msgid "No ads!"
 msgstr "Sans publicités !"
 
@@ -3034,7 +2954,7 @@ msgstr "Variables disponibles"
 msgid "If you want more help creating awesome content, check out our %2$sSEO copywriting course%3$s. Do you want to know all about the features of the plugin, consider doing our %1$s!"
 msgstr "Si vous voulez de l’aide pour créer du contenu exceptionnel, consultez notre formation sur le %2$scopywriting SEO%3$s. Voulez-vous tout savoir sur les fonctionnalités de l’extension ? Envisagez de suivre notre %1$s !"
 
-#: admin/class-admin.php:308
+#: admin/class-admin.php:309
 msgid "Scroll to see the table content."
 msgstr "Faire défiler pour voir le contenu du tableau."
 
@@ -3102,15 +3022,15 @@ msgid "Save"
 msgstr "Enregistrer"
 
 #. translators: 1: Author name; 2: Site name.
-#: inc/options/class-wpseo-option-titles.php:214
+#: inc/options/class-wpseo-option-titles.php:224
 msgid "%1$s, Author at %2$s"
 msgstr "%1$s, auteur sur %2$s"
 
-#: languages/yoast-seo-js.php:537
+#: languages/yoast-seo-js.php:534
 msgid "Mobile preview"
 msgstr "Prévisualisation \"Mobile\""
 
-#: languages/yoast-seo-js.php:534
+#: languages/yoast-seo-js.php:531
 msgid "Desktop preview"
 msgstr "Prévisualisation \"PC de bureau\""
 
@@ -3118,64 +3038,52 @@ msgstr "Prévisualisation \"PC de bureau\""
 msgid "Select redirect"
 msgstr "Sélectionner la redirection"
 
-#: languages/yoast-seo-js.php:543
+#: languages/yoast-seo-js.php:540
 msgid "Please provide an SEO title by editing the snippet below."
 msgstr "Merci de fournir un méta titre en modifiant le champ ci-dessous."
 
-#: languages/yoast-seo-js.php:528
+#: languages/yoast-seo-js.php:525
 msgid "Meta description preview:"
 msgstr "Prévisualisation de la méta description :"
 
-#: languages/yoast-seo-js.php:525
+#: languages/yoast-seo-js.php:522
 msgid "Slug preview:"
 msgstr "Prévisualisation du slug :"
 
-#: languages/yoast-seo-js.php:522
+#: languages/yoast-seo-js.php:519
 msgid "SEO title preview:"
 msgstr "Prévisualisation du méta titre :"
 
-#: languages/yoast-seo-js.php:516
+#: languages/yoast-seo-js.php:513
 msgid "Close snippet editor"
 msgstr "Fermer l’éditeur de métadonnées"
 
-#: languages/yoast-seo-js.php:510
+#: languages/yoast-seo-js.php:507
 msgid "Slug"
 msgstr "Slug"
 
-#: languages/yoast-seo-js.php:501
+#: languages/yoast-seo-js.php:498
 msgid "Remove marks in the text"
 msgstr "Retirer toutes les marques du texte"
 
-#: languages/yoast-seo-js.php:498
+#: languages/yoast-seo-js.php:495
 msgid "Mark this result in the text"
 msgstr "Marquer ce résultat dans le texte"
 
-#: languages/yoast-seo-js.php:495
-#: admin/formatter/class-metabox-formatter.php:173
+#: languages/yoast-seo-js.php:492
+#: admin/formatter/class-metabox-formatter.php:182
 msgid "Marks are disabled in current view"
 msgstr "Les marques sont désactivés dans la vue actuelle"
-
-#: languages/yoast-seo-js.php:489
-msgid "Content optimization: Good SEO score"
-msgstr "Optimisation du contenu : Bon score SEO"
 
 #: languages/yoast-seo-js.php:486
 msgid "Good SEO score"
 msgstr "Bon score SEO"
 
-#: languages/yoast-seo-js.php:480
-msgid "Content optimization: OK SEO score"
-msgstr "Optimisation du contenu : Score SEO OK"
-
-#: languages/yoast-seo-js.php:477
+#: languages/yoast-seo-js.php:479
 msgid "OK SEO score"
 msgstr "Score SEO OK"
 
 #: languages/yoast-seo-js.php:467
-msgid "Content optimization: Has feedback"
-msgstr "Optimisation du contenu : Retour disponible"
-
-#: languages/yoast-seo-js.php:464
 msgid "Feedback"
 msgstr "Retour"
 
@@ -3183,17 +3091,13 @@ msgstr "Retour"
 msgid "ok"
 msgstr "OK"
 
-#: languages/yoast-components.php:53
+#: languages/yoast-components.php:45
 msgid "Choose an image"
 msgstr "Choisir une image"
 
-#: languages/yoast-components.php:50
+#: languages/yoast-components.php:51
 msgid "Remove the image"
 msgstr "Supprimer cette image"
-
-#: languages/yoast-components.php:44
-msgid "Choose image"
-msgstr "Choisir une image"
 
 #: languages/yoast-components.php:41
 msgid "MailChimp signup failed:"
@@ -3228,21 +3132,27 @@ msgstr "Code d’autorisation"
 msgid "Reauthenticate with Google"
 msgstr "Se ré-authentifier avec Google"
 
+#. Translators: %s: expands to Yoast SEO.
 #: languages/yoast-components.php:8
+#: admin/google_search_console/views/gsc-display.php:98
 msgid "To allow %s to fetch your Google Search Console information, please enter your Google Authorization Code. Clicking the button below will open a new window."
 msgstr "Pour permettre à %s de récupérer vos informations de la Google Search Console, veuillez saisir votre code d’autorisation de Google. Lorsque vous cliquerez sur le bouton ci-dessous une nouvelle fenêtre s’ouvrira."
 
-#: languages/wordpress-seojs.php:160 languages/yoast-seo-js.php:546
+#: languages/wordpress-seojs.php:163 languages/yoast-seo-js.php:543
 msgid "Please provide a meta description by editing the snippet below."
 msgstr "Merci de fournir une méta description en modifiant le champ ci-dessous."
 
-#: languages/yoast-seo-js.php:504
+#: languages/yoast-seo-js.php:501
 msgid "Edit snippet"
 msgstr "Modifier les métadonnées"
 
-#: languages/yoast-seo-js.php:531
+#: languages/yoast-seo-js.php:528
 msgid "You can click on each element in the preview to jump to the Snippet Editor."
 msgstr "Vous pouvez cliquez sur n’importe quel élément de la prévisualisation pour retourner dans l’éditeur de métadonnées."
+
+#: admin/config-ui/class-configuration-page.php:141
+msgid "Close the Wizard"
+msgstr "Fermer l’assistant"
 
 #: admin/views/tool-import-export.php:87
 msgid "Export settings"
@@ -3253,11 +3163,9 @@ msgstr "Exporter les réglages"
 msgid "%1$s video tutorial"
 msgstr "Tutoriel vidéo de %1$s "
 
-#. translators: %1$s is the notification dismissal link start tag, %2$s is the
-#. link closing tag.
-#: admin/class-product-upsell-notice.php:154
-msgid "%1$sPlease don't show me this notification anymore%2$s"
-msgstr "%1$sMerci de ne plus m’afficher cette notification%2$s"
+#: admin/class-product-upsell-notice.php:152
+msgid "Please don't show me this notification anymore"
+msgstr "Merci de ne plus afficher cette notification"
 
 #. translators: %1$s is a link start tag to the bugreport guidelines on the
 #. Yoast knowledge base, %2$s is the link closing tag.
@@ -3272,7 +3180,7 @@ msgid "We've noticed you've been using %1$s for some time now; we hope you love 
 msgstr "Nous avons remarqué que vous utilisez %1$s depuis un certain temps ; nous espérons que vous l’adorez ! Nous serions très heureux si vous pouviez %2$snous attribuer 5 étoiles sur WordPress.org%3$s !"
 
 #. translators: %s expands to Yoast SEO.
-#: admin/config-ui/class-configuration-page.php:118
+#: admin/config-ui/class-configuration-page.php:106
 msgid "%s &rsaquo; Configuration Wizard"
 msgstr "%s &rsaquo; Assistant de configuration"
 
@@ -3313,18 +3221,18 @@ msgid "(no title)"
 msgstr "(sans titre)"
 
 #. translators: 1: Yoast SEO
-#: admin/views/class-yoast-feature-toggles.php:128
+#: admin/views/class-yoast-feature-toggles.php:132
 msgid "The %1$s admin bar menu contains useful links to third-party tools for analyzing pages and makes it easy to see if you have new notifications."
 msgstr "La barre de menu d’administration de %1$s contient des liens utiles vers des outils tiers pour l’analyse de vos pages et facilite l’affichage de nouvelles notifications."
 
-#: admin/views/class-yoast-feature-toggles.php:125
+#: admin/views/class-yoast-feature-toggles.php:129
 msgid "Admin bar menu"
 msgstr "Menu de la barre d’administration"
 
-#. translators: 1: Ryte
-#: admin/views/class-yoast-feature-toggles.php:118
-msgid "%1$s will check weekly if your site is still indexable by search engines and Yoast SEO will notify you when this is not the case."
-msgstr "%1$s vérifiera quotidiennement si votre site est toujours indexable par les moteurs de recherche et vous avertira si ce n’est plus le cas."
+#. translators: 1: Ryte, 2: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:119
+msgid "%1$s will check weekly if your site is still indexable by search engines and %2$s will notify you when this is not the case."
+msgstr "%1$s vérifiera toutes les semaines si votre site est toujours indexable par les moteurs de recherche et %2$s vous avertira si ce n’est plus le cas."
 
 #: admin/pages/network.php:19 admin/pages/dashboard.php:49
 #: admin/views/tabs/dashboard/features.php:19
@@ -3332,11 +3240,7 @@ msgstr "%1$s vérifiera quotidiennement si votre site est toujours indexable par
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: admin/class-help-center.php:115
-msgid "Get Yoast SEO Premium now »"
-msgstr "Obtenez Yoast SEO Premium maintenant »"
-
-#: languages/yoast-seo-js.php:507 admin/metabox/class-metabox.php:65
+#: languages/yoast-seo-js.php:504 admin/metabox/class-metabox.php:65
 msgid "SEO title"
 msgstr "Méta titre"
 
@@ -3355,55 +3259,55 @@ msgstr "Bienvenue dans l’assistant de configuration de %1$s. En quelques étap
 msgid "Google shows your website's name in the search results, if you want to change it, you can do that here."
 msgstr "Google affiche le nom de votre site dans ses résultats de recherche, si vous souhaitez le modifier, vous pouvez le faire ici."
 
-#: inc/options/class-wpseo-option-titles.php:873
+#: inc/options/class-wpseo-option-titles.php:884
 msgid "Greater than sign"
 msgstr "Signe supérieur à"
 
-#: inc/options/class-wpseo-option-titles.php:869
+#: inc/options/class-wpseo-option-titles.php:880
 msgid "Less than sign"
 msgstr "Signe inférieur à"
 
-#: inc/options/class-wpseo-option-titles.php:865
+#: inc/options/class-wpseo-option-titles.php:876
 msgid "Right angle quotation mark"
 msgstr "Guillemet droit à angle droit"
 
-#: inc/options/class-wpseo-option-titles.php:861
+#: inc/options/class-wpseo-option-titles.php:872
 msgid "Left angle quotation mark"
 msgstr "Guillemet gauche à angle droit"
 
-#: inc/options/class-wpseo-option-titles.php:857
+#: inc/options/class-wpseo-option-titles.php:868
 msgid "Small tilde"
 msgstr "Petit tilde"
 
-#: inc/options/class-wpseo-option-titles.php:853
+#: inc/options/class-wpseo-option-titles.php:864
 msgid "Vertical bar"
 msgstr "Barre verticale"
 
-#: inc/options/class-wpseo-option-titles.php:849
+#: inc/options/class-wpseo-option-titles.php:860
 msgid "Low asterisk"
 msgstr "Astérisque bas"
 
-#: inc/options/class-wpseo-option-titles.php:845
+#: inc/options/class-wpseo-option-titles.php:856
 msgid "Asterisk"
 msgstr "Astérisque"
 
-#: inc/options/class-wpseo-option-titles.php:841
+#: inc/options/class-wpseo-option-titles.php:852
 msgid "Bullet"
 msgstr "Puces"
 
-#: inc/options/class-wpseo-option-titles.php:837
+#: inc/options/class-wpseo-option-titles.php:848
 msgid "Middle dot"
 msgstr "Point au milieu"
 
-#: inc/options/class-wpseo-option-titles.php:829
+#: inc/options/class-wpseo-option-titles.php:840
 msgid "Em dash"
 msgstr "Tiret Em"
 
-#: inc/options/class-wpseo-option-titles.php:825
+#: inc/options/class-wpseo-option-titles.php:836
 msgid "En dash"
 msgstr "Tiret En"
 
-#: inc/options/class-wpseo-option-titles.php:821
+#: inc/options/class-wpseo-option-titles.php:832
 msgid "Dash"
 msgstr "Tiret"
 
@@ -3450,7 +3354,7 @@ msgstr "C’est validé !"
 msgid "Title settings"
 msgstr "Réglages des titres"
 
-#: admin/google_search_console/views/gsc-display.php:84
+#: admin/google_search_console/views/gsc-display.php:85
 msgid "Google Search Console"
 msgstr "Google Search Console"
 
@@ -3493,31 +3397,26 @@ msgid "Note that links to archives might be still output by your theme and you w
 msgstr "Notez que les liens vers les archives pourraient être encore affichés par votre thème et que vous aurez besoin de les enlever séparément."
 
 #. translators: %1$s expands to Yoast SEO extensions
-#: admin/views/licenses.php:218
+#: admin/views/licenses.php:220
 msgid "%1$s to optimize your site even further"
 msgstr "%1$s pour optimiser encore plus votre site"
 
 #. translators: %1$s expands to Yoast SEO
-#: admin/views/licenses.php:214
+#: admin/views/licenses.php:216
 msgid "%1$s extensions"
 msgstr "%1$s extensions"
 
-#: admin/views/licenses.php:204
+#: admin/views/licenses.php:205
 msgid "Comes with our 30-day no questions asked money back guarantee"
 msgstr "Livré avec une garantie 100 % satisfait ou remboursé sans demande de justification."
 
 #. translators: Text between %1$s and %2$s will only be shown to screen
 #. readers. %3$s expands to the product name.
-#: admin/views/licenses.php:193 admin/views/licenses.php:273
+#: admin/views/licenses.php:194 admin/views/licenses.php:276
 msgid "More information %1$sabout %3$s%2$s"
 msgstr "Plus d’informations %1$sà propos de %3$s %2$s"
 
-#. translators: $1$s expands to Yoast SEO Premium
-#: admin/views/licenses.php:182
-msgid "Buy %1$s"
-msgstr "Achetez %1$s"
-
-#: admin/views/licenses.php:153 admin/views/licenses.php:234
+#: admin/views/licenses.php:153 admin/views/licenses.php:237
 msgid "Installed"
 msgstr "Installée"
 
@@ -3605,11 +3504,6 @@ msgstr "Modifier &#8220;%s&#8221;"
 msgid "Premium"
 msgstr "Premium"
 
-#: admin/metabox/class-metabox.php:396
-#: admin/taxonomy/class-taxonomy-metabox.php:240
-msgid "Go Premium"
-msgstr "Passer à la version Premium"
-
 #: inc/class-wpseo-admin-bar-menu.php:258
 msgid "Google Trends"
 msgstr "Tendances Google"
@@ -3655,9 +3549,9 @@ msgstr "Réglages du fil d’Ariane"
 msgid "Make primary"
 msgstr "Rendre principal"
 
-#: admin/metabox/class-metabox.php:352 admin/metabox/class-metabox.php:355
-#: admin/taxonomy/class-taxonomy-metabox.php:129
-#: admin/taxonomy/class-taxonomy-metabox.php:132
+#: admin/metabox/class-metabox.php:338 admin/metabox/class-metabox.php:341
+#: admin/taxonomy/class-taxonomy-metabox.php:112
+#: admin/taxonomy/class-taxonomy-metabox.php:115
 msgid "Content optimization"
 msgstr "Optimisation du contenu"
 
@@ -3665,28 +3559,6 @@ msgstr "Optimisation du contenu"
 #: admin/google_search_console/views/gsc-display.php:105
 msgid "Enter your Google Authorization Code and press the Authenticate button."
 msgstr "Saisissez votre code d’autorisation de Google et appuyez sur le bouton d’authentification."
-
-#. Translators: %1$s: expands to Yoast SEO, %2$s expands to Google Search
-#. Console.
-#: admin/google_search_console/views/gsc-display.php:97
-msgid "To allow %1$s to fetch your %2$s information, please enter your Google Authorization Code. Clicking the button below will open a new window."
-msgstr "Pour permettre à %1$s de récupérer vos informations de %2$s, veuillez saisir votre code d’autorisation de Google. Lorsque vous cliquerez sur le bouton ci-dessous une nouvelle fenêtre s’ouvrira."
-
-#: admin/class-help-center.php:259
-msgid "Knowledge base article"
-msgstr "Article de la base de connaissances"
-
-#: admin/class-help-center.php:256
-msgid "Open the knowledge base article in a new window or read it in the iframe below"
-msgstr "Ouvrez l’article de la base de connaissances dans une nouvelle fenêtre ou lisez-le dans l’iframe ci-dessous."
-
-#: admin/class-help-center.php:267
-msgid "Search results"
-msgstr "Résultats de recherche"
-
-#: admin/class-admin.php:307
-msgid "Yoast SEO video tutorial"
-msgstr "Tutoriel vidéo de Yoast SEO"
 
 #. translators: %s: number of notifications
 #: admin/menu/class-admin-menu.php:121 inc/class-wpseo-admin-bar-menu.php:636
@@ -3703,12 +3575,17 @@ msgstr "Désactiver l’analyse de lisibilité"
 msgid "Removes the readability analysis section from the metabox and disables all readability-related suggestions."
 msgstr "Retire l’onglet de l’analyse de lisibilité du gestionnaire de métadonnées et désactive toutes les suggestions liées."
 
-#: languages/wordpress-seojs.php:72
+#: languages/wordpress-seojs.php:79
 #: admin/views/class-yoast-feature-toggles.php:80
 msgid "Readability analysis"
 msgstr "Analyse de la lisibilité"
 
-#: languages/yoast-seo-js.php:471 inc/class-wpseo-rank.php:126
+#: languages/yoast-seo-js.php:475
+#: admin/formatter/class-metabox-formatter.php:95
+#: admin/formatter/class-metabox-formatter.php:125
+#: admin/statistics/class-statistics-service.php:211
+#: inc/class-wpseo-rank.php:126 inc/class-wpseo-rank.php:149
+#: inc/class-wpseo-rank.php:181
 msgid "Needs improvement"
 msgstr "Besoin d’amélioration"
 
@@ -3721,7 +3598,7 @@ msgstr "Lisibilité"
 msgid "You are trying to load non-minified files. These are only available in our development package. Check out %1$s to see all the source files."
 msgstr "Vous essayez de charger des fichiers non minifiés. Ceux-ci ne sont disponibles que dans notre paquet de développement. Rendez-vous sur %1$s pour voir tous les fichiers source."
 
-#: admin/formatter/class-metabox-formatter.php:166
+#: admin/formatter/class-metabox-formatter.php:175
 msgid "Improvements"
 msgstr "Améliorations"
 
@@ -3742,16 +3619,17 @@ msgstr "Beau travail ! Nous n’avons détecté aucun problème sérieux de ré
 msgid "We have detected the following issues that affect the SEO of your site."
 msgstr "Nous avons détecté les problèmes suivants qui affectent le référencement de votre site."
 
-#: admin/formatter/class-metabox-formatter.php:165
+#: admin/formatter/class-metabox-formatter.php:174
 #: admin/views/partial-alerts-errors.php:13
 msgid "Problems"
 msgstr "Problèmes"
 
-#: admin/formatter/class-metabox-formatter.php:136
+#: admin/formatter/class-metabox-formatter.php:145
 msgid "Analysis"
 msgstr "Analyse"
 
-#: inc/class-wpseo-rank.php:124
+#: admin/formatter/class-metabox-formatter.php:88
+#: admin/formatter/class-metabox-formatter.php:118 inc/class-wpseo-rank.php:124
 msgid "Not available"
 msgstr "Non disponible"
 
@@ -3763,34 +3641,22 @@ msgstr "Filtrer par score SEO"
 msgid "Meta description not set."
 msgstr "La méta description n’est pas définie."
 
-#: admin/class-help-center.php:247
+#: languages/wordpress-seojs.php:356
 msgid "Video tutorial"
 msgstr "Tutoriel vidéo"
 
 #. translators: %s: expands to 'Yoast SEO Premium'.
-#: admin/class-help-center.php:201
+#: admin/class-help-center.php:203
 msgid "Email support is a %s feature"
 msgstr "Le support par e-mail est une fonctionnalité %s"
 
-#: admin/class-help-center.php:248
+#: languages/wordpress-seojs.php:359
 msgid "Knowledge base"
 msgstr "Base de connaissance"
 
-#: languages/wordpress-seojs.php:145
+#: languages/wordpress-seojs.php:148
 msgid "Open"
 msgstr "Ouvrir"
-
-#: admin/class-help-center.php:250
-msgid "Loading..."
-msgstr "En cours de chargement..."
-
-#: admin/class-help-center.php:251
-msgid "Something went wrong. Please try again later."
-msgstr "Quelque chose s’est mal passé. Veuillez réessayer ultérieurement."
-
-#: admin/class-help-center.php:261
-msgid "No results found."
-msgstr "Aucun résultat trouvé."
 
 #: admin/menu/class-admin-menu.php:37 admin/pages/dashboard.php:39
 msgid "Dashboard"
@@ -3798,11 +3664,11 @@ msgstr "Tableau de bord"
 
 #. translators: %1$s resolves to the starting tag of the link to the permalink
 #. settings page, %2$s resolves to the closing tag of the link
-#: admin/class-admin-init.php:211
+#: admin/class-admin-init.php:212
 msgid "You can fix this on the %1$sPermalink settings page%2$s."
 msgstr "Vous pouvez corriger cela sur la %1$spage des réglages des permaliens%2$s."
 
-#: admin/class-admin-init.php:159
+#: admin/class-admin-init.php:160
 msgid "Paging comments is enabled, this is not needed in 999 out of 1000 cases, we recommend to disable it."
 msgstr "La pagination des commentaires est activée, ce n’est pas nécessaire dans 99% des cas, nous vous recommandons de la désactiver."
 
@@ -3826,39 +3692,32 @@ msgstr "Archives par formats"
 msgid "Webmaster Tools verification"
 msgstr "Vérification des outils pour les webmasters"
 
-#: admin/class-help-center.php:112
-msgid "Need some help?"
-msgstr "Besoin de plus d’aide ?"
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-help-center.php:121
+msgid "Follow our %1$s for WordPress training and become a certified %1$s Expert!"
+msgstr "Suivez notre %1$s de formation WordPress  et devenez un expert certifié %1$s !"
 
+#. translators: %s expands to Yoast SEO
+#: admin/class-help-center.php:119
+msgid "Want to be a %s Expert?"
+msgstr "Vous voulez être un expert %s ?"
+
+#. translators: $s expands to Yoast SEO Premium
 #. translators: %s expands to the product name
-#: admin/views/licenses.php:262
+#: admin/views/licenses.php:183 admin/views/licenses.php:265
 msgid "Buy %s"
 msgstr "Achetez %s"
 
-#: admin/google_search_console/class-gsc-category-filters.php:124
-msgid "Show information about errors in category 'Soft 404'"
-msgstr "Afficher des informations sur les erreurs dans la catégorie « Soft 404 »"
-
-#: admin/google_search_console/class-gsc-category-filters.php:123
-msgid "Show information about errors in category 'Server'"
-msgstr "Afficher des informations sur les erreurs dans la catégorie « Serveur »"
-
-#. Translators: %1$s: expands to '<code>robots.txt</code>'.
+#. translators: %s: category name. N.B.: The category name is translated
+#. separately.
 #: admin/google_search_console/class-gsc-category-filters.php:122
-msgid "Show information about errors in category 'Blocked'"
-msgstr "Afficher des informations sur les erreurs dans la catégorie « Bloqué »"
-
-#: admin/google_search_console/class-gsc-category-filters.php:120
-msgid "Show information about errors in category 'Other'"
-msgstr "Afficher des informations sur les erreurs dans la catégorie « Autre »"
-
-#: admin/google_search_console/class-gsc-category-filters.php:119
-msgid "Show information about errors in category 'Not Found'"
-msgstr "Afficher des informations sur les erreurs dans la catégorie « Non trouvé »"
-
-#: admin/google_search_console/class-gsc-category-filters.php:116
-msgid "Show information about errors in category 'Access Denied'"
-msgstr "Afficher des informations sur les erreurs dans la catégorie « Accès refusé »"
+#: admin/google_search_console/class-gsc-category-filters.php:134
+#: admin/google_search_console/class-gsc-category-filters.php:144
+#: admin/google_search_console/class-gsc-category-filters.php:158
+#: admin/google_search_console/class-gsc-category-filters.php:168
+#: admin/google_search_console/class-gsc-category-filters.php:178
+msgid "Show information about errors in category %s"
+msgstr "Afficher des informations sur les erreurs dans la catégorie %s"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-bulk-title-editor-list-table.php:51
@@ -3903,7 +3762,7 @@ msgid "Show Blog page"
 msgstr "Afficher la page de blog"
 
 #. translators: %s is the taxonomy title. This will be shown to screenreaders
-#: admin/views/js-templates-primary-term.php:39
+#: admin/views/js-templates-primary-term.php:38
 msgid "Primary %s"
 msgstr "%s principal"
 
@@ -4007,7 +3866,7 @@ msgstr "%1$sVotre page d’accueil ne peut pas être indexée par les moteurs de
 msgid "Once Weekly"
 msgstr "Une fois par semaine"
 
-#: admin/metabox/class-metabox.php:410 admin/metabox/class-metabox.php:413
+#: admin/metabox/class-metabox.php:382 admin/metabox/class-metabox.php:385
 msgid "Add-ons"
 msgstr "Add-ons"
 
@@ -4015,12 +3874,12 @@ msgstr "Add-ons"
 msgid "SEO score"
 msgstr "Score SEO"
 
-#: admin/taxonomy/class-taxonomy-metabox.php:178
+#: admin/taxonomy/class-taxonomy-metabox.php:161
 #: admin/class-social-admin.php:108 admin/class-social-admin.php:110
 msgid "Twitter metadata"
 msgstr "métadonnées Twitter"
 
-#: admin/taxonomy/class-taxonomy-metabox.php:177
+#: admin/taxonomy/class-taxonomy-metabox.php:160
 #: admin/class-social-admin.php:95 admin/class-social-admin.php:97
 msgid "Facebook / Open Graph metadata"
 msgstr "métadonnées Facebook / Open Graph"
@@ -4037,7 +3896,7 @@ msgstr "%1$s de %2$s effectué."
 
 #. translators: 1: is a link to 'admin_url /
 #. admin.php?page=wpseo_tools&recalculate=1' 2: closing link tag
-#: admin/class-admin-init.php:411
+#: admin/class-admin-init.php:412
 msgid "We've updated our SEO score algorithm. %1$sRecalculate the SEO scores%2$s for all posts and pages."
 msgstr "Nous avons mis à jour l’algorithme de calcul de nos scores SEO. %1$sCliquez ici pour les recalculer%2$s pour l’ensemble de vos articles et pages."
 
@@ -4129,12 +3988,12 @@ msgid "%1$s does not seem to be a valid %2$s verification string. Please correct
 msgstr "%1$s ne semble pas être une chaine de caractères de vérification valide pour %2$s. Veuillez corriger."
 
 #. translators: %s expands to the name of a post type (plural).
-#: inc/options/class-wpseo-option-titles.php:253
+#: inc/options/class-wpseo-option-titles.php:261
 msgid "%s Archive"
 msgstr "%s Archive"
 
 #. translators: %s expands to the search phrase.
-#: inc/options/class-wpseo-option-titles.php:216
+#: inc/options/class-wpseo-option-titles.php:226
 msgid "You searched for %s"
 msgstr "Vous avez cherché %s"
 
@@ -4152,7 +4011,7 @@ msgid "Summary"
 msgstr "Résumé"
 
 #. translators: 1: link to post; 2: link to blog.
-#: inc/options/class-wpseo-option-titles.php:219
+#: inc/options/class-wpseo-option-titles.php:229
 msgid "The post %1$s appeared first on %2$s."
 msgstr "L’article %1$s est apparu en premier sur %2$s."
 
@@ -4176,32 +4035,37 @@ msgid "%1$s is not a valid choice for who should be allowed access to the %2$s s
 msgstr "%1$s n’est pas un choix valide pour ceux qui devraient être autorisés d’accéder aux réglages de %2$s. La valeur par défaut a été remise."
 
 #. translators: %s expands to a taxonomy slug.
-#: inc/options/class-wpseo-option-titles.php:465
+#: inc/options/class-wpseo-option-titles.php:474
 msgid "Please select a valid post type for taxonomy \"%s\""
 msgstr "Veuillez choisir un type de publication valide pour la taxonomie « %s »"
 
 #. translators: %s expands to a post type.
-#: inc/options/class-wpseo-option-titles.php:428
+#: inc/options/class-wpseo-option-titles.php:437
 msgid "Please select a valid taxonomy for post type \"%s\""
 msgstr "Veuillez choisir une taxonomie valide pour le type de publication « %s »"
 
-#: inc/options/class-wpseo-option-titles.php:224
+#: inc/options/class-wpseo-option-titles.php:234
 msgid "You searched for"
 msgstr "Vous avez cherché"
 
-#: inc/options/class-wpseo-option-titles.php:223
+#: inc/options/class-wpseo-option-titles.php:233
 msgid "Home"
 msgstr "Accueil"
 
-#: inc/options/class-wpseo-option-titles.php:222
+#: inc/options/class-wpseo-option-titles.php:232
 msgid "Archives for"
 msgstr "Archives pour"
 
-#: inc/options/class-wpseo-option-titles.php:221
+#: inc/options/class-wpseo-option-titles.php:231
 msgid "Error 404: Page not found"
 msgstr "Erreur 404 : Page introuvable"
 
-#: languages/yoast-seo-js.php:492 inc/class-wpseo-rank.php:128
+#: languages/yoast-seo-js.php:489
+#: admin/formatter/class-metabox-formatter.php:109
+#: admin/formatter/class-metabox-formatter.php:139
+#: admin/statistics/class-statistics-service.php:221
+#: inc/class-wpseo-rank.php:128 inc/class-wpseo-rank.php:159
+#: inc/class-wpseo-rank.php:191
 msgid "Good"
 msgstr "Bon"
 
@@ -4345,7 +4209,7 @@ msgid "Admin only notice: this page does not show a meta description because it 
 msgstr "Avis aux administrateurs : cette page n’affiche pas de méta description car elle n’en a pas. Vous pouvez donc soit l’ajouter spécifiquement pour cette page soit vous rendre dans vos réglages (%1$s - %2$s) pour configurer un modèle."
 
 #: frontend/class-frontend.php:532
-#: inc/options/class-wpseo-option-titles.php:217
+#: inc/options/class-wpseo-option-titles.php:227
 msgid "Page not found"
 msgstr "Page non trouvée"
 
@@ -4354,7 +4218,7 @@ msgstr "Page non trouvée"
 #. translators: %s expands to the variable used for term title.
 #: frontend/class-frontend.php:509 frontend/class-frontend.php:513
 #: frontend/class-frontend.php:517
-#: inc/options/class-wpseo-option-titles.php:276
+#: inc/options/class-wpseo-option-titles.php:284
 msgid "%s Archives"
 msgstr "Archives des %s"
 
@@ -4383,17 +4247,17 @@ msgstr "Exporter vos réglages de %1$s"
 
 #: admin/class-export.php:60 admin/views/tool-import-export.php:83
 #: admin/views/tabs/tool/wpseo-import.php:24
-#: admin/views/tabs/tool/wpseo-import.php:36
+#: admin/views/tabs/tool/wpseo-import.php:44
 msgid "Import settings"
 msgstr "Importer les réglages"
 
 #: admin/views/tool-import-export.php:91
 #: admin/views/tabs/tool/import-seo.php:18
-#: admin/views/tabs/tool/import-seo.php:45
+#: admin/views/tabs/tool/import-seo.php:49
 msgid "Import from other SEO plugins"
 msgstr "Importer à partir d’autres extensions de SEO"
 
-#: admin/views/tabs/tool/import-seo.php:72
+#: admin/views/tabs/tool/import-seo.php:82
 msgid "Import"
 msgstr "Importer"
 
@@ -4448,19 +4312,19 @@ msgstr "Cette fonctionnalité est utilisée pour ajouter automatiquement du cont
 
 #. translators: %1$s / %2$s: links to the breadcrumbs implementation page on
 #. the Yoast knowledgebase
-#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:108
+#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:107
 msgid "Usage of this breadcrumbs feature is explained in %1$sour knowledge-base article on breadcrumbs implementation%2$s."
 msgstr "L’utilisation de la fonctionnalité du fil d’Ariane est expliquée dans l’article %1$sde notre base de connaissances sur l’intégration du fil d’Ariane%2$s."
 
-#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:103
+#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:102
 msgid "How to insert breadcrumbs in your theme"
 msgstr "Comment insérer un fil d’Ariane dans votre thème ?"
 
-#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:82
+#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:81
 msgid "Blog"
 msgstr "Blog"
 
-#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:78
+#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:77
 msgid "Content type archive to show in breadcrumbs for taxonomies"
 msgstr "Archive de type de contenu à afficher dans le fil d’Ariane pour les taxonomies"
 
@@ -4738,7 +4602,7 @@ msgstr "Archives par date"
 msgid "author archives"
 msgstr "Archives de l’auteur"
 
-#: languages/wordpress-seojs.php:326 admin/views/tabs/social/facebook.php:42
+#: languages/wordpress-seojs.php:329 admin/views/tabs/social/facebook.php:42
 #: admin/views/tool-bulk-editor.php:133 inc/class-wpseo-replace-vars.php:1331
 msgid "Title"
 msgstr "Titre"
@@ -4765,13 +4629,13 @@ msgstr "À savoir :"
 
 #. translators: 1: link open tag; 2: link close tag.
 #: admin/views/tabs/metas/paper-content/general/homepage.php:50
-msgid "You can determine the title and description for the blog page by %1$sediting the blog page itself &raquo;%2$s"
-msgstr "Vous pouvez définir le titre et la description pour la page du blog en %1$smodifiant la page de blog directement &raquo;%2$s"
+msgid "You can determine the title and description for the blog page by %1$sediting the blog page itself%2$s."
+msgstr "Vous pouvez définir le titre et la description pour la page du blog en %1$sla modifiant directement%2$s."
 
 #. translators: 1: link open tag; 2: link close tag.
 #: admin/views/tabs/metas/paper-content/general/homepage.php:41
-msgid "You can determine the title and description for the front page by %1$sediting the front page itself &raquo;%2$s"
-msgstr "Vous pouvez déterminer le titre et la description de la page d’accueil en %1$smodifiant la page d’accueil directement &raquo;%2$s"
+msgid "You can determine the title and description for the front page by %1$sediting the front page itself%2$s."
+msgstr "Vous pouvez déterminer le titre et la description de la page d’accueil en %1$sla modifiant directement%2$s."
 
 #: admin/views/tabs/metas/paper-content/general/homepage.php:37
 msgid "Homepage &amp; Front page"
@@ -4845,7 +4709,7 @@ msgstr "Nom du Site Web"
 msgid "Webmaster Tools"
 msgstr "Outils pour les webmasters"
 
-#: admin/class-admin-init.php:207
+#: admin/class-admin-init.php:208
 msgid "You do not have your postname in the URL of your posts and pages, it is highly recommended that you do. Consider setting your permalink structure to <strong>/%postname%/</strong>."
 msgstr "Vous n’avez pas le nom de l’article dans l’URL de vos articles et pages. Il est fortement recommandé de l’avoir. Il est suggéré d’ajuster la structure de vos permaliens pour <strong>/%postname%/</strong>."
 
@@ -4888,7 +4752,7 @@ msgstr "S’authentifier"
 msgid "Get Google Authorization Code"
 msgstr "Obtenir un Code d’Autorisation Google"
 
-#: admin/google_search_console/views/gsc-display.php:66
+#: admin/google_search_console/views/gsc-display.php:67
 msgid "Reload crawl issues"
 msgstr "Recharger les problèmes d’exploration"
 
@@ -4899,7 +4763,7 @@ msgid "To be able to create a redirect and fix this issue, you need %1$s. You ca
 msgstr "Pour pouvoir créer une redirection et régler ce problème, vous avez besoin de %1$s. Vous pouvez acheter l&rsquo;extension, incluant un an de support et de mises à jour, sur %2$s."
 
 #. Translators: %s: expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:157
+#: languages/wordpress-seojs.php:160
 #: admin/google_search_console/views/gsc-redirect-nopremium.php:15
 msgid "Creating redirects is a %s feature"
 msgstr "la création de redirection est une fonctionnalité de %s."
@@ -4938,7 +4802,6 @@ msgid "Crawl errors per page"
 msgstr "Erreurs d’exploration par page"
 
 #: admin/google_search_console/class-gsc.php:143
-#: admin/class-help-center.php:254
 msgid "Search"
 msgstr "Rechercher"
 
@@ -4998,57 +4861,61 @@ msgstr "Smartphone"
 msgid "Desktop"
 msgstr "Ordinateur"
 
-#: admin/google_search_console/class-gsc-category-filters.php:124
+#: admin/google_search_console/class-gsc-category-filters.php:175
 msgid "The target URL doesn't exist, but your server is not returning a 404 (file not found) error."
 msgstr "L’URL cible n’existe pas mais le serveur ne retourne pas d’erreur 404 (fichier non trouvé)."
 
-#: admin/google_search_console/class-gsc-category-filters.php:124
+#: admin/google_search_console/class-gsc-category-filters.php:174
+#: admin/google_search_console/class-gsc-category-filters.php:179
 msgid "Soft 404"
 msgstr "Soft 404"
 
-#: admin/google_search_console/class-gsc-category-filters.php:123
+#: admin/google_search_console/class-gsc-category-filters.php:165
 msgid "Request timed out or site is blocking Google."
 msgstr "Le temps de la demande est écoulé ou le site bloque Google."
 
-#: admin/google_search_console/class-gsc-category-filters.php:123
+#: admin/google_search_console/class-gsc-category-filters.php:164
+#: admin/google_search_console/class-gsc-category-filters.php:169
 msgid "Server Error"
 msgstr "Erreur serveur"
 
-#. Translators: %1$s: expands to '<code>robots.txt</code>'.
-#: admin/google_search_console/class-gsc-category-filters.php:122
+#. translators: %1$s: expands to '<code>robots.txt</code>'.
+#: admin/google_search_console/class-gsc-category-filters.php:153
 msgid "Googlebot could access your site, but certain URLs are blocked for Googlebot in your %1$s file. This block could either be for all Googlebots or even specifically for Googlebot-mobile."
 msgstr "Le Googlebot pourrait accéder à votre site, mais l’accès à certaines adresses est bloqué dans votre %1$s. Ce blocage pourrait être pour tous les Googlebot ou uniquement pour le Googlebot-mobile."
 
-#. Translators: %1$s: expands to '<code>robots.txt</code>'.
-#: admin/google_search_console/class-gsc-category-filters.php:122
+#: admin/google_search_console/class-gsc-category-filters.php:150
+#: admin/google_search_console/class-gsc-category-filters.php:159
 msgid "Blocked"
 msgstr "Bloqué"
 
-#: admin/google_search_console/class-gsc-category-filters.php:120
+#: admin/google_search_console/class-gsc-category-filters.php:141
 msgid "Google was unable to crawl this URL due to an undetermined issue."
 msgstr "Google n’a pas pu exploré cette adresse en raison d’un problème indéterminé."
 
-#: admin/google_search_console/class-gsc-category-filters.php:119
+#: admin/google_search_console/class-gsc-category-filters.php:131
 msgid "URL points to a non-existent page."
 msgstr "L’adresse pointe vers une page inexistante."
 
-#: admin/google_search_console/class-gsc-category-filters.php:119
+#: admin/google_search_console/class-gsc-category-filters.php:130
+#: admin/google_search_console/class-gsc-category-filters.php:135
 msgid "Not found"
 msgstr "Non trouvé"
 
-#: admin/google_search_console/class-gsc-category-filters.php:118
+#: admin/google_search_console/class-gsc-category-filters.php:127
 msgid "Not followed"
 msgstr "Non suivi"
 
-#: admin/google_search_console/class-gsc-category-filters.php:117
+#: admin/google_search_console/class-gsc-category-filters.php:126
 msgid "Faulty redirects"
 msgstr "Redirections défectueuses"
 
-#: admin/google_search_console/class-gsc-category-filters.php:116
+#: admin/google_search_console/class-gsc-category-filters.php:119
 msgid "Server requires authentication or is blocking Googlebot from accessing the site."
 msgstr "Le serveur nécessite une authentification ou bloque l’accès au site au Googlebot."
 
-#: admin/google_search_console/class-gsc-category-filters.php:116
+#: admin/google_search_console/class-gsc-category-filters.php:118
+#: admin/google_search_console/class-gsc-category-filters.php:123
 msgid "Access denied"
 msgstr "Accès refusé"
 
@@ -5063,13 +4930,13 @@ msgstr "Désactiver %s"
 msgid "The %1$s plugin might cause issues when used in conjunction with %2$s."
 msgstr "L’extension %1$s pourrait provoquer des problèmes si utiliser en conjonction avec %2$s."
 
-#: admin/metabox/class-metabox.php:566
+#: admin/metabox/class-metabox.php:538
 #: admin/taxonomy/class-taxonomy-fields-presenter.php:119
 #: admin/class-yoast-form.php:557
 msgid "Upload Image"
 msgstr "Téléverser une image"
 
-#: admin/views/sidebar.php:128
+#: admin/views/sidebar.php:133
 msgid "Remove these ads?"
 msgstr "Supprimer les publicités"
 
@@ -5098,7 +4965,8 @@ msgstr "Facebook App ID"
 msgid "Pinterest"
 msgstr "Pinterest "
 
-#: admin/google_search_console/class-gsc-category-filters.php:120
+#: admin/google_search_console/class-gsc-category-filters.php:140
+#: admin/google_search_console/class-gsc-category-filters.php:145
 msgid "Other"
 msgstr "Autres"
 
@@ -5123,14 +4991,14 @@ msgstr "%1$s et %2$s peuvent tous les deux créer des plans de site XML. En avoi
 
 #. translators: %1$s expands to Yoast SEO.
 #: admin/class-plugin-conflict.php:146
-msgid "Configure %1$s's OpenGraph settings"
+msgid "Configure %1$s's Open Graph settings"
 msgstr "Configurer les réglages de l’OpenGraph de %1$s"
 
 #. translators: %1$s expands to Yoast SEO, %2$s: 'Facebook' plugin name of
 #. possibly conflicting plugin with regard to creating OpenGraph output.
 #: admin/class-plugin-conflict.php:142
-msgid "Both %1$s and %2$s create OpenGraph output, which might make Facebook, Twitter, LinkedIn and other social networks use the wrong texts and images when your pages are being shared."
-msgstr "%1$s et %2$s créent des sorties OpenGraph, ce qui pourrait faire que Facebook, Twitter, LinkedIn et d’autres réseaux sociaux utilisent de mauvais textes et de mauvaises images lorsque vos pages sont partagées."
+msgid "Both %1$s and %2$s create Open Graph output, which might make Facebook, Twitter, LinkedIn and other social networks use the wrong texts and images when your pages are being shared."
+msgstr "%1$s et %2$s créent des métadonnées OpenGraph, ce qui pourrait faire que Facebook, Twitter, LinkedIn et d’autres réseaux sociaux utilisent de mauvais textes et de mauvaises images lorsque vos pages sont partagées."
 
 #. translators: %s expands to the social network name
 #. translators: %s expands to the name of a social network.
@@ -5209,7 +5077,12 @@ msgstr "Essayez de faire des phrases plus courtes pour améliorer la lisibilité
 msgid "fairly difficult"
 msgstr "assez difficile"
 
-#: languages/yoast-seo-js.php:483 inc/class-wpseo-rank.php:127
+#: languages/yoast-seo-js.php:482
+#: admin/formatter/class-metabox-formatter.php:102
+#: admin/formatter/class-metabox-formatter.php:132
+#: admin/statistics/class-statistics-service.php:216
+#: inc/class-wpseo-rank.php:127 inc/class-wpseo-rank.php:154
+#: inc/class-wpseo-rank.php:186
 msgid "OK"
 msgstr "OK"
 
@@ -5233,23 +5106,11 @@ msgstr "Méta Desc."
 msgid "All SEO Scores"
 msgstr "Tous les scores SEO"
 
-#: inc/class-wpseo-rank.php:145
-msgid "SEO: Post Noindexed"
-msgstr "SEO : Publication non indexée"
-
-#: inc/class-wpseo-rank.php:144
-msgid "SEO: Good"
-msgstr "SEO : Bon"
-
-#: inc/class-wpseo-rank.php:143
-msgid "SEO: OK"
-msgstr "SEO : OK"
-
-#: admin/metabox/class-metabox.php:805
+#: admin/metabox/class-metabox.php:780
 msgid "SEO issue: The featured image should be at least 200 by 200 pixels to be picked up by Facebook and other social media sites."
 msgstr "Problème SEO : L’image à la Une doit être au moins de 200 x 200 pixels pour être exploitable par Facebook et les autres réseaux sociaux."
 
-#: admin/metabox/class-metabox.php:205 admin/taxonomy/class-taxonomy.php:246
+#: admin/metabox/class-metabox.php:205 admin/taxonomy/class-taxonomy.php:247
 msgid "(no parent)"
 msgstr "(aucun parent)"
 
@@ -5298,8 +5159,8 @@ msgstr "Pas d’index pour l’image"
 
 #: admin/metabox/class-metabox.php:88 admin/class-yoast-network-admin.php:43
 #: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:51
-#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:80
-#: inc/class-wpseo-meta.php:363
+#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:79
+#: inc/class-wpseo-meta.php:362
 msgid "None"
 msgstr "Aucun"
 
@@ -5321,7 +5182,7 @@ msgstr "Méta robots avancés"
 msgid "Warning: even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
 msgstr "Avertissement : même si vous pouvez modifier les méta « robots » ici, tout votre site est réglé en mode « noindex » dans les réglages de vie privée, toute modification effectuée ici n’aura donc aucun effet."
 
-#: languages/yoast-seo-js.php:513 admin/metabox/class-metabox.php:67
+#: languages/yoast-seo-js.php:510 admin/metabox/class-metabox.php:67
 msgid "Meta description"
 msgstr "Méta description"
 
@@ -5333,7 +5194,7 @@ msgstr "Méta titre "
 msgid "Focus keyword"
 msgstr "Requête cible"
 
-#: languages/wordpress-seojs.php:47 languages/yoast-seo-js.php:519
+#: languages/wordpress-seojs.php:47 languages/yoast-seo-js.php:516
 msgid "Snippet preview"
 msgstr "Prévisualisation des métadonnées"
 
@@ -5383,8 +5244,8 @@ msgstr "Retirer la page de blog du fil d’Ariane"
 msgid "%s Breadcrumbs"
 msgstr "Fil d’Ariane de %s"
 
-#: admin/metabox/class-metabox.php:817 admin/class-config.php:111
-#: admin/taxonomy/class-taxonomy.php:146
+#: admin/metabox/class-metabox.php:792 admin/class-config.php:111
+#: admin/taxonomy/class-taxonomy.php:147
 msgid "Use Image"
 msgstr "Utiliser l’image"
 
@@ -5467,7 +5328,7 @@ msgstr "URL du profil Facebook"
 msgid "Twitter username (without @)"
 msgstr "Identifiant Twitter (sans le @)"
 
-#: languages/wordpress-seojs.php:169 admin/class-admin.php:234
+#: languages/wordpress-seojs.php:172 admin/class-admin.php:234
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -5475,21 +5336,21 @@ msgstr "FAQ"
 msgid "Premium Support"
 msgstr "Support Premium"
 
-#: languages/wordpress-seojs.php:239 admin/class-admin.php:220
+#: languages/wordpress-seojs.php:242 admin/class-admin.php:220
 #: admin/google_search_console/class-gsc-platform-tabs.php:42
-#: admin/taxonomy/class-taxonomy-metabox.php:150
-#: admin/taxonomy/class-taxonomy-metabox.php:158
-#: admin/taxonomy/class-taxonomy-metabox.php:161
+#: admin/taxonomy/class-taxonomy-metabox.php:133
+#: admin/taxonomy/class-taxonomy-metabox.php:141
+#: admin/taxonomy/class-taxonomy-metabox.php:144
 msgid "Settings"
 msgstr "Réglages"
 
 #. translators: %1$s resolves to the opening tag of the link to the reading
 #. settings, %1$s resolves to the closing tag for the link
-#: admin/class-admin-init.php:131
+#: admin/class-admin-init.php:132
 msgid "You must %1$sgo to your Reading Settings%2$s and uncheck the box for Search Engine Visibility."
 msgstr "Vous devez vous %1$srendre dans vos Réglages de Lecture%2$s et décocher la case Visibilité  des moteurs de recherche."
 
-#: admin/class-admin-init.php:128
+#: admin/class-admin-init.php:129
 msgid "Huge SEO Issue: You're blocking access to robots."
 msgstr "Important problème SEO : Vous bloquez actuellement l’accès aux robots des moteurs de recherche."
 
@@ -5527,8 +5388,8 @@ msgstr "Search Console"
 msgid "Tools"
 msgstr "Outils"
 
-#: admin/metabox/class-metabox.php:372 admin/metabox/class-metabox.php:378
-#: admin/metabox/class-metabox.php:381
+#: admin/metabox/class-metabox.php:358 admin/metabox/class-metabox.php:364
+#: admin/metabox/class-metabox.php:367
 msgid "Advanced"
 msgstr "Avancé"
 
@@ -5537,8 +5398,8 @@ msgid "XML sitemaps"
 msgstr "Plans de site XML"
 
 #: admin/menu/class-admin-menu.php:96
-#: admin/taxonomy/class-taxonomy-metabox.php:182
-#: admin/taxonomy/class-taxonomy-metabox.php:185
+#: admin/taxonomy/class-taxonomy-metabox.php:165
+#: admin/taxonomy/class-taxonomy-metabox.php:168
 #: admin/class-social-admin.php:119 admin/class-social-admin.php:122
 msgid "Social"
 msgstr "Réseaux sociaux"
@@ -5555,17 +5416,17 @@ msgstr "SEO"
 #. %3$s expands to the plugin name
 #. translators: %1$s expands to Yoast SEO, %2$s expands to the installed
 #. version, %3$s expands to Gutenberg
-#: admin/class-admin-init.php:268 admin/class-admin-init.php:371
+#: admin/class-admin-init.php:269 admin/class-admin-init.php:372
 #: admin/class-admin-gutenberg-compatibility-notification.php:72
 msgid "%1$s detected you are using version %2$s of %3$s, please update to the latest version to prevent compatibility issues."
 msgstr "%1$s a détecté que vous utiliser la version de %2$s de %3$s. Veuillez la mettre à jour pour éviter les problèmes de compatibilité."
 
-#: admin/class-admin-init.php:197
+#: admin/class-admin-init.php:198
 msgid "Just another WordPress site"
 msgstr "Un site utilisant WordPress"
 
 #. translators: 1: link open tag; 2: link close tag.
-#: admin/class-admin-init.php:106
+#: admin/class-admin-init.php:107
 msgid "You still have the default WordPress tagline, even an empty one is probably better. %1$sYou can fix this in the customizer%2$s."
 msgstr "Vous utilisez toujours le slogan par défaut de WordPress, un vide serait même plus efficace. %1$sVous pouvez régler cela dans la personnalisation%2$s."
 

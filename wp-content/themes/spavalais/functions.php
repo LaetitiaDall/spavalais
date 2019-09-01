@@ -192,3 +192,11 @@ function isa_disable_dashboard_widgets() {
 }
 add_action('admin_menu', 'isa_disable_dashboard_widgets');
 
+function tatwerat_startSession() {
+    if(!session_id()) {
+        session_start();
+    }
+}
+
+add_action('init', 'tatwerat_startSession', 1);
+

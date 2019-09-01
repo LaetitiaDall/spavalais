@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="e4375d82-926b-47e3-aeae-7f40d9725fd7" name="dev.dallinge.ch" url="http://dev.dallinge.ch/wp/spavalais">
-        <fileTransfer host="dev.dallinge.ch" port="12945" rootFolder="/usr/share/nginx/dallinge.ch/public/dev/wp/spavalais" accessType="SFTP">
+        <fileTransfer host="dev.dallinge.ch" port="12945" rootFolder="/home/www/dev.dallinge.ch/public/wp/spavalais" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

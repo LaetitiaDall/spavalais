@@ -6,10 +6,10 @@ Tags: editor, width, gutenberg, blocks, page builder, editor width
 Author URI: https://ardid.com.ar/
 Author: Anibal Ardid
 Requires at least: 4.9.8
-Tested up to: 5.1.0
+Tested up to: 5.2.0
 Requires PHP: 5.2.0	
-Stable tag: 1.0.1
-Version: 1.0.1
+Stable tag: 1.0.2
+Version: 1.0.2
 
 This plugin adds custom css to change the default width of the Gutenberg editor to fullsize width.	
 

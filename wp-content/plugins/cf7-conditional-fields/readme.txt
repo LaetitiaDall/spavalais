@@ -1,12 +1,12 @@
-=== Conditional Fields for Contact Form 7 ===
+=== Contact Form 7 - Conditional Fields Pro ===
 Contributors: Jules Colle
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=j_colle%40hotmail%2ecom&lc=US&item_name=Jules%20Colle%20%2d%20WP%20plugins%20%2d%20Responsive%20Gallery%20Grid&item_number=rgg&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Author: Jules Colle
 Website: http://bdwm.be
 Tags: wordpress, contact form 7, forms, conditional fields
 Requires at least: 4.1
-Tested up to: 5.1.1
-Stable tag: 1.5.4
+Tested up to: 5.2
+Stable tag: 1.6.2
 Requires PHP: 5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -102,6 +102,27 @@ The conditional fields javascript code is loaded during wp_footer, so a call to 
 
 == Changelog ==
 
+= 1.6.2 (06-15-19) =
+* Small changes to tag generator buttons
+* Multistep bug fix. All group conditions are evaluated a second time after the page has fully loaded.
+* PRO: added new operator 'function', allowing you to write custom javascript functions to determine whether or not a group should be shown https://conditional-fields-cf7.bdwm.be/advanced-conditional-logic-with-custom-javascript-functions/
+* PRO: fix bug with < (less than) operator
+
+= 1.6.1 (06-03-19) =
+* JS refactoring and small compatibility fix after code rewrite.
+* FREE: Added "Get PRO" button under Contact > Conditional Fields
+
+= 1.6 (06-01-19) =
+* JS code rewrite
+* PRO: allow groups inside repeater
+* PRO: make plugin ready for PRO release.
+
+= 1.5.5 (05-20-19) =
+* Fixed and explained how to disable loading of the styles and scripts and only enable it on certain pages. More info: https://conditional-fields-cf7.bdwm.be/docs/faq/can-i-load-js-and-css-only-when-necessary/
+* Made sure default settings get set after activating plugin, without the need to visit the Contact > Conditional Fields page first.
+* PRO: extended the repeater with min and max paramaters and the possibility to change the add and remove buttons texts
+* PRO: enabling the pro plugin will show a notification to disable the free plugin, instead of throwing a PHP error.
+
 = 1.5.4 (05-06-19) =
 * Make sure scripts get loaded late enough (wp_enqueue_scripts priority set to 20), because there was a problem with multistep where the multistep script was changing a value after the cf script ran. https://wordpress.org/support/topic/1-5-x-not-expanding-selected-hidden-groups-with-multi-step-on-previous-page/
 
@@ -120,7 +141,7 @@ The conditional fields javascript code is loaded during wp_footer, so a call to 
 * Fixed bug that could appear after removing an AND condition.
 * solve WPCF7_ADMIN_READ_WRITE_CAPABILITY - https://github.com/pwkip/contact-form-7-conditional-fields/pull/16
 * disable part of the faulty remove_hidden_post_data function. - https://github.com/pwkip/contact-form-7-conditional-fields/pull/17
-* Fix "Dismiss notice" on Conditional Fields for Contact Form 7 Settings page
+* Fix "Dismiss notice" on Conditional Fields Settings page
 * use the "wpcf7_before_send_mail" hook instead of "wpcf7_mail_components" to hide mail groups. The wpcf7_before_send_mail hook is called earlier, so it allows to also hide groups in the attachment field and in messages.
 * Allow conditional group tags in success and error messages. https://github.com/pwkip/contact-form-7-conditional-fields/issues/23
 * duplicating a form will also duplicate conditions https://github.com/pwkip/contact-form-7-conditional-fields/issues/28
