@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9481b61-6531-4d46-9cc3-2b3da2558a6e" name="Default Changelist" comment="various improvements">
+    <list default="true" id="d9481b61-6531-4d46-9cc3-2b3da2558a6e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/section/section-editor.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/section/section.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/section/section.js" afterDir="false" />
@@ -11,381 +11,29 @@
       <change afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/warning/imgs/firefox.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/warning/imgs/opera.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/warning/outdated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/searchform.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-network-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-network-fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-network-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-network-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/continents-cities-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/continents-cities-fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/continents-cities-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/continents-cities-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-0ce75ad2f775d1cac9696967d484808c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-0ce75ad2f775d1cac9696967d484808c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-1a0cd6a7128913b15c1a10dd68951869.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-1a0cd6a7128913b15c1a10dd68951869.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-1bba9045bb07c89671c88a3f328548e8.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-1bba9045bb07c89671c88a3f328548e8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-28b3c3d595952907e08d98287077426c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-28b3c3d595952907e08d98287077426c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-2c5d274ea625dd91556554ad82901529.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-2c5d274ea625dd91556554ad82901529.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-68f2cec7514bf8563c723a4d675fcfe6.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-68f2cec7514bf8563c723a4d675fcfe6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-7f13c36c641b114bf18cd0bcc9ecc7e0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-7f13c36c641b114bf18cd0bcc9ecc7e0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-8860e58c20c6a2ab5876a0f07be43bd9.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-8860e58c20c6a2ab5876a0f07be43bd9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-a25d1cc7bf7ca0b4e114f6bea64943f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-a25d1cc7bf7ca0b4e114f6bea64943f4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-bf0f094965d3d4a95b47babcb35fc136.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-bf0f094965d3d4a95b47babcb35fc136.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-f8f49d9fc4a9cf7d78ec99285417bd9c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-f8f49d9fc4a9cf7d78ec99285417bd9c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/loco/plugins/dallinge-slides-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/loco/plugins/dallinge-slides-fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/loco/plugins/dallinge-slides-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/loco/plugins/dallinge-slides-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/contact-form-7-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/contact-form-7-fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/contact-form-7-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/contact-form-7-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/dallinge-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/dallinge-fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/dallinge-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/dallinge-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/wordpress-seo-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/wordpress-seo-fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/wordpress-seo-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/wordpress-seo-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentynineteen-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentynineteen-fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentynineteen-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentynineteen-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentyseventeen-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentyseventeen-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-cli.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-rest-api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/admin-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/admin-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/admin-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/admin-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/admin-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/admin-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/cf7cf.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/cf7cf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/contact-form-7-conditional-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/contact-form-7-conditional-fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/wpcf7cf-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cf7-conditional-fields/wpcf7cf-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/config-validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/config-validator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/akismet.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/akismet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/constant-contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/constant-contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/flamingo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/flamingo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/recaptcha.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/recaptcha.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-grid/adoptable-animals-grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-grid/adoptable-animals-grid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-grid/adoptable-animals-grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-grid/adoptable-animals-grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/post_types/dallinge-adoptable-animals-post-types.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/post_types/dallinge-adoptable-animals-post-types.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/shortcodes/adoptable-animals-search-shortcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/shortcodes/adoptable-animals-search-shortcode.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/single-animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/single-animal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/widgets/adoptable-animals-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/widgets/adoptable-animals-widget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-animate" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-animate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/posts-grid/posts-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/posts-grid/posts-grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/dallinge-helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/dallinge-helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/inc/template_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/inc/template_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/adoptable-animals-urgent-editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/adoptable-animals-urgent-editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/adoptable-animals-urgent-frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/adoptable-animals-urgent-frontend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/posts-grid-editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/posts-grid-editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/posts-grid-frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-scss/build/posts-grid-frontend.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-slides" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-slides" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/editor-full-width/gutenbergfullwidth.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/editor-full-width/gutenbergfullwidth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/editor-full-width/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/editor-full-width/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/hello.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/capabilities/class-capability-manager-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/capabilities/class-capability-manager-integration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-add-keyword-modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-add-keyword-modal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-init.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-gutenberg-compatibility.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-gutenberg-compatibility.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-help-center.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-help-center.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-keyword-synonyms-modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-keyword-synonyms-modal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-multiple-keywords-modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-multiple-keywords-modal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-plugin-conflict.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-plugin-conflict.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-premium-upsell-admin-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-premium-upsell-admin-block.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-product-upsell-notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-product-upsell-notice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-schema-person-upgrade-notification.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-schema-person-upgrade-notification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/class-configuration-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/class-configuration-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/components/class-component-suggestions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/components/class-component-suggestions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/formatter/class-metabox-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/formatter/class-metabox-formatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/class-gsc-category-filters.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/class-gsc-category-filters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/views/gsc-display.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/views/gsc-display.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/links/class-link-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/links/class-link-columns.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/notifiers/class-post-type-archive-notification-handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/notifiers/class-post-type-archive-notification-handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/statistics/class-statistics-service.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/statistics/class-statistics-service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-columns.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-metabox.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-metabox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/class-yoast-feature-toggles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/class-yoast-feature-toggles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/js-templates-primary-term.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/js-templates-primary-term.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/licenses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/metas/paper-content/breadcrumbs-content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/metas/paper-content/breadcrumbs-content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/metas/paper-content/general/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/metas/paper-content/general/homepage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/metas/paper-content/general/knowledge-graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/metas/paper-content/general/knowledge-graph.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/social/accounts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/social/accounts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/social/pinterest.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/social/pinterest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/tool/import-seo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/tool/import-seo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/tool/wpseo-import.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/tool/wpseo-import.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-frontend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-opengraph-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-opengraph-image.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-opengraph.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-opengraph.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-twitter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-twitter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-article.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-author.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-author.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-breadcrumb.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-breadcrumb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-context.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-context.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-image.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-organization.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-organization.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-person.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-webpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-webpage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-website.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema-website.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/class-schema.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/interface-wpseo-graph-piece.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/schema/interface-wpseo-graph-piece.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Local_SEO_Icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Local_SEO_Icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/News_SEO_Icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/News_SEO_Icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/SEO_for_beginners.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/SEO_for_beginners.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Video_SEO_Icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Video_SEO_Icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Woo_SEO_Icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Woo_SEO_Icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Yoast_SEO_Icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Yoast_SEO_Icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Yoast_SEO_negative_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Yoast_SEO_negative_icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Yoast_icon_kader.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/Yoast_icon_kader.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/all-round-SEO.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/all-round-SEO.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/brushstroke_background.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/brushstroke_background.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/exclamation-triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/exclamation-triangle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/link-in-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/link-in-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/link-out-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/link-out-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/local_assistant.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/local_assistant.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/new-to-configuration-notice.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/new-to-configuration-notice.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/readability-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/readability-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/support-team.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/support-team.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/waiting.gif" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/waiting.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/yoast-configuration-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/yoast-configuration-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/yoast_seo_for_wp_2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/yoast_seo_for_wp_2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-addon-manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-addon-manager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-my-yoast-api-request.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-my-yoast-api-request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-structured-data-blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-structured-data-blocks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-rank.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-rank.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-statistics.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-statistics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-utils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-titles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-titles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-author-sitemap-provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-author-sitemap-provider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-router.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-taxonomy-sitemap-provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-taxonomy-sitemap-provider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/structured-data-blocks/class-how-to-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/structured-data-blocks/class-how-to-block.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-bg_BG.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-bg_BG.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-cs_CZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-cs_CZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-de_CH.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-de_CH.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-de_DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-de_DE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-el.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_AU.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_AU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_GB.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_GB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_NZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_NZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_ZA.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_ZA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_AR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_AR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_MX.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_MX.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_PE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_PE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_VE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_VE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fa_IR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fa_IR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-gl_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-gl_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-he_IL.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-he_IL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-hr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-hu_HU.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-hu_HU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nb_NO.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nb_NO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_BE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_BE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pl_PL.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pl_PL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_BR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_BR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_PT.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_PT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ro_RO.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ro_RO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ru_RU.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ru_RU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-sk_SK.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-sk_SK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-sr_RS.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-sr_RS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-sv_SE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-sv_SE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-tr_TR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-tr_TR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-uk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-vi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-zh_CN.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-zh_CN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-zh_TW.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-zh_TW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-bg_BG.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-bg_BG.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-cs_CZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-cs_CZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-da_DK.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-da_DK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-de_CH.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-de_CH.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-de_DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-de_DE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-el.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_AU.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_AU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_GB.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_GB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_NZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_NZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_ZA.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-en_ZA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_AR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_AR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_MX.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_MX.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_PE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_PE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_VE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-es_VE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fa_IR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fa_IR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-fr_FR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-gl_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-gl_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-he_IL.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-he_IL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hu_HU.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-hu_HU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-it_IT.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-it_IT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nb_NO.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nb_NO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nl_BE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nl_BE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nl_NL.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-nl_NL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pl_PL.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pl_PL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_BR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_BR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_PT.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-pt_PT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ro_RO.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ro_RO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ru_RU.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-ru_RU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sk_SK.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sk_SK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sr_RS.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sr_RS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sv_SE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-sv_SE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-tr_TR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-tr_TR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-uk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-vi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-zh_CN.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-zh_CN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-zh_TW.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs-zh_TW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seojs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-bg_BG.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-bg_BG.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-cs_CZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-cs_CZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-da_DK.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-da_DK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-de_CH.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-de_CH.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-de_DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-de_DE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-el.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_AU.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_AU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_GB.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_GB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_NZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_NZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_ZA.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_ZA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_AR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_AR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_MX.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_MX.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_PE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_PE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_VE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_VE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fa_IR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fa_IR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_FR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-gl_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-gl_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-he_IL.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-he_IL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-hr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-hu_HU.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-hu_HU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-it_IT.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-it_IT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nb_NO.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nb_NO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_BE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_BE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_NL.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_NL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pl_PL.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pl_PL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_BR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_BR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_PT.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_PT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ro_RO.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ro_RO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ru_RU.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ru_RU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sk_SK.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sk_SK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sr_RS.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sr_RS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sv_SE.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sv_SE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-tr_TR.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-tr_TR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-uk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-vi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_CN.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_CN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_TW.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_TW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-seo-js.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-seo-js.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-seo-js.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-seo-js.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoastseojsfiles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoastseojsfiles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/database-migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/database-migration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/dependency-management.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/dependency-management.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/upgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/upgrade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/missing-method.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/missing-method.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/no-indexable-found.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/no-indexable-found.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/formatters/indexable-author-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/formatters/indexable-author-formatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/formatters/indexable-post-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/formatters/indexable-post-formatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/formatters/indexable-term-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/formatters/indexable-term-formatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/loaders/oauth.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/loaders/oauth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/loggers/logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/loggers/logger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/indexable-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/indexable-meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/indexable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/indexable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/primary-term.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/primary-term.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/seo-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/seo-meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/oauth/client.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/oauth/client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/watchers/indexable-author-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/watchers/indexable-author-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/watchers/indexable-post-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/watchers/indexable-post-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/watchers/indexable-term-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/watchers/indexable-term-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/watchers/primary-term-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/watchers/primary-term-watcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/wordpress/integration-group.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/wordpress/integration-group.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/yoast-model.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/yoast-model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/yoast-orm-wrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/yoast-orm-wrapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/j4mie/idiorm/idiorm.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/j4mie/idiorm/idiorm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/ruckusing/lib/Ruckusing/FrameworkRunner.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/ruckusing/lib/Ruckusing/FrameworkRunner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/lh-zero-spam/lh-zero-spam.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/lh-zero-spam/lh-zero-spam.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/loterie.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/03/loterie.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -414,33 +62,57 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="924">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/link-template.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="1676" column="26" selection-start-line="1676" selection-start-column="9" selection-end-line="1676" selection-end-column="26" />
+            <state relative-caret-position="226">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+            <state relative-caret-position="4664">
+              <caret line="682" column="26" selection-start-line="682" selection-start-column="26" selection-end-line="682" selection-end-column="26" />
               <folding>
                 <element signature="e#72#345#0#PHP" />
                 <element signature="e#347#415#0#PHP" />
@@ -459,171 +131,82 @@
                 <element signature="e#3574#3658#0#PHP" />
                 <element signature="e#3664#4307#0#PHP" />
                 <element signature="e#3777#4307#0#PHP" />
+                <element signature="e#4118#4307#0#PHP" />
                 <element signature="n#dan_the_sos_cause#0;n#!!top" />
                 <element signature="n#dan_the_sex#0;n#!!top" />
-                <element signature="n#dallinge_adoptable_get_animals_get_sex#0;n#!!top" />
-                <element signature="e#4594#4647#0#PHP" />
-                <element signature="e#4722#4839#0#PHP" />
-                <element signature="e#4786#4839#0#PHP" />
-                <element signature="n#dallinge_adoptable_get_animals_get_spay#0;n#!!top" />
-                <element signature="e#4974#5089#0#PHP" />
-                <element signature="e#5040#5089#0#PHP" />
-                <element signature="n#dallinge_adoptable_get_animals_the_try_period#0;n#!!top" />
-                <element signature="e#5235#5732#0#PHP" />
-                <element signature="e#5275#5712#0#HTML" />
-                <element signature="e#5387#5697#0#HTML" />
-                <element signature="e#5425#5430#0#PHP" />
-                <element signature="e#5452#5660#0#PHP" />
-                <element signature="n#dallinge_adoptable_get_animals_availability_text#0;n#!!top" />
-                <element signature="e#5899#6270#0#PHP" />
-                <element signature="e#5945#6250#0#HTML" />
-                <element signature="e#6057#6235#0#HTML" />
-                <element signature="e#6095#6100#0#PHP" />
                 <element signature="n#dallinge_adoptable_is_animals_available_for_adoption#0;n#!!top" />
-                <element signature="n#dallinge_adoptable_get_animals_get_vaccinated#0;n#!!top" />
-                <element signature="e#6586#6701#0#PHP" />
-                <element signature="e#6652#6701#0#PHP" />
                 <element signature="n#dan_get_name#0;n#!!top" />
                 <element signature="n#dan_get_species_term#0;n#!!top" />
-                <element signature="e#6905#6958#0#PHP" />
                 <element signature="n#dan_get_all_species#0;n#!!top" />
-                <element signature="e#7200#7297#0#PHP" />
-                <element signature="e#7210#7296#1#PHP" />
                 <element signature="n#dan_get_breeds_definitions#0;n#!!top" />
-                <element signature="e#7382#7447#0#PHP" />
-                <element signature="e#7568#7663#0#PHP" />
                 <element signature="n#dan_get_breeds_text#0;n#!!top" />
-                <element signature="e#7738#7791#0#PHP" />
-                <element signature="e#8092#8191#0#PHP" />
                 <element signature="n#dan_get_breeds#0;n#!!top" />
-                <element signature="e#8286#8339#0#PHP" />
-                <element signature="e#8586#8712#0#PHP" />
                 <element signature="n#dan_get_coats_definitions#0;n#!!top" />
-                <element signature="e#8820#8885#0#PHP" />
-                <element signature="e#9002#9092#0#PHP" />
                 <element signature="n#dan_get_coat#0;n#!!top" />
-                <element signature="e#9399#9519#0#PHP" />
                 <element signature="n#dan_species_icon#0;n#!!top" />
-                <element signature="e#9778#9912#0#HTML" />
-                <element signature="e#9823#9828#0#PHP" />
-                <element signature="e#9851#9856#0#PHP" />
                 <element signature="n#dan_infos_table#0;n#!!top" />
-                <element signature="e#9987#10117#0#PHP" />
-                <element signature="e#10135#10244#0#PHP" />
-                <element signature="e#10262#10344#0#PHP" />
-                <element signature="e#10362#10463#0#PHP" />
-                <element signature="e#10481#10568#0#PHP" />
-                <element signature="e#10586#10670#0#PHP" />
-                <element signature="e#10688#10801#0#PHP" />
-                <element signature="e#10819#10942#0#PHP" />
-                <element signature="e#10955#11306#0#HTML" />
-                <element signature="e#11027#11292#0#PHP" />
-                <element signature="e#11082#11264#0#HTML" />
-                <element signature="e#11138#11143#0#PHP" />
-                <element signature="e#11211#11216#0#PHP" />
                 <element signature="n#dan_specifics_table#0;n#!!top" />
-                <element signature="e#11494#12611#0#HTML" />
-                <element signature="e#11560#12253#0#PHP" />
-                <element signature="e#11897#12225#0#HTML" />
-                <element signature="e#11950#11955#0#PHP" />
-                <element signature="e#12002#12007#0#PHP" />
-                <element signature="e#12153#12158#0#PHP" />
-                <element signature="e#12355#12597#0#PHP" />
-                <element signature="e#12390#12575#0#HTML" />
-                <element signature="e#12444#12449#0#PHP" />
-                <element signature="e#12516#12521#0#PHP" />
                 <element signature="n#dan_title#0;n#!!top" />
-                <element signature="e#12661#12866#0#HTML" />
-                <element signature="e#12695#12700#0#PHP" />
-                <element signature="e#12686#12861#0#HTML" />
-                <element signature="e#12758#12763#0#PHP" />
-                <element signature="e#12819#12824#0#PHP" />
-                <element signature="n#dan_link#0;n#!!top" />
-                <element signature="e#12978#12983#0#PHP" />
-                <element signature="e#12969#13183#0#HTML" />
-                <element signature="e#13063#13068#0#PHP" />
-                <element signature="e#13096#13101#0#PHP" />
-                <element signature="e#13117#13122#0#PHP" />
-                <element signature="e#13153#13158#0#PHP" />
                 <element signature="n#dan_sos_icon#0;n#!!top" />
-                <element signature="e#13312#13454#0#PHP" />
-                <element signature="e#13371#13376#0#PHP" />
+                <element signature="n#dan_page_options#0;n#!!top" />
                 <element signature="n#dan_get_prev_animal_query#0;n#!!top" />
-                <element signature="e#13898#14039#1#PHP" />
-                <element signature="e#14103#14364#1#PHP" />
-                <element signature="e#14236#14358#1#PHP" />
-                <element signature="e#14255#14348#1#PHP" />
                 <element signature="n#dan_get_next_animal_query#0;n#!!top" />
-                <element signature="e#14529#14670#1#PHP" />
-                <element signature="e#14734#14995#1#PHP" />
-                <element signature="e#14867#14989#1#PHP" />
-                <element signature="e#14886#14979#1#PHP" />
                 <element signature="n#dan_get_next_or_prev_available_animal_query#0;n#!!top" />
-                <element signature="e#15148#15648#0#PHP" />
-                <element signature="e#15238#15398#0#PHP" />
-                <element signature="e#15303#15398#0#PHP" />
-                <element signature="e#15405#15648#0#PHP" />
-                <element signature="e#15473#15642#0#PHP" />
-                <element signature="e#15538#15642#0#PHP" />
                 <element signature="n#dan_get_prev_animal_link#0;n#!!top" />
-                <element signature="e#15694#16369#0#PHP" />
-                <element signature="e#15891#15994#0#PHP" />
-                <element signature="e#15945#15994#0#PHP" />
-                <element signature="e#16096#16369#0#PHP" />
-                <element signature="e#16195#16363#0#PHP" />
                 <element signature="n#dan_get_next_animal_link#0;n#!!top" />
-                <element signature="e#16441#17143#0#PHP" />
-                <element signature="e#16638#16756#0#PHP" />
-                <element signature="e#16707#16756#0#PHP" />
-                <element signature="e#16867#17143#0#PHP" />
-                <element signature="e#16968#17137#0#PHP" />
                 <element signature="n#dan_get_animals_full_title#0;n#!!top" />
+                <element signature="n#dan_must_adopt_with_link#0;n#!!top" />
                 <element signature="n#dan_get_animals_full_text_description#0;n#!!top" />
-                <element signature="e#17704#18076#0#PHP" />
-                <element signature="e#18081#18148#0#PHP" />
                 <element signature="n#dan_build_url_ids#0;n#!!top" />
-                <element signature="e#18335#18413#0#PHP" />
-                <element signature="n#dan_post_thumbnail#0;n#!!top" />
-                <element signature="e#18514#19120#0#PHP" />
-                <element signature="e#18743#19011#0#HTML" />
-                <element signature="e#18809#18814#0#PHP" />
-                <element signature="e#18833#18838#0#PHP" />
-                <element signature="e#18800#18996#0#HTML" />
-                <element signature="e#18865#18870#0#PHP" />
-                <element signature="e#18855#18992#0#HTML" />
-                <element signature="e#18965#18970#0#PHP" />
-                <element signature="e#19056#19120#0#PHP" />
                 <element signature="n#dan_render_animals#0;n#!!top" />
-                <element signature="e#19176#20103#0#HTML" />
-                <element signature="e#19220#20081#0#PHP" />
-                <element signature="e#19260#19902#0#PHP" />
-                <element signature="e#19487#19492#0#PHP" />
-                <element signature="e#19527#19532#0#PHP" />
-                <element signature="e#19460#19862#0#HTML" />
-                <element signature="e#19568#19573#0#PHP" />
-                <element signature="e#19613#19618#0#PHP" />
-                <element signature="e#19692#19839#0#HTML" />
-                <element signature="e#19736#19741#0#PHP" />
-                <element signature="e#19791#19796#0#PHP" />
-                <element signature="e#19944#20066#0#PHP" />
-                <element signature="e#19999#20004#0#PHP" />
                 <element signature="n#your_theme_setup#0;n#!!top" />
                 <element signature="n#filter_wp_seo_get_bc_ancestors#0;n#!!top" />
-                <element signature="e#20485#20776#0#PHP" />
-                <element signature="e#20973#21163#0#PHP" />
-                <element signature="e#21009#21162#1#PHP" />
-                <element signature="e#21033#21141#0#PHP" />
-                <element signature="e#21166#21366#0#PHP" />
-                <element signature="e#21201#21365#1#PHP" />
-                <element signature="e#21225#21344#0#PHP" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/inc/template_functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="87" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/shortcodes/adoptable-animals-search-shortcode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="191" column="21" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
+              <folding>
+                <element signature="n#dallinge_helpers_generate_select#0;n#!!top" />
+                <element signature="n#dallinge_helpers_get_contains_parameter_with_value#0;n#!!top" />
+                <element signature="n#dan_search_form#0;n#!!top" />
+                <element signature="n#dan_build_query#0;n#!!top" />
+                <element signature="n#dan_search_shortcode#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -637,14 +220,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>edit_post_link</find>
-      <find>rue</find>
-      <find>arrow</find>
-      <find>fontawe</find>
-      <find>prev_</find>
-      <find>permalink</find>
-      <find>prev</find>
-      <find>title</find>
       <find>get_link</find>
       <find>prev_a</find>
       <find>query=</find>
@@ -665,8 +240,16 @@
       <find>$_SES</find>
       <find>animal</find>
       <find>$_SESS</find>
-      <find>paw-icon</find>
       <find>days</find>
+      <find>with</find>
+      <find>ad</find>
+      <find>paw-icon</find>
+      <find>dallinge_adoptable_get_</find>
+      <find>dan_get_all_animals_select</find>
+      <find>must_adop</find>
+      <find>must_adopt_with</find>
+      <find>session</find>
+      <find>$params</find>
     </findStrings>
     <replaceStrings>
       <replace>dallinge_slides</replace>
@@ -688,6 +271,7 @@
       <replace>'dallinge-slides'</replace>
       <replace>'dallinge-sponsors'</replace>
       <replace>dan_</replace>
+      <replace>dan_get_</replace>
     </replaceStrings>
     <dirStrings>
       <dir>P:\Code\spa-valais\wp-includes</dir>
@@ -699,9 +283,9 @@
       <dir>P:\Code\spa-valais\wp-content\plugins\wordpress-seo</dir>
       <dir>P:\Code\spa-valais\wp-content\plugins\dallinge-helpers</dir>
       <dir>P:\Code\spa-valais\wp-content</dir>
-      <dir>P:\Code\spa-valais</dir>
       <dir>P:\Code\spa-valais\wp-content\plugins</dir>
       <dir>P:\Code\spa-valais\wp-content\plugins\dallinge-adoptable-animals</dir>
+      <dir>P:\Code\spa-valais</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -710,7 +294,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-includes/general-template.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus-variables.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-blocks/blocks/section/section.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/single-animal.php" />
@@ -728,7 +311,6 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-compatibility/dallinge-compatibility.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/buttons/buttons.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.scss" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/table-of-contents.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/js/custom.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/menus/menus.scss" />
@@ -742,25 +324,27 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/other.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/admin.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/layout/admin.css" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/searchform.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/dallinge-helpers.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/inc/template_functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/css/media.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/spavalais/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/shortcodes/adoptable-animals-search-shortcode.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/spavalais/css/custom.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/post_types/dallinge-adoptable-animals-post-types.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/lh-zero-spam/lh-zero-spam.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/spavalais/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/shortcodes/adoptable-animals-search-shortcode.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php" />
       </list>
     </option>
   </component>
@@ -771,8 +355,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="25" />
+    <option name="y" value="300" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -782,6 +366,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -815,53 +400,16 @@
               <item name="dallinge-adoptable-animals" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="dallinge-helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="spavalais" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="spavalais" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spa-valais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spa-valais" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="spavalais" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="N:/Sites/rcshop.local" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -988,7 +536,10 @@
       <workItem from="1566998720438" duration="7759000" />
       <workItem from="1567065773726" duration="615000" />
       <workItem from="1567067346610" duration="235000" />
-      <workItem from="1567250630479" duration="23270000" />
+      <workItem from="1567250630479" duration="26817000" />
+      <workItem from="1567342795746" duration="4425000" />
+      <workItem from="1567516484253" duration="609000" />
+      <workItem from="1568107485342" duration="1875000" />
     </task>
     <task id="LOCAL-00001" summary="name fixes">
       <created>1552387189493</created>
@@ -1134,7 +685,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408314000" />
+    <option name="totallyTimeSpent" value="418770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1147,9 +698,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1161,7 +711,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.32169312" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.48187634" visible="true" weight="0.07583965" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.48187634" visible="true" weight="0.2112676" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.31960997" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5181237" side_tool="true" weight="0.032502707" />
@@ -1212,12 +762,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.php</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.php</url>
-          <line>70</line>
+          <line>71</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1227,12 +777,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
-          <line>158</line>
+          <line>157</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
-          <line>147</line>
+          <line>146</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1242,7 +792,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
-          <line>708</line>
+          <line>723</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1252,24 +802,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php</url>
-          <line>339</line>
+          <line>338</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/shortcodes/adoptable-animals-search-shortcode.php</url>
-          <line>196</line>
+          <line>202</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imgs/adopter.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/alone.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgs/ban-1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1382,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4378">
-          <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/single-animal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -1445,20 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/inc/template_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="48" column="92" selection-start-line="48" selection-start-column="92" selection-end-line="48" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
@@ -1470,30 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-814">
           <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1514,55 +1013,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="181" column="17" lean-forward="true" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/link-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="1676" column="26" selection-start-line="1676" selection-start-column="9" selection-end-line="1676" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/shortcodes/adoptable-animals-search-shortcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
-          <folding>
-            <element signature="n#dallinge_helpers_generate_select#0;n#!!top" />
-            <element signature="n#dallinge_helpers_get_contains_parameter_with_value#0;n#!!top" />
-            <element signature="n#dan_search_form#0;n#!!top" />
-            <element signature="n#dan_build_query#0;n#!!top" />
-            <element signature="n#dan_search_shortcode#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="243" column="20" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="87" column="32" lean-forward="true" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/post_types/dallinge-adoptable-animals-post-types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
-          <folding>
-            <element signature="e#7#35#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1573,13 +1027,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/post_types/dallinge-adoptable-animals-post-types.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="339" column="69" selection-start-line="339" selection-start-column="54" selection-end-line="339" selection-end-column="69" />
+          <folding>
+            <element signature="e#7#35#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/link-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36762">
+          <caret line="1676" column="26" selection-start-line="1676" selection-start-column="9" selection-end-line="1676" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/lh-zero-spam/lh-zero-spam.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-wp-export/dallinge-wp-export.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-sponsors/dallinge-sponsors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/dallinge-adoptable-animals.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+        <state relative-caret-position="4664">
+          <caret line="682" column="26" selection-start-line="682" selection-start-column="26" selection-end-line="682" selection-end-column="26" />
           <folding>
             <element signature="e#72#345#0#PHP" />
             <element signature="e#347#415#0#PHP" />
@@ -1598,164 +1104,86 @@
             <element signature="e#3574#3658#0#PHP" />
             <element signature="e#3664#4307#0#PHP" />
             <element signature="e#3777#4307#0#PHP" />
+            <element signature="e#4118#4307#0#PHP" />
             <element signature="n#dan_the_sos_cause#0;n#!!top" />
             <element signature="n#dan_the_sex#0;n#!!top" />
-            <element signature="n#dallinge_adoptable_get_animals_get_sex#0;n#!!top" />
-            <element signature="e#4594#4647#0#PHP" />
-            <element signature="e#4722#4839#0#PHP" />
-            <element signature="e#4786#4839#0#PHP" />
-            <element signature="n#dallinge_adoptable_get_animals_get_spay#0;n#!!top" />
-            <element signature="e#4974#5089#0#PHP" />
-            <element signature="e#5040#5089#0#PHP" />
-            <element signature="n#dallinge_adoptable_get_animals_the_try_period#0;n#!!top" />
-            <element signature="e#5235#5732#0#PHP" />
-            <element signature="e#5275#5712#0#HTML" />
-            <element signature="e#5387#5697#0#HTML" />
-            <element signature="e#5425#5430#0#PHP" />
-            <element signature="e#5452#5660#0#PHP" />
-            <element signature="n#dallinge_adoptable_get_animals_availability_text#0;n#!!top" />
-            <element signature="e#5899#6270#0#PHP" />
-            <element signature="e#5945#6250#0#HTML" />
-            <element signature="e#6057#6235#0#HTML" />
-            <element signature="e#6095#6100#0#PHP" />
             <element signature="n#dallinge_adoptable_is_animals_available_for_adoption#0;n#!!top" />
-            <element signature="n#dallinge_adoptable_get_animals_get_vaccinated#0;n#!!top" />
-            <element signature="e#6586#6701#0#PHP" />
-            <element signature="e#6652#6701#0#PHP" />
             <element signature="n#dan_get_name#0;n#!!top" />
             <element signature="n#dan_get_species_term#0;n#!!top" />
-            <element signature="e#6905#6958#0#PHP" />
             <element signature="n#dan_get_all_species#0;n#!!top" />
-            <element signature="e#7200#7297#0#PHP" />
-            <element signature="e#7210#7296#1#PHP" />
             <element signature="n#dan_get_breeds_definitions#0;n#!!top" />
-            <element signature="e#7382#7447#0#PHP" />
-            <element signature="e#7568#7663#0#PHP" />
             <element signature="n#dan_get_breeds_text#0;n#!!top" />
-            <element signature="e#7738#7791#0#PHP" />
-            <element signature="e#8092#8191#0#PHP" />
             <element signature="n#dan_get_breeds#0;n#!!top" />
-            <element signature="e#8286#8339#0#PHP" />
-            <element signature="e#8586#8712#0#PHP" />
             <element signature="n#dan_get_coats_definitions#0;n#!!top" />
-            <element signature="e#8820#8885#0#PHP" />
-            <element signature="e#9002#9092#0#PHP" />
             <element signature="n#dan_get_coat#0;n#!!top" />
-            <element signature="e#9399#9519#0#PHP" />
             <element signature="n#dan_species_icon#0;n#!!top" />
-            <element signature="e#9778#9912#0#HTML" />
-            <element signature="e#9823#9828#0#PHP" />
-            <element signature="e#9851#9856#0#PHP" />
             <element signature="n#dan_infos_table#0;n#!!top" />
-            <element signature="e#9987#10117#0#PHP" />
-            <element signature="e#10135#10244#0#PHP" />
-            <element signature="e#10262#10344#0#PHP" />
-            <element signature="e#10362#10463#0#PHP" />
-            <element signature="e#10481#10568#0#PHP" />
-            <element signature="e#10586#10670#0#PHP" />
-            <element signature="e#10688#10801#0#PHP" />
-            <element signature="e#10819#10942#0#PHP" />
-            <element signature="e#10955#11306#0#HTML" />
-            <element signature="e#11027#11292#0#PHP" />
-            <element signature="e#11082#11264#0#HTML" />
-            <element signature="e#11138#11143#0#PHP" />
-            <element signature="e#11211#11216#0#PHP" />
             <element signature="n#dan_specifics_table#0;n#!!top" />
-            <element signature="e#11494#12611#0#HTML" />
-            <element signature="e#11560#12253#0#PHP" />
-            <element signature="e#11897#12225#0#HTML" />
-            <element signature="e#11950#11955#0#PHP" />
-            <element signature="e#12002#12007#0#PHP" />
-            <element signature="e#12153#12158#0#PHP" />
-            <element signature="e#12355#12597#0#PHP" />
-            <element signature="e#12390#12575#0#HTML" />
-            <element signature="e#12444#12449#0#PHP" />
-            <element signature="e#12516#12521#0#PHP" />
             <element signature="n#dan_title#0;n#!!top" />
-            <element signature="e#12661#12866#0#HTML" />
-            <element signature="e#12695#12700#0#PHP" />
-            <element signature="e#12686#12861#0#HTML" />
-            <element signature="e#12758#12763#0#PHP" />
-            <element signature="e#12819#12824#0#PHP" />
-            <element signature="n#dan_link#0;n#!!top" />
-            <element signature="e#12978#12983#0#PHP" />
-            <element signature="e#12969#13183#0#HTML" />
-            <element signature="e#13063#13068#0#PHP" />
-            <element signature="e#13096#13101#0#PHP" />
-            <element signature="e#13117#13122#0#PHP" />
-            <element signature="e#13153#13158#0#PHP" />
             <element signature="n#dan_sos_icon#0;n#!!top" />
-            <element signature="e#13312#13454#0#PHP" />
-            <element signature="e#13371#13376#0#PHP" />
+            <element signature="n#dan_page_options#0;n#!!top" />
             <element signature="n#dan_get_prev_animal_query#0;n#!!top" />
-            <element signature="e#13898#14039#1#PHP" />
-            <element signature="e#14103#14364#1#PHP" />
-            <element signature="e#14236#14358#1#PHP" />
-            <element signature="e#14255#14348#1#PHP" />
             <element signature="n#dan_get_next_animal_query#0;n#!!top" />
-            <element signature="e#14529#14670#1#PHP" />
-            <element signature="e#14734#14995#1#PHP" />
-            <element signature="e#14867#14989#1#PHP" />
-            <element signature="e#14886#14979#1#PHP" />
             <element signature="n#dan_get_next_or_prev_available_animal_query#0;n#!!top" />
-            <element signature="e#15148#15648#0#PHP" />
-            <element signature="e#15238#15398#0#PHP" />
-            <element signature="e#15303#15398#0#PHP" />
-            <element signature="e#15405#15648#0#PHP" />
-            <element signature="e#15473#15642#0#PHP" />
-            <element signature="e#15538#15642#0#PHP" />
             <element signature="n#dan_get_prev_animal_link#0;n#!!top" />
-            <element signature="e#15694#16369#0#PHP" />
-            <element signature="e#15891#15994#0#PHP" />
-            <element signature="e#15945#15994#0#PHP" />
-            <element signature="e#16096#16369#0#PHP" />
-            <element signature="e#16195#16363#0#PHP" />
             <element signature="n#dan_get_next_animal_link#0;n#!!top" />
-            <element signature="e#16441#17143#0#PHP" />
-            <element signature="e#16638#16756#0#PHP" />
-            <element signature="e#16707#16756#0#PHP" />
-            <element signature="e#16867#17143#0#PHP" />
-            <element signature="e#16968#17137#0#PHP" />
             <element signature="n#dan_get_animals_full_title#0;n#!!top" />
+            <element signature="n#dan_must_adopt_with_link#0;n#!!top" />
             <element signature="n#dan_get_animals_full_text_description#0;n#!!top" />
-            <element signature="e#17704#18076#0#PHP" />
-            <element signature="e#18081#18148#0#PHP" />
             <element signature="n#dan_build_url_ids#0;n#!!top" />
-            <element signature="e#18335#18413#0#PHP" />
-            <element signature="n#dan_post_thumbnail#0;n#!!top" />
-            <element signature="e#18514#19120#0#PHP" />
-            <element signature="e#18743#19011#0#HTML" />
-            <element signature="e#18809#18814#0#PHP" />
-            <element signature="e#18833#18838#0#PHP" />
-            <element signature="e#18800#18996#0#HTML" />
-            <element signature="e#18865#18870#0#PHP" />
-            <element signature="e#18855#18992#0#HTML" />
-            <element signature="e#18965#18970#0#PHP" />
-            <element signature="e#19056#19120#0#PHP" />
             <element signature="n#dan_render_animals#0;n#!!top" />
-            <element signature="e#19176#20103#0#HTML" />
-            <element signature="e#19220#20081#0#PHP" />
-            <element signature="e#19260#19902#0#PHP" />
-            <element signature="e#19487#19492#0#PHP" />
-            <element signature="e#19527#19532#0#PHP" />
-            <element signature="e#19460#19862#0#HTML" />
-            <element signature="e#19568#19573#0#PHP" />
-            <element signature="e#19613#19618#0#PHP" />
-            <element signature="e#19692#19839#0#HTML" />
-            <element signature="e#19736#19741#0#PHP" />
-            <element signature="e#19791#19796#0#PHP" />
-            <element signature="e#19944#20066#0#PHP" />
-            <element signature="e#19999#20004#0#PHP" />
             <element signature="n#your_theme_setup#0;n#!!top" />
             <element signature="n#filter_wp_seo_get_bc_ancestors#0;n#!!top" />
-            <element signature="e#20485#20776#0#PHP" />
-            <element signature="e#20973#21163#0#PHP" />
-            <element signature="e#21009#21162#1#PHP" />
-            <element signature="e#21033#21141#0#PHP" />
-            <element signature="e#21166#21366#0#PHP" />
-            <element signature="e#21201#21365#1#PHP" />
-            <element signature="e#21225#21344#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-helpers/inc/template_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="87" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/shortcodes/adoptable-animals-search-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="191" column="21" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
+          <folding>
+            <element signature="n#dallinge_helpers_generate_select#0;n#!!top" />
+            <element signature="n#dallinge_helpers_get_contains_parameter_with_value#0;n#!!top" />
+            <element signature="n#dan_search_form#0;n#!!top" />
+            <element signature="n#dan_build_query#0;n#!!top" />
+            <element signature="n#dan_search_shortcode#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-slides/dallinge-slides.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/blocks/adoptable-animals-urgent/adoptable-animals-urgent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/spavalais/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/dallinge-adoptable-animals/templates/content-dadoptableanimals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
         </state>
       </provider>
     </entry>

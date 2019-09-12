@@ -2,12 +2,12 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e4375d82-926b-47e3-aeae-7f40d9725fd7" name="dev.dallinge.ch" url="http://dev.dallinge.ch/wp/spavalais">
-        <fileTransfer host="dev.dallinge.ch" port="12945" rootFolder="/home/www/dev.dallinge.ch/public/wp/spavalais" accessType="SFTP">
+      <webServer id="4c374215-f85e-4796-9681-658f9ced665d" name="infomaniak-spa" url="http://naba.ftp.infomaniak.com">
+        <fileTransfer host="naba.ftp.infomaniak.com" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="12945" />
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
     </option>
