@@ -23,7 +23,7 @@
 
             <div class="site-info">
                 <div class="copyright">
-                    Copyright &copy; 2018 - <?php echo date('Y') ?> SPA Valais. Tous droits réservés. <br/><a class='creator' href='https://dev.dallinge.ch' target="_blank">Creation dallingedev</a></span>
+                    Copyright &copy; 2018 - <?php echo date('Y') ?> SPA Valais. Tous droits réservés. <br/><a class='creator' href='https://dev.dallinge.ch'>Creation dallingedev</a></span>
 
                 </div>
 

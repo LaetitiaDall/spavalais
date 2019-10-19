@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'dev');
+define("DB_NAME", "naba_spavalais");
 
 /** MySQL database username */
-define('DB_USER', 'dev');
+define("DB_USER", "naba_spavalais");
 
 /** MySQL database password */
-define('DB_PASSWORD', 'dev2019dll');
+define("DB_PASSWORD", "FvwyqsWsESgQ");
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define("DB_HOST", "naba.myd.infomaniak.com");
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -77,17 +77,8 @@ $table_prefix = 'wp_spavalais_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
-
-
-define('WP_DEBUG', true);
-define('WP_DEBUG_DISPLAY', true);
-
-error_reporting(E_ALL ^ E_NOTICE);
 
 define('WP_MEMORY_LIMIT', '256M');
-
-define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy publishing. */
 
