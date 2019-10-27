@@ -10,6 +10,7 @@ Description: Allows you to add sponsors to your website and display them in a wi
 Author: Laetitia Dallinge
 Version: 1.0.0
 Author URI: http://dev.dallinge.ch/
+Text Domain: dallinge-sponsors
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -23,19 +24,20 @@ function dallinge_sponsors_create_post_type()
         array(
             'labels' => array(
 
-                'name' => __('Sponsors'),
-                'singular_name' => __('Sponsor'),
-                'featured_image' => __('Sponsor image'),
-                'add_new' => __('Add New Sponsor'),
-                'add_new_item' => __('Add New Sponsor'),
-                'edit_item' => __('Edit Sponsor'),
-                'new_item' => __('New Sponsor'),
-                'view_item' => __('View Sponsor'),
-                'view_items' => __('View Sponsors'),
-                'search_items' => __('Search Sponsors'),
-                'not_found' => __('Sponsor not found'),
-                'not_found_in_trash' => __('No Sponsor found in trash')
+                'name' => __('Sponsors', 'dallinge-sponsors'),
+                'singular_name' => __('Sponsor', 'dallinge-sponsors'),
+                'featured_image' => __('Sponsor image', 'dallinge-sponsors'),
+                'add_new' => __('Add New Sponsor', 'dallinge-sponsors'),
+                'add_new_item' => __('Add New Sponsor', 'dallinge-sponsors'),
+                'edit_item' => __('Edit Sponsor', 'dallinge-sponsors'),
+                'new_item' => __('New Sponsor', 'dallinge-sponsors'),
+                'view_item' => __('View Sponsor', 'dallinge-sponsors'),
+                'view_items' => __('View Sponsors', 'dallinge-sponsors'),
+                'search_items' => __('Search Sponsors', 'dallinge-sponsors'),
+                'not_found' => __('Sponsor not found', 'dallinge-sponsors'),
+                'not_found_in_trash' => __('No Sponsor found in trash', 'dallinge-sponsors')
             ),
+            'exclude_from_search' => true,
             'public' => true,
             'has_archive' => false,
             'supports' => array('title', 'thumbnail', 'editor'),
@@ -46,21 +48,21 @@ function dallinge_sponsors_create_post_type()
 
     // Add new taxonomy, NOT hierarchical (like tags)
     $labels = array(
-        'name' => _x('Sponsors Tags', 'taxonomy general name'),
-        'singular_name' => _x('Sponsors Tag', 'taxonomy singular name'),
-        'search_items' => __('Search Sponsors Tags'),
-        'popular_items' => __('Popular Sponsors Tags'),
-        'all_items' => __('All Sponsors Tags'),
+        'name' => __('Sponsors Tags', 'dallinge-sponsors'),
+        'singular_name' => __('Sponsors Tag', 'dallinge-sponsors'),
+        'search_items' => __('Search Sponsors Tags', 'dallinge-sponsors'),
+        'popular_items' => __('Popular Sponsors Tags', 'dallinge-sponsors'),
+        'all_items' => __('All Sponsors Tags', 'dallinge-sponsors'),
         'parent_item' => null,
         'parent_item_colon' => null,
-        'edit_item' => __('Edit Sponsors Tag'),
-        'update_item' => __('Update Sponsors Tag'),
-        'add_new_item' => __('Add New Sponsors Tag'),
-        'new_item_name' => __('New Sponsors Tag Name'),
-        'separate_items_with_commas' => __('Separate sponsors tags with commas'),
-        'add_or_remove_items' => __('Add or remove sponsors tags'),
-        'choose_from_most_used' => __('Choose from the most used sponsors tags'),
-        'menu_name' => __('Sponsors Tags'),
+        'edit_item' => __('Edit Sponsors Tag', 'dallinge-sponsors'),
+        'update_item' => __('Update Sponsors Tag', 'dallinge-sponsors'),
+        'add_new_item' => __('Add New Sponsors Tag', 'dallinge-sponsors'),
+        'new_item_name' => __('New Sponsors Tag Name', 'dallinge-sponsors'),
+        'separate_items_with_commas' => __('Separate sponsors tags with commas', 'dallinge-sponsors'),
+        'add_or_remove_items' => __('Add or remove sponsors tags', 'dallinge-sponsors'),
+        'choose_from_most_used' => __('Choose from the most used sponsors tags', 'dallinge-sponsors'),
+        'menu_name' => __('Sponsors Tags', 'dallinge-sponsors'),
     );
 
     register_taxonomy('dsponsorstag', 'dsponsors', array(
@@ -99,30 +101,30 @@ function dallinge_sponsors_register_sponsors_metabox()
     $prefix = 'dsponsors_';
     $cmb_demo = new_cmb2_box(array(
         'id' => $prefix . 'options',
-        'title' => esc_html__('Options', 'dallinge'),
+        'title' => esc_html__('Options', 'dallinge-sponsors'),
         'object_types' => array('dsponsors'), // Post type
 
 
     ));
     $cmb_demo->add_field(array(
-        'name' => esc_html__('Sponsor Position', 'dallinge'),
-        'desc' => esc_html__('Enter a number', 'dallinge'),
+        'name' => esc_html__('Sponsor Position', 'dallinge-sponsors'),
+        'desc' => esc_html__('Enter a number', 'dallinge-sponsors'),
         'id' => $prefix . 'position',
         'type' => 'text',
         'default' => '0',
         'column' => array(
-            'name' => esc_html__('Position', 'dallinge'), // Set the admin column title
+            'name' => esc_html__('Position', 'dallinge-sponsors'), // Set the admin column title
             'position' => 3,
         ),
     ));
 
     $cmb_demo->add_field(array(
-        'name' => esc_html__('Sponsor URL', 'dallinge'),
-        'desc' => esc_html__('Enter a url (http://example.com)', 'dallinge'),
+        'name' => esc_html__('Sponsor URL', 'dallinge-sponsors'),
+        'desc' => esc_html__('Enter a url (http://example.com)', 'dallinge-sponsors'),
         'id' => $prefix . 'url',
         'type' => 'text_url',
         'column' => array(
-            'name' => esc_html__('Url', 'dallinge'), // Set the admin column title
+            'name' => esc_html__('Url', 'dallinge-sponsors'), // Set the admin column title
             'position' => 3,
         ),
     ));
@@ -206,8 +208,8 @@ class DallingeSponsorsWidget extends WP_Widget
     {
         parent::__construct(
             'dallinge_sponsors',
-            __('Dallinge Sponsors', 'dallinge'),
-            array('description' => __('Display a list of sponsors', 'dallinge'),)
+            __('Dallinge Sponsors', 'dallinge-sponsors'),
+            array('description' => __('Display a list of sponsors', 'dallinge-sponsors'),)
         );
     }
 
@@ -234,7 +236,7 @@ class DallingeSponsorsWidget extends WP_Widget
 
     public function form($instance)
     {
-        $title = !empty($instance['title']) ? $instance['title'] : __('Our sponsors', 'dallinge');
+        $title = !empty($instance['title']) ? $instance['title'] : __('Our sponsors', 'dallinge-sponsors');
         $tag = !empty($instance['tag']) ? $instance['tag'] : '';
 
         ?>
@@ -268,3 +270,9 @@ class DallingeSponsorsWidget extends WP_Widget
         return $instance;
     }
 }
+
+function dallinge_sponsors_load_textdomain() {
+    load_plugin_textdomain( 'dallinge-sponsors' );
+}
+
+add_action( 'plugins_loaded', 'dallinge_sponsors_load_textdomain' );
