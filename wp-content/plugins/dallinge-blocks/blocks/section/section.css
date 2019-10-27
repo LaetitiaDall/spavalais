@@ -1,0 +1,10 @@
+.wp-block-dallinge-section {
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+
+.wp-block-dallinge-section:first-of-type {
+    padding-top: 0px;
+}

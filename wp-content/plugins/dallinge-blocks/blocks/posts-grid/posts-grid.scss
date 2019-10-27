@@ -10,8 +10,29 @@
   flex-direction: row;
   margin: 0 -0.5em;
 
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+
+
+  .article-wrapper {
+    position: relative;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+
+  }
+
+  .post-text-infos {
+    position: relative;
+    padding: 10px;
+  }
+
+
   h2 {
     font-size: 1.1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .meta {
@@ -57,28 +78,28 @@
 
       .post-thumbnail img {
         width: 100%;
-        height: 200px;
+        height: 250px;
         object-fit: cover;
         border-radius: 2px;
+        display: block;
       }
     }
 
     &.odd {
       article:nth-child(1) .post-thumbnail img {
-        height: 300px;
+        height: 350px;
       }
     }
   }
+
 }
 
 
 .no-flex-support {
-  a {
-    color: mediumpurple !important
-  }
 
   .wp-block-dallinge-posts-grid * {
     box-sizing: border-box;
+
   }
 
   .wp-block-dallinge-posts-grid {
@@ -87,6 +108,8 @@
     margin: 0 -1%;
     width: 100%;
     min-width: 0;
+    overflow: hidden;
+    height: 100%;
 
     &.columns-2 {
       article {
@@ -104,7 +127,7 @@
 
         .post-thumbnail img {
           width: 100%;
-          height: 200px;
+          height: 250px;
           object-fit: cover;
         }
       }
@@ -121,7 +144,7 @@
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .dallinge-slides {
     height: 300px;
   }
@@ -135,13 +158,13 @@
   }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
   .dallinge-slides {
-    height: 200px;
+    height: 160px;
   }
 
   .wp-block-dallinge-posts-grid.columns-2.odd article:nth-child(1) .post-thumbnail img {
-    height: 200px;
+    height: 160px;
   }
 
   .wp-block-dallinge-posts-grid.columns-2 article .post-thumbnail img {

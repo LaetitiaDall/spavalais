@@ -19,16 +19,20 @@ function dallinge_blocks_posts_grid_render($attributes, $content)
                 $query->the_post();
                 ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                    <?php dallinge_post_thumbnail(); ?>
-                    <div class="meta">
-                        <?php dallinge_post_categories(); ?>
-                        <?php dallinge_post_author_simple(); ?>
-                        <?php dallinge_post_date_simple(); ?>
+                    <div class="article-wrapper">
+                        <?php dallinge_post_thumbnail(); ?>
+                        <div class="post-text-infos">
+                            <div class="meta">
+                                <?php dallinge_post_categories(); ?>
+                                <?php dallinge_post_author_simple(); ?>
+                                <?php dallinge_post_date_simple(); ?>
 
-                    </div>
-                    <div class="title">
-                        <?php dallinge_edit_link(); ?>
-                        <?php dallinge_post_title(); ?>
+                            </div>
+                            <div class="title">
+                                <?php dallinge_edit_link(); ?>
+                                <?php dallinge_post_title(); ?>
+                            </div>
+                        </div>
                     </div>
                 </article>
             <?php

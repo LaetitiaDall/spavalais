@@ -12,16 +12,12 @@ Version: 1.0.0
 Author URI: http://dev.dallinge.ch/
 */
 
-if ( ! defined( 'ABSPATH' ) ) {
-    exit; // Exit if accessed directly.
-}
-
-
 function dallinge_compatibility_load_styles_and_scripts()
 {
     dallinge_scss_register_file(plugin_dir_path(__FILE__) . 'dallinge-compatibility.scss');
 
     wp_enqueue_script('jquery');
+    //wp_enqueue_script('require', plugin_dir_url(__FILE__) . 'libs/require.js');
     wp_enqueue_script('bowser', plugin_dir_url(__FILE__) . 'libs/bowser.min.js');
     wp_enqueue_script('dallinge_fixes_script', plugin_dir_url(__FILE__) . 'dallinge-compatibility.js');
 
@@ -33,7 +29,7 @@ function dallinge_compatibility_wp_head_end()
 {
     ?>
     <script type="text/javascript">
-        dallinge_compatibility_check_browser();
+       dallinge_compatibility_check_browser();
     </script>
     <?php
 }
