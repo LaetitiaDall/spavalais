@@ -59,7 +59,7 @@
                     $spavalais_description = get_bloginfo('description', 'display');
                     if ($spavalais_description || is_customize_preview()) :
                         ?>
-                        <p class="site-description"><?php echo $spavalais_description; /* WPCS: xss ok. */ ?></p>
+                        <p class="site-description"><?php echo html_entity_decode($spavalais_description); /* WPCS: xss ok. */ ?></p>
                     <?php endif; ?>
 
                     <?php if (is_front_page() && is_home()) : ?>
