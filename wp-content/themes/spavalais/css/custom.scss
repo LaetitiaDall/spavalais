@@ -556,6 +556,8 @@ hr {
     height: 110px;
     overflow: hidden;
 
+
+
     img {
       position: relative;
       height: auto;
@@ -629,4 +631,8 @@ input[type='checkbox'] {
   }
 }
 
-ttom
+.features{
+  .wp-block-button{
+    margin-bottom:10px;
+  }
+}

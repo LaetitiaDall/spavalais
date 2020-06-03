@@ -22,15 +22,17 @@ function dallinge_blocks_posts_grid_render($attributes, $content)
                     <div class="article-wrapper">
                         <?php dallinge_post_thumbnail(); ?>
                         <div class="post-text-infos">
+
+                            <div class="title">
+                                <?php dallinge_edit_link(); ?>
+                                <?php dallinge_post_title(); ?>
+                            </div>
+                            <div class="sep"></div>
                             <div class="meta">
                                 <?php dallinge_post_categories(); ?>
                                 <?php dallinge_post_author_simple(); ?>
                                 <?php dallinge_post_date_simple(); ?>
 
-                            </div>
-                            <div class="title">
-                                <?php dallinge_edit_link(); ?>
-                                <?php dallinge_post_title(); ?>
                             </div>
                         </div>
                     </div>
